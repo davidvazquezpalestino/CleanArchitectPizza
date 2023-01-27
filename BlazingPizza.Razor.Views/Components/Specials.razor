@@ -1,0 +1,23 @@
+﻿<div class="main">
+    <ul class="pizza-cards">
+        @if (ViewModel.Specials != null)
+        {
+            foreach (PizzaSpecial special in ViewModel.Specials)
+            {
+                <li @onclick="@(() => OnClickSpecial.InvokeAsync(special))"
+                    style="background-image:url('@special.ImageUrl')">
+                    <div class="pizza-info">
+                        <span class="title">@special.Name</span>
+                        @special.Description
+                        <span class="price">
+                            @special.GetFormattedBasePrice()
+                        </span>
+                    </div>
+                </li>
+            }
+        }
+    </ul>
+</div>
+
+
+
