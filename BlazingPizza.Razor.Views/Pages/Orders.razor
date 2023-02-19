@@ -1,0 +1,50 @@
+﻿@page "/orders"
+
+<TopBar/>
+<div class="main">
+    @if(ViewModel.Orders == null)
+    {
+        <text>Cargando...</text>
+    }
+    else if(!ViewModel.Orders.Any())
+    {
+        <h2>No se ha realizado alguna orden</h2>
+        <a class="btn btn-success" href="">Ordena alguna pizza</a>
+    }
+    else
+    {
+        <div class="list-group orders-list">
+            @foreach(var item in ViewModel.Orders)
+            {
+                <div class="list-group-item">
+                    <div class="col">
+                        <h5>@item.CreatedTime.ToLongDateString()</h5>
+                        Pizzas:
+                        <strong>@item.PizzasCount</strong>
+                        Precio total:
+                        <strong>@item.GetFormattedTotalPrice()</strong>
+                    </div>
+
+                    <div class="col">
+                        Estado:
+                        <strong>@item.StatusText</strong>
+                    </div>
+
+
+                    <div class="col text-right">
+                        @if (!item.IsDelivered)
+                        {
+                            <a href="order/@item.Id" class="btn btn-success">
+                               Rastrear &gt;
+                            </a>
+                        }
+                     </div>
+                    
+                </div>
+
+            }
+        </div>
+    }
+</div>
+
+

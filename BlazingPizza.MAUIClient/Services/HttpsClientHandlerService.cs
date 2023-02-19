@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xamarin.Android.Net;
 
 namespace BlazingPizza.MAUIClient.Services;
 public class HttpsClientHandlerService
@@ -11,7 +10,7 @@ public class HttpsClientHandlerService
     public HttpMessageHandler GetPlatformMessageHandler()
     {
 #if ANDROID
-        AndroidMessageHandler handler = new Xamarin.Android.Net.AndroidMessageHandler();
+        var handler = new Xamarin.Android.Net.AndroidMessageHandler();
         handler.ServerCertificateCustomValidationCallback = (pMessage, pCert, pChain, pErrors) =>
         {
             if (pCert != null && pCert.Issuer.Equals("CN=localhost"))
@@ -20,7 +19,7 @@ public class HttpsClientHandlerService
         };
         return handler;
 #elif IOS
-        NSUrlSessionHandler handler = new NSUrlSessionHandler
+        var handler = new NSUrlSessionHandler
         {
             TrustOverrideForUrl = IsHttpsLocalhost
         };
@@ -31,9 +30,9 @@ public class HttpsClientHandlerService
     }
 
 #if IOS
-    public bool IsHttpsLocalhost(NSUrlSessionHandler pSender, string pURL, Security.SecTrust pTrust)
+    public bool IsHttpsLocalhost(NSUrlSessionHandler pSender, string pUrl, Security.SecTrust pTrust)
     {
-        if (pURL.StartsWith("https://localhost"))
+        if (pUrl.StartsWith("https://localhost"))
             return true;
         return false;
     }

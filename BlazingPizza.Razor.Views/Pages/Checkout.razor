@@ -1,0 +1,17 @@
+﻿@page "/checkout"
+
+<TopBar/>
+<div class="main">
+    <div class="checkout-cols">
+        <div>
+            <h4>Revisar la orden</h4>
+            <OrderReview Order="ViewModel.Order"/>
+        </div>
+    </div>
+
+    <button class="checkout-button btn btn-warning"
+        @onclick="PlaceOrder"
+        disabled="@ViewModel.IsSubmitting">
+        Realizar pedido
+    </button>
+</div>

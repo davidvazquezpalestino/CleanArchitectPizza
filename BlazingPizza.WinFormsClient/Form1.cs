@@ -30,7 +30,7 @@ public partial class Form1 : Form
 
         blazorWebView1.HostPage = "wwwroot\\index.html";
         blazorWebView1.Services = services.BuildServiceProvider();
-        blazorWebView1.RootComponents.Add<Razor.Views.Pages.Index>(
+        blazorWebView1.RootComponents.Add<App>(
             "#app");
     }
 }

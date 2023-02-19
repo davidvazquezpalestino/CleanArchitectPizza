@@ -11,3 +11,6 @@ global using BlazingPizza.EFCore.Repositories.DataContexts;
 global using BlazingPizza.EFCore.Repositories.Mappers;
 
 global using Microsoft.Extensions.DependencyInjection;
+global using EFEntities = BlazingPizza.EFCore.Repositories.Entities;
+
+global using BlazingPizza.BusinessObjects.Dtos;

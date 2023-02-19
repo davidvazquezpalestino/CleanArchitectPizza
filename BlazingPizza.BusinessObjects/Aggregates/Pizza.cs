@@ -1,4 +1,7 @@
-﻿namespace BlazingPizza.BusinessObjects.Aggregates;
+﻿using BlazingPizza.BusinessObjects.Dtos;
+using BlazingPizza.BusinessObjects.Interfaces.Common;
+
+namespace BlazingPizza.BusinessObjects.Aggregates;
 public class Pizza
 {
     readonly List<Topping> ToppingsField;
@@ -45,4 +48,11 @@ public class Pizza
 
     public bool HasMaximumToppings => Toppings.Count >= 6;
 
+    public static explicit operator PlaceOrderPizzaDto(Pizza pIzza) =>
+        new PlaceOrderPizzaDto
+        {
+            PizzaSpecialId = pIzza.Special.Id,
+            Size = pIzza.Size,
+            ToppingsIds = pIzza.Toppings.Select(pT => pT.Id).ToList()
+        };
 }

@@ -11,7 +11,7 @@ public class GetSpecialsPresenter : IGetSpecialsPresenter
     public Task<IReadOnlyCollection<PizzaSpecial>>
         GetSpecialsAsync(IReadOnlyCollection<PizzaSpecial> pSpecials)
     {
-        foreach (PizzaSpecial? special in pSpecials)
+        foreach (var special in pSpecials)
         {
             special.ImageUrl = $"{ImagesBaseUrl}/{special.ImageUrl}";
         }

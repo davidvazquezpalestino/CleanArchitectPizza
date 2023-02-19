@@ -6,6 +6,9 @@ public static class DependencyContainer
     {
         pServices.AddScoped<IGetSpecialsController, GetSpecialsController>();
         pServices.AddScoped<IGetToppingsController, GetToppingsController>();
+        pServices.AddScoped<IPlaceOrderController, PlaceOrderController>();
+        pServices.AddScoped<IGetOrdersController, GetOrdersController>();
+        pServices.AddScoped<IGetOrderController, GetOrderController>();
         return pServices;
     }
 }

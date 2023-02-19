@@ -1,4 +1,6 @@
-﻿namespace BlazingPizza.ViewModels;
+﻿using BlazingPizza.BusinessObjects.Interfaces.Orders;
+
+namespace BlazingPizza.ViewModels;
 public static class DependencyContainer
 {
     public static IServiceCollection AddViewModelsServices(
@@ -8,6 +10,9 @@ public static class DependencyContainer
         pServices.AddScoped<IIndexViewModel, IndexViewModel>();
         pServices.AddScoped<IConfigurePizzaDialogViewModel,
             ConfigurePizzaDialogViewModel>();
+
+        pServices.AddScoped<ICheckoutViewModel, CheckoutViewModel>();
+        pServices.AddScoped<IOrdersViewModel, OrdersViewModel>();
 
         return pServices;
     }

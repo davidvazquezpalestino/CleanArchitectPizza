@@ -2,7 +2,7 @@
     <ul class="pizza-cards">
         @if (ViewModel.Specials != null)
         {
-            foreach (PizzaSpecial special in ViewModel.Specials)
+            foreach (var special in ViewModel.Specials)
             {
                 <li @onclick="@(() => OnClickSpecial.InvokeAsync(special))"
                     style="background-image:url('@special.ImageUrl')">

@@ -9,7 +9,7 @@ public static class MauiProgram
 {
     public static MauiApp CreateMauiApp()
     {
-        MauiAppBuilder builder = MauiApp.CreateBuilder();
+        var builder = MauiApp.CreateBuilder();
         builder
             .UseMauiApp<App>()
             .ConfigureFonts(pFonts =>
@@ -26,12 +26,14 @@ public static class MauiProgram
 
         builder.Services.AddSingleton<WeatherForecastService>();
 
-        using Stream stream = FileSystem.OpenAppPackageFileAsync(
+        using var stream = FileSystem.OpenAppPackageFileAsync(
             "appsettings.json").Result;
         builder.Configuration.AddJsonStream(stream);
 
+        string configurationSection;
+
 #if ANDROID
-        string configurationSection = "android";
+        configurationSection = "android";
 #else
     configurationSection = "others";
 #endif
@@ -40,12 +42,14 @@ public static class MauiProgram
                 $"BlazingPizzaEndpoints:{configurationSection}")
             .Get<EndpointsOptions>();
 
+        Action<IHttpClientBuilder> configurator;
 #if ANDROID || IOS
-        Action<IHttpClientBuilder> configurator = pConfigurator =>
+        configurator = pConfigurator =>
         {
-            Services.HttpsClientHandlerService handlerService = new Services.HttpsClientHandlerService();
+            Services.HttpsClientHandlerService handlerService =
+            new Services.HttpsClientHandlerService();
             pConfigurator.ConfigurePrimaryHttpMessageHandler(() =>
-                handlerService.GetPlatformMessageHandler());
+            handlerService.GetPlatformMessageHandler());
         };
 #else
     configurator = null;

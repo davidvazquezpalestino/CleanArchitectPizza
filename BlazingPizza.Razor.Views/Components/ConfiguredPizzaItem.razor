@@ -4,7 +4,7 @@
         <span>@Pizza.Size</span> @Pizza.Special.Name
     </div>
     <ul>
-        @foreach(Topping topping in Pizza.Toppings)
+        @foreach(var topping in Pizza.Toppings)
         {
             <li>+ @topping.Name</li>
         }

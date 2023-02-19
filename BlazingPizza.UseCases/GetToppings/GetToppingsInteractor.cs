@@ -1,9 +1,9 @@
 ﻿namespace BlazingPizza.UseCases.GetToppings;
 public class GetToppingsInteractor : IGetToppingsInputPort
 {
-    readonly IBlazingPizzaRepository Repository;
+    readonly IBlazingPizzaQueriesRepository Repository;
 
-    public GetToppingsInteractor(IBlazingPizzaRepository pRepository)
+    public GetToppingsInteractor(IBlazingPizzaQueriesRepository pRepository)
     {
         Repository = pRepository;
     }

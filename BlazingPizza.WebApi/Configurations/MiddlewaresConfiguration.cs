@@ -14,6 +14,7 @@ public static class MiddlewaresConfiguration
         pApp.UseHttpsRedirection();
         pApp.UseSpecialsEndpoints();
         pApp.UseToppingsEndpoints();
+        pApp.UseOrdersEndpoints();
         pApp.UseCors();
 
         return pApp;

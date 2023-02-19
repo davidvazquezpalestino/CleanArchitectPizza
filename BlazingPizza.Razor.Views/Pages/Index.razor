@@ -1,13 +1,9 @@
 ﻿@page "/"
 
 <PageTitle>Blazing Pizzas</PageTitle>
+<TopBar/>
 <Specials OnClickSpecial="ViewModel.ShowConfigurePizzaDialog"/>
 <ConfiguredPizzas Order="OrderStateService.Order"/>
-
-
-
-
-
 
 @if (ViewModel.ShowingConfigureDialog)
 {

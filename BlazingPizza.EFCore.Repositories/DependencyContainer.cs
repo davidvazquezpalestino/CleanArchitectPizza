@@ -8,7 +8,11 @@ public static class DependencyContainer
         pServices.AddDbContext<BlazingPizzaContext>(pOptions =>
         pOptions.UseSqlServer(pConnectionString));
 
-        pServices.AddScoped<IBlazingPizzaRepository, BlazingPizzaRepository>();
+        pServices.AddScoped<IBlazingPizzaQueriesRepository, 
+            BlazingPizzaQueriesRepository>();
+
+        pServices.AddScoped<IBlazingPizzaCommandsRepository,
+            BlazingPizzaCommandsRepository>();
 
         return pServices;
     }

@@ -4,7 +4,7 @@ class BlazingPizzaContextFactory :
 {
     public BlazingPizzaContext CreateDbContext(string[] pArgs)
     {
-        DbContextOptionsBuilder<BlazingPizzaContext> optionsBuilder =
+        var optionsBuilder =
             new DbContextOptionsBuilder<BlazingPizzaContext>();
         optionsBuilder.UseSqlServer(
             "Server=(localdb)\\mssqllocaldb;database=BlazingPizzaDBCA");

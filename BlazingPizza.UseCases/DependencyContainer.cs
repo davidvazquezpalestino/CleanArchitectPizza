@@ -6,6 +6,9 @@ public static class DependencyContainer
     {
         pServices.AddScoped<IGetSpecialsInputPort, GetSpecialsInteractor>();
         pServices.AddScoped<IGetToppingsInputPort, GetToppingsInteractor>();
+        pServices.AddScoped<IPlaceOrderInputPort, PlaceOrderInteractor>();
+        pServices.AddScoped<IGetOrdersInputPort, GetOrdersInteractor>();
+        pServices.AddScoped<IGetOrderInputPort, GetOrderInteractor>();
 
         return pServices;
     }

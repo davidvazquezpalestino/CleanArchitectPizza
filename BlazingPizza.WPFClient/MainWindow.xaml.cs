@@ -32,7 +32,7 @@ public partial class MainWindow : Window
 
     void RegisterServices()
     {
-        ServiceCollection services = new ServiceCollection();
+        var services = new ServiceCollection();
         services.AddWpfBlazorWebView();
 
 
