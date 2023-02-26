@@ -1,15 +1,15 @@
 ﻿namespace BlazingPizza.Models;
-public class CheckoutModel : ICheckoutModel
+internal sealed class CheckoutModel : ICheckoutModel
 {
     readonly IBlazingPizzaWebApiGateway Gateway;
 
-    public CheckoutModel(IBlazingPizzaWebApiGateway pGateway)
+    public CheckoutModel(IBlazingPizzaWebApiGateway gateway)
     {
-        Gateway = pGateway;
+        Gateway = gateway;
     }
 
-    public async Task<int> PlaceOrderAsync(Order pOrder)
+    public async Task<int> PlaceOrderAsync(Order order)
     {
-        return await Gateway.PlaceOrderAsync(pOrder);
+        return await Gateway.PlaceOrderAsync(order);
     }
 }

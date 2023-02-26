@@ -1,16 +1,18 @@
-﻿global using Microsoft.EntityFrameworkCore;
-
-global using BlazingPizza.EFCore.Repositories.Entities;
-global using Microsoft.EntityFrameworkCore.Metadata.Builders;
-
-global using System.Reflection;
-global using Microsoft.EntityFrameworkCore.Design;
-
-global using BlazingPizza.BusinessObjects.Interfaces.Common;
+﻿global using BlazingPizza.Backend.BusinessObjects.Interfaces.Common;
+global using BlazingPizza.Backend.BusinessObjects.ValueObjects.Options;
 global using BlazingPizza.EFCore.Repositories.DataContexts;
+global using BlazingPizza.EFCore.Repositories.Interfaces;
 global using BlazingPizza.EFCore.Repositories.Mappers;
-
+global using BlazingPizza.Shared.BusinessObjects.Aggregates;
+global using BlazingPizza.Shared.BusinessObjects.Dtos;
+global using BlazingPizza.Shared.BusinessObjects.Enums;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Design;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
 global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Options;
+global using System.Reflection;
 global using EFEntities = BlazingPizza.EFCore.Repositories.Entities;
-
-global using BlazingPizza.BusinessObjects.Dtos;
+global using SharedAggregates = BlazingPizza.Shared.BusinessObjects.Aggregates;
+global using SharedEntities = BlazingPizza.Shared.BusinessObjects.Entities;
+global using SharedValueObjects = BlazingPizza.Shared.BusinessObjects.ValueObjects;

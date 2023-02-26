@@ -1,14 +1,14 @@
 ﻿namespace BlazingPizza.Controllers.GetSpecials;
-public class GetSpecialsController : IGetSpecialsController
+internal sealed class GetSpecialsController : IGetSpecialsController
 {
     readonly IGetSpecialsInputPort InputPort;
     readonly IGetSpecialsPresenter Presenter;
 
-    public GetSpecialsController(IGetSpecialsInputPort pInputPort,
-        IGetSpecialsPresenter pResenter)
+    public GetSpecialsController(IGetSpecialsInputPort inputPort,
+        IGetSpecialsPresenter presenter)
     {
-        InputPort = pInputPort;
-        Presenter = pResenter;
+        InputPort = inputPort;
+        Presenter = presenter;
     }
 
     public async Task<IReadOnlyCollection<PizzaSpecial>> GetSpecialsAsync()

@@ -1,11 +1,11 @@
 ﻿namespace BlazingPizza.EFCore.Repositories.Configurations;
-class PizzaSpecialConfiguration :
-    IEntityTypeConfiguration<Repositories.Entities.PizzaSpecial>
+internal sealed class PizzaSpecialConfiguration :
+    IEntityTypeConfiguration<EFEntities.PizzaSpecial>
 {
-    public void Configure(EntityTypeBuilder<PizzaSpecial> pBuilder)
+    public void Configure(EntityTypeBuilder<EFEntities.PizzaSpecial> builder)
     {
-        pBuilder.HasData(
-            new PizzaSpecial
+        builder.HasData(
+            new EFEntities.PizzaSpecial
             {
                 Id = 1,
                 Name = "Pizza clásica de queso",
@@ -13,7 +13,7 @@ class PizzaSpecialConfiguration :
                 BasePrice = 189.99m,
                 ImageUrl = "cheese.jpg"
             },
-            new PizzaSpecial()
+            new EFEntities.PizzaSpecial()
             {
                 Id = 2,
                 Name = "Tocinator",
@@ -21,7 +21,7 @@ class PizzaSpecialConfiguration :
                 BasePrice = 227.99m,
                 ImageUrl = "bacon.jpg",
             },
-            new PizzaSpecial()
+            new EFEntities.PizzaSpecial()
             {
                 Id = 3,
                 Name = "Clásica de pepperoni",
@@ -29,7 +29,7 @@ class PizzaSpecialConfiguration :
                 BasePrice = 199.50m,
                 ImageUrl = "pepperoni.jpg",
             },
-            new PizzaSpecial()
+            new EFEntities.PizzaSpecial()
             {
                 Id = 4,
                 Name = "Pollo búfalo",
@@ -37,7 +37,7 @@ class PizzaSpecialConfiguration :
                 BasePrice = 228.75m,
                 ImageUrl = "meaty.jpg",
             },
-            new PizzaSpecial()
+            new EFEntities.PizzaSpecial()
             {
                 Id = 5,
                 Name = "Amantes del champiñón",
@@ -45,7 +45,7 @@ class PizzaSpecialConfiguration :
                 BasePrice = 209.00m,
                 ImageUrl = "mushroom.jpg",
             },
-            new PizzaSpecial()
+            new EFEntities.PizzaSpecial()
             {
                 Id = 6,
                 Name = "Hawaiana",
@@ -53,7 +53,7 @@ class PizzaSpecialConfiguration :
                 BasePrice = 190.25m,
                 ImageUrl = "hawaiian.jpg",
             },
-            new PizzaSpecial()
+            new EFEntities.PizzaSpecial()
             {
                 Id = 7,
                 Name = "Delicia vegetariana",
@@ -61,7 +61,7 @@ class PizzaSpecialConfiguration :
                 BasePrice = 218.50m,
                 ImageUrl = "salad.jpg",
             },
-            new PizzaSpecial()
+            new EFEntities.PizzaSpecial()
             {
                 Id = 8,
                 Name = "Margarita",

@@ -12,9 +12,9 @@ public static class MauiProgram
         var builder = MauiApp.CreateBuilder();
         builder
             .UseMauiApp<App>()
-            .ConfigureFonts(pFonts =>
+            .ConfigureFonts(fonts =>
             {
-                pFonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
             });
 
         builder.Services.AddMauiBlazorWebView();
@@ -26,36 +26,36 @@ public static class MauiProgram
 
         builder.Services.AddSingleton<WeatherForecastService>();
 
-        using var stream = FileSystem.OpenAppPackageFileAsync(
+        using var Stream = FileSystem.OpenAppPackageFileAsync(
             "appsettings.json").Result;
-        builder.Configuration.AddJsonStream(stream);
+        builder.Configuration.AddJsonStream(Stream);
 
-        string configurationSection;
+        string ConfigurationSection;
 
 #if ANDROID
-        configurationSection = "android";
+        ConfigurationSection = "android";
 #else
-    configurationSection = "others";
+    ConfigurationSection = "others";
 #endif
         EndpointsOptions options =
             builder.Configuration.GetSection(
-                $"BlazingPizzaEndpoints:{configurationSection}")
+                $"BlazingPizzaEndpoints:{ConfigurationSection}")
             .Get<EndpointsOptions>();
 
-        Action<IHttpClientBuilder> configurator;
+        Action<IHttpClientBuilder> Configurator;
 #if ANDROID || IOS
-        configurator = pConfigurator =>
+        Configurator = configurator =>
         {
-            Services.HttpsClientHandlerService handlerService =
+            Services.HttpsClientHandlerService HandlerService =
             new Services.HttpsClientHandlerService();
-            pConfigurator.ConfigurePrimaryHttpMessageHandler(() =>
-            handlerService.GetPlatformMessageHandler());
+            configurator.ConfigurePrimaryHttpMessageHandler(() =>
+            HandlerService.GetPlatformMessageHandler());
         };
 #else
-    configurator = null;
+    Configurator = null;
 #endif
 
-        builder.Services.AddBlazingPizzaFrontendServices(options, configurator);
+        builder.Services.AddBlazingPizzaFrontendServices(options, Configurator);
 
         return builder.Build();
     }

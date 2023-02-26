@@ -1,15 +1,15 @@
 ﻿namespace BlazingPizza.UseCases.PlaceOrder;
-public class PlaceOrderInteractor : IPlaceOrderInputPort
+internal sealed class PlaceOrderInteractor : IPlaceOrderInputPort
 {
     readonly IBlazingPizzaCommandsRepository Repository;
 
-    public PlaceOrderInteractor(IBlazingPizzaCommandsRepository pRepository)
+    public PlaceOrderInteractor(IBlazingPizzaCommandsRepository repository)
     {
-        Repository = pRepository;
+        Repository = repository;
     }
 
-    public async Task<int> PlaceOrderAsync(PlaceOrderOrderDto pOrder)
+    public async Task<int> PlaceOrderAsync(PlaceOrderOrderDto order)
     {
-        return await Repository.PlaceOrderAsync(pOrder);
+        return await Repository.PlaceOrderAsync(order);
     }
 }

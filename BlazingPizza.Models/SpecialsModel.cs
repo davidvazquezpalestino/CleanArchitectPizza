@@ -1,11 +1,11 @@
 ﻿namespace BlazingPizza.Models;
-public class SpecialsModel : ISpecialsModel
+internal sealed class SpecialsModel : ISpecialsModel
 {
     readonly IBlazingPizzaWebApiGateway Gateway;
 
-    public SpecialsModel(IBlazingPizzaWebApiGateway pGateway)
+    public SpecialsModel(IBlazingPizzaWebApiGateway gateway)
     {
-        Gateway = pGateway;
+        Gateway = gateway;
     }
 
     public async Task<IReadOnlyCollection<PizzaSpecial>> GetSpecialsAsync()

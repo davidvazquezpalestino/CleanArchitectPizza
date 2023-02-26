@@ -1,11 +1,11 @@
 ﻿namespace BlazingPizza.Controllers.GetOrders;
-public class GetOrdersController : IGetOrdersController
+internal sealed class GetOrdersController : IGetOrdersController
 {
     readonly IGetOrdersInputPort InputPort;
 
-    public GetOrdersController(IGetOrdersInputPort pInputPort)
+    public GetOrdersController(IGetOrdersInputPort inputPort)
     {
-        InputPort = pInputPort;
+        InputPort = inputPort;
     }
 
     public async Task<IReadOnlyCollection<GetOrdersDto>> GetOrdersAsync()

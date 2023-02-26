@@ -1,0 +1,36 @@
+﻿@page "/orderdetails/{orderid:int}"
+
+<div class="main">
+    @if (ViewModel.InvalidOrder)
+    {
+        <h2>¡Orden no encontrada!</h2>
+        <p>Lo sentimos, pero esta orden no existe.</p>
+    }
+    else if (ViewModel.Order == default)
+    {
+        <text>Cargando...</text>
+    }
+    else
+    {
+        <div class="track-order">
+            <div class="track-order-title">
+                <h2>
+                    Pedido realizado
+                    @ViewModel.Order.CreatedTime.ToLongDateString()
+                </h2>
+                <p>
+                    Estado:
+                    <strong>
+                        @ViewModel.Order.Status.GetText()
+                    </strong>
+                </p>
+            </div>
+            <div class="track-order-body">
+                <div class="track-order-details">
+                    <OrderReview Order="ViewModel.Order" />
+                </div>
+            </div>
+
+        </div>
+    }
+</div>

@@ -1,6 +1,5 @@
 ﻿@page "/orders"
 
-<TopBar/>
 <div class="main">
     @if(ViewModel.Orders == null)
     {
@@ -14,27 +13,27 @@
     else
     {
         <div class="list-group orders-list">
-            @foreach(var item in ViewModel.Orders)
+            @foreach(var Item in ViewModel.Orders)
             {
                 <div class="list-group-item">
                     <div class="col">
-                        <h5>@item.CreatedTime.ToLongDateString()</h5>
+                        <h5>@Item.CreatedTime.ToLongDateString()</h5>
                         Pizzas:
-                        <strong>@item.PizzasCount</strong>
+                        <strong>@Item.PizzasCount</strong>
                         Precio total:
-                        <strong>@item.GetFormattedTotalPrice()</strong>
+                        <strong>@Item.GetFormattedTotalPrice()</strong>
                     </div>
 
                     <div class="col">
                         Estado:
-                        <strong>@item.StatusText</strong>
+                        <strong>@Item.Status.GetText()</strong>
                     </div>
 
 
                     <div class="col text-right">
-                        @if (!item.IsDelivered)
+                        @if (!Item.IsDelivered)
                         {
-                            <a href="order/@item.Id" class="btn btn-success">
+                            <a href="orderdetails/@Item.Id" class="btn btn-success">
                                Rastrear &gt;
                             </a>
                         }

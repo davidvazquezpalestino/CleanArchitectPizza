@@ -1,5 +1,5 @@
 ﻿namespace BlazingPizza.EFCore.Repositories.Entities;
-public class Order
+class Order
 {
     public int Id { get; set; }
     public DateTime CreatedTime { get; set; }

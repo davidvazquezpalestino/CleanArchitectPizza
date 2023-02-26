@@ -16,10 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\GitHub\Proyectos\CleanArchitectPizza\BlazingPizza.BlazorClient
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/GitHub/Proyectos/CleanArchitectPizza/BlazingPizza.BlazorClient/App.razor]
-build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/GitHub/Proyectos/CleanArchitectPizza/BlazingPizza.BlazorClient/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

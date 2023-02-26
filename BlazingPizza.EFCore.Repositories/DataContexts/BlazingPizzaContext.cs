@@ -1,16 +1,28 @@
 ﻿namespace BlazingPizza.EFCore.Repositories.DataContexts;
-public class BlazingPizzaContext : DbContext
+internal class BlazingPizzaContext : DbContext
 {
-    public BlazingPizzaContext(DbContextOptions pOptions) : base(pOptions) { }
+    readonly ConnectionStringsOptions ConnectionStringOptions;
+
+    public BlazingPizzaContext(
+        IOptions<ConnectionStringsOptions> connectionStringOptions)
+    {
+        ConnectionStringOptions = connectionStringOptions.Value;
+    }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        optionsBuilder.UseSqlServer(
+            ConnectionStringOptions.BlazingPizzaDB);
+    }
 
     public DbSet<EFEntities.PizzaSpecial> Specials { get; set; }
     public DbSet<EFEntities.Topping> Toppings { get; set; }
     public DbSet<EFEntities.Pizza> Pizzas { get; set; }
     public DbSet<EFEntities.Order> Orders { get; set; }
 
-    protected override void OnModelCreating(ModelBuilder pModelBuilder)
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        pModelBuilder.ApplyConfigurationsFromAssembly(
+        modelBuilder.ApplyConfigurationsFromAssembly(
             Assembly.GetExecutingAssembly());
     }
 }

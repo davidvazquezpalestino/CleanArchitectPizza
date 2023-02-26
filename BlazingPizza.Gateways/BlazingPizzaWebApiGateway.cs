@@ -1,14 +1,14 @@
 ﻿namespace BlazingPizza.Gateways;
-public class BlazingPizzaWebApiGateway : IBlazingPizzaWebApiGateway
+internal sealed class BlazingPizzaWebApiGateway : IBlazingPizzaWebApiGateway
 {
     readonly HttpClient Client;
     readonly EndpointsOptions EndpointsOptions;
 
-    public BlazingPizzaWebApiGateway(HttpClient pClient,
-        EndpointsOptions pEndpointsOptions)
+    public BlazingPizzaWebApiGateway(HttpClient client,
+        IOptions<EndpointsOptions> endpointsOptions)
     {
-        Client = pClient;
-        EndpointsOptions = pEndpointsOptions;
+        Client = client;
+        EndpointsOptions = endpointsOptions.Value;
     }
 
     public async Task<IReadOnlyCollection<PizzaSpecial>> GetSpecialsAsync()
@@ -25,18 +25,18 @@ public class BlazingPizzaWebApiGateway : IBlazingPizzaWebApiGateway
             EndpointsOptions.Toppings);
     }
 
-    public async Task<int> PlaceOrderAsync(Order pOrder)
+    public async Task<int> PlaceOrderAsync(Order order)
     {
-        int orderId = 0;
-        var response = await Client
+        int OrderId = 0;
+        var Response = await Client
             .PostAsJsonAsync(EndpointsOptions.PlaceOrder,
-                (PlaceOrderOrderDto)pOrder);
-        if(response.IsSuccessStatusCode)
+                (PlaceOrderOrderDto)order);
+        if (Response.IsSuccessStatusCode)
         {
-            orderId = await response.Content.ReadFromJsonAsync<int>();   
+            OrderId = await Response.Content.ReadFromJsonAsync<int>();
         }
 
-        return orderId;
+        return OrderId;
     }
 
     public async Task<IReadOnlyCollection<GetOrdersDto>> GetOrdersAsync()
@@ -45,6 +45,11 @@ public class BlazingPizzaWebApiGateway : IBlazingPizzaWebApiGateway
             .GetFromJsonAsync<IReadOnlyCollection<GetOrdersDto>>(
             EndpointsOptions.GetOrders);
     }
+
+    public async Task<GetOrderDto> GetOrderAsync(int id) =>
+        await Client
+        .GetFromJsonAsync<GetOrderDto>(
+            $"{EndpointsOptions.GetOrder}/{id}");
 }
 
 

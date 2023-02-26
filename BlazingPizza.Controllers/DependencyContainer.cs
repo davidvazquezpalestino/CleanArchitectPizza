@@ -2,13 +2,13 @@
 public static class DependencyContainer
 {
     public static IServiceCollection AddControllersServices(
-        this IServiceCollection pServices)
+        this IServiceCollection services)
     {
-        pServices.AddScoped<IGetSpecialsController, GetSpecialsController>();
-        pServices.AddScoped<IGetToppingsController, GetToppingsController>();
-        pServices.AddScoped<IPlaceOrderController, PlaceOrderController>();
-        pServices.AddScoped<IGetOrdersController, GetOrdersController>();
-        pServices.AddScoped<IGetOrderController, GetOrderController>();
-        return pServices;
+        services.AddScoped<IGetSpecialsController, GetSpecialsController>();
+        services.AddScoped<IGetToppingsController, GetToppingsController>();
+        services.AddScoped<IPlaceOrderController, PlaceOrderController>();
+        services.AddScoped<IGetOrdersController, GetOrdersController>();
+        services.AddScoped<IGetOrderController, GetOrderController>();
+        return services;
     }
 }

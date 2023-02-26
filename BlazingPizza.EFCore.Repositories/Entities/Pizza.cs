@@ -1,5 +1,5 @@
 ﻿namespace BlazingPizza.EFCore.Repositories.Entities;
-public class Pizza
+class Pizza
 {
     public int Id { get; set; }
     public int OrderId { get; set; }

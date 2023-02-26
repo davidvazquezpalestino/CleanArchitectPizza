@@ -1,19 +1,18 @@
-﻿using BlazingPizza.BusinessObjects.Interfaces.Orders;
-
-namespace BlazingPizza.ViewModels;
+﻿namespace BlazingPizza.ViewModels;
 public static class DependencyContainer
 {
     public static IServiceCollection AddViewModelsServices(
-        this IServiceCollection pServices)
+        this IServiceCollection services)
     {
-        pServices.AddScoped<ISpecialsViewModel, SpecialsViewModel>();
-        pServices.AddScoped<IIndexViewModel, IndexViewModel>();
-        pServices.AddScoped<IConfigurePizzaDialogViewModel,
+        services.AddScoped<ISpecialsViewModel, SpecialsViewModel>();
+        services.AddScoped<IIndexViewModel, IndexViewModel>();
+        services.AddScoped<IConfigurePizzaDialogViewModel,
             ConfigurePizzaDialogViewModel>();
 
-        pServices.AddScoped<ICheckoutViewModel, CheckoutViewModel>();
-        pServices.AddScoped<IOrdersViewModel, OrdersViewModel>();
+        services.AddScoped<ICheckoutViewModel, CheckoutViewModel>();
+        services.AddScoped<IOrdersViewModel, OrdersViewModel>();
+        services.AddScoped<IOrderDetailsViewModel, OrderDetailsViewModel>();
 
-        return pServices;
+        return services;
     }
 }

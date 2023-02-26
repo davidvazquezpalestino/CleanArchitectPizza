@@ -1,14 +1,14 @@
 ﻿namespace BlazingPizza.ViewModels;
-public class CheckoutViewModel : ICheckoutViewModel
+internal sealed class CheckoutViewModel : ICheckoutViewModel
 {
     readonly ICheckoutModel Model;
     readonly IOrderStateService OrderStateService;
 
-    public CheckoutViewModel(ICheckoutModel pModel,
-        IOrderStateService pOrderStateService)
+    public CheckoutViewModel(ICheckoutModel model,
+        IOrderStateService orderStateService)
     {
-        Model = pModel;
-        OrderStateService = pOrderStateService;
+        Model = model;
+        OrderStateService = orderStateService;
     }
 
     public bool IsSubmitting { get; private set; }
@@ -18,9 +18,9 @@ public class CheckoutViewModel : ICheckoutViewModel
     public async Task<int> PlaceOrderAsync()
     {
         IsSubmitting = true;
-        int orderId = await Model.PlaceOrderAsync(Order);
+        int OrderId = await Model.PlaceOrderAsync(Order);
         OrderStateService.ResetOrder();
         IsSubmitting = false;
-        return orderId;
+        return OrderId;
     }
 }

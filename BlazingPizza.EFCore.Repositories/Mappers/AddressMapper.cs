@@ -1,27 +1,27 @@
 ﻿namespace BlazingPizza.EFCore.Repositories.Mappers;
 internal static class AddressMapper
 {
-    internal static EFEntities.Address ToEfAddress(
-        this BusinessObjects.ValueObjects.Address pAddress) =>
+    internal static EFEntities.Address ToEFAddress(
+        this SharedValueObjects.Address address) =>
         new EFEntities.Address
         {
-            Name = pAddress.Name,
-            AddressLine1 = pAddress.AddressLine1,
-            AddressLine2 = pAddress.AddressLine2,
-            City = pAddress.City,
-            Region = pAddress.Region,
-            PostalCode = pAddress.PostalCode
+            Name = address.Name,
+            AddressLine1 = address.AddressLine1,
+            AddressLine2 = address.AddressLine2,
+            City = address.City,
+            Region = address.Region,
+            PostalCode = address.PostalCode
         };
 
-    internal static BusinessObjects.ValueObjects.Address ToAddress(
-        this EFEntities.Address pAddress) =>
-        new BusinessObjects.ValueObjects.Address
+    internal static SharedValueObjects.Address ToAddress(
+        this EFEntities.Address address) =>
+        new SharedValueObjects.Address
         (
-            Name: pAddress.Name,
-            AddressLine1: pAddress.AddressLine1,
-            AddressLine2: pAddress.AddressLine2,
-            City: pAddress.City,
-            Region: pAddress.Region,
-            PostalCode: pAddress.PostalCode
+            Name: address.Name,
+            AddressLine1: address.AddressLine1,
+            AddressLine2: address.AddressLine2,
+            City: address.City,
+            Region: address.Region,
+            PostalCode: address.PostalCode
          );
 }

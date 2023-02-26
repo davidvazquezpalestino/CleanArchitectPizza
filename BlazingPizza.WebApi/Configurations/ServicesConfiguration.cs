@@ -1,25 +1,31 @@
 ﻿namespace BlazingPizza.WebApi.Configurations;
-public static class ServicesConfiguration
+internal static class ServicesConfiguration
 {
     public static WebApplication ConfigureWebApiServices(
-        this WebApplicationBuilder pBuilder)
+        this WebApplicationBuilder builder)
     {
-        pBuilder.Services.AddEndpointsApiExplorer();
-        pBuilder.Services.AddSwaggerGen();
+        builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddSwaggerGen();
 
-        pBuilder.Services.AddBlazingPizzaBackendServices(
-            pBuilder.Configuration.GetConnectionString("BlazingPizzaDB"),
-            pBuilder.Configuration["ImagesBaseUrl"]);
+        builder.Services.Configure<SpecialsOptions>(
+            builder.Configuration.GetSection(
+                SpecialsOptions.SectionKey));
 
-        pBuilder.Services.AddCors(pOptions =>
+        builder.Services.Configure<ConnectionStringsOptions>(
+            builder.Configuration.GetSection(
+                ConnectionStringsOptions.SectionKey));
+
+        builder.Services.AddBlazingPizzaBackendServices();
+
+        builder.Services.AddCors(options =>
         {
-            pOptions.AddDefaultPolicy(pOlicy =>
+            options.AddDefaultPolicy(policy =>
             {
-                pOlicy.AllowAnyHeader();
-                pOlicy.AllowAnyMethod();
-                pOlicy.AllowAnyOrigin();
+                policy.AllowAnyHeader();
+                policy.AllowAnyMethod();
+                policy.AllowAnyOrigin();
             });
         });
-        return pBuilder.Build();
+        return builder.Build();
     }
 }

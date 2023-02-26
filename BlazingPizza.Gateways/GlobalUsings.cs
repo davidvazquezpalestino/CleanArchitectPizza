@@ -1,8 +1,8 @@
-﻿global using BlazingPizza.BusinessObjects.Entities;
-global using BlazingPizza.BusinessObjects.Interfaces.Common;
-global using BlazingPizza.BusinessObjects.ValueObjects;
-global using System.Net.Http.Json;
+﻿global using BlazingPizza.Frontend.BusinessObjects.Interfaces.Common;
+global using BlazingPizza.Frontend.BusinessObjects.ValueObjects.Options;
+global using BlazingPizza.Shared.BusinessObjects.Aggregates;
+global using BlazingPizza.Shared.BusinessObjects.Dtos;
+global using BlazingPizza.Shared.BusinessObjects.Entities;
 global using Microsoft.Extensions.DependencyInjection;
-
-global using BlazingPizza.BusinessObjects.Aggregates;
-global using BlazingPizza.BusinessObjects.Dtos;
+global using Microsoft.Extensions.Options;
+global using System.Net.Http.Json;

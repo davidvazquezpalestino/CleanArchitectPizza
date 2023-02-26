@@ -1,11 +1,11 @@
 ﻿namespace BlazingPizza.UseCases.GetOrders;
-public class GetOrdersInteractor : IGetOrdersInputPort
+internal sealed class GetOrdersInteractor : IGetOrdersInputPort
 {
     readonly IBlazingPizzaQueriesRepository Repository;
 
-    public GetOrdersInteractor(IBlazingPizzaQueriesRepository pRepository)
+    public GetOrdersInteractor(IBlazingPizzaQueriesRepository repository)
     {
-        Repository = pRepository;
+        Repository = repository;
     }
 
     public async Task<IReadOnlyCollection<GetOrdersDto>> GetOrdersAsync()

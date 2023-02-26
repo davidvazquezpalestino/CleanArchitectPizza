@@ -1,22 +1,22 @@
 ﻿namespace BlazingPizza.WebApi.Configurations;
 
-public static class MiddlewaresConfiguration
+internal static class MiddlewaresConfiguration
 {
     public static WebApplication ConfigureWebApiMiddlewares(
-        this WebApplication pApp)
+        this WebApplication app)
     {
-        if (pApp.Environment.IsDevelopment())
+        if (app.Environment.IsDevelopment())
         {
-            pApp.UseSwagger();
-            pApp.UseSwaggerUI();
+            app.UseSwagger();
+            app.UseSwaggerUI();
         }
 
-        pApp.UseHttpsRedirection();
-        pApp.UseSpecialsEndpoints();
-        pApp.UseToppingsEndpoints();
-        pApp.UseOrdersEndpoints();
-        pApp.UseCors();
+        app.UseHttpsRedirection();
+        app.UseSpecialsEndpoints();
+        app.UseToppingsEndpoints();
+        app.UseOrdersEndpoints();
+        app.UseCors();
 
-        return pApp;
+        return app;
     }
 }

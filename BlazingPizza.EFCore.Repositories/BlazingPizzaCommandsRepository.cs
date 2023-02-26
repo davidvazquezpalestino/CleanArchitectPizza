@@ -1,19 +1,19 @@
 ﻿namespace BlazingPizza.EFCore.Repositories;
-public class BlazingPizzaCommandsRepository : IBlazingPizzaCommandsRepository
+internal sealed class BlazingPizzaCommandsRepository : IBlazingPizzaCommandsRepository
 {
-    readonly BlazingPizzaContext Context;
+    readonly IBlazingPizzaCommandsContext Context;
 
-    public BlazingPizzaCommandsRepository(BlazingPizzaContext pContext)
+    public BlazingPizzaCommandsRepository(IBlazingPizzaCommandsContext context)
     {
-        Context = pContext;
+        Context = context;
     }
 
-    public async Task<int> PlaceOrderAsync(PlaceOrderOrderDto pOrder)
+    public async Task<int> PlaceOrderAsync(PlaceOrderOrderDto order)
     {
-        EFEntities.Order order = pOrder.ToEfOrder();
+        EFEntities.Order Order = order.ToEFOrder();
 
-        Context.Orders.Add(order);
+        Context.Orders.Add(Order);
         await Context.SaveChangesAsync();
-        return order.Id;
+        return Order.Id;
     }
 }

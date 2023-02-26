@@ -32,13 +32,13 @@ public partial class MainWindow : Window
 
     void RegisterServices()
     {
-        var services = new ServiceCollection();
-        services.AddWpfBlazorWebView();
+        var Services = new ServiceCollection();
+        Services.AddWpfBlazorWebView();
 
 
 
 
-        IConfiguration configuration = new ConfigurationBuilder()
+        IConfiguration Configuration = new ConfigurationBuilder()
             .AddJsonFile("appsettings.json")
             .Build();
 
@@ -46,13 +46,13 @@ public partial class MainWindow : Window
         //    Configuration.GetSection("BlazingPizzaEndpoints")
         //    .Get<EndpointsOptions>());
 
-        services.AddBlazingPizzaDesktopServices()
+        Services.AddBlazingPizzaDesktopServices()
             .AddBlazingPizzaBackendServices(
-            configuration.GetConnectionString("BlazingPizzaDB"),
-            configuration["ImagesBaseUrl"]
+            Configuration.GetConnectionString("BlazingPizzaDB"),
+            Configuration["ImagesBaseUrl"]
             );
 
-        Resources.Add("Services", services.BuildServiceProvider()); 
+        Resources.Add("Services", Services.BuildServiceProvider()); 
     }
 }
 

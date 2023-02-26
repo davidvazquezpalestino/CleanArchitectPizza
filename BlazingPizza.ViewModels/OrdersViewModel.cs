@@ -1,13 +1,11 @@
-﻿using BlazingPizza.BusinessObjects.Interfaces.Orders;
-
-namespace BlazingPizza.ViewModels;
-public class OrdersViewModel : IOrdersViewModel
+﻿namespace BlazingPizza.ViewModels;
+internal sealed class OrdersViewModel : IOrdersViewModel
 {
     readonly IOrdersModel Model;
 
-    public OrdersViewModel(IOrdersModel pModel)
+    public OrdersViewModel(IOrdersModel model)
     {
-        Model = pModel;
+        Model = model;
     }
 
     public IReadOnlyCollection<GetOrdersDto> Orders

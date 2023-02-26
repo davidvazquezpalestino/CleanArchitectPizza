@@ -2,14 +2,14 @@
 public static class DependencyContainer
 {
     public static IServiceCollection AddUseCasesServices(
-        this IServiceCollection pServices)
+        this IServiceCollection services)
     {
-        pServices.AddScoped<IGetSpecialsInputPort, GetSpecialsInteractor>();
-        pServices.AddScoped<IGetToppingsInputPort, GetToppingsInteractor>();
-        pServices.AddScoped<IPlaceOrderInputPort, PlaceOrderInteractor>();
-        pServices.AddScoped<IGetOrdersInputPort, GetOrdersInteractor>();
-        pServices.AddScoped<IGetOrderInputPort, GetOrderInteractor>();
+        services.AddScoped<IGetSpecialsInputPort, GetSpecialsInteractor>();
+        services.AddScoped<IGetToppingsInputPort, GetToppingsInteractor>();
+        services.AddScoped<IPlaceOrderInputPort, PlaceOrderInteractor>();
+        services.AddScoped<IGetOrdersInputPort, GetOrdersInteractor>();
+        services.AddScoped<IGetOrderInputPort, GetOrderInteractor>();
 
-        return pServices;
+        return services;
     }
 }

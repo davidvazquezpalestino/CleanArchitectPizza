@@ -1,11 +1,9 @@
-﻿using BlazingPizza.BusinessObjects.Interfaces.Common;
-
-namespace BlazingPizza.ViewModels;
-public class IndexViewModel : IIndexViewModel
+﻿namespace BlazingPizza.ViewModels;
+internal sealed class IndexViewModel : IIndexViewModel
 {
     readonly IOrderStateService OrderStateService;
-    public IndexViewModel(IOrderStateService pOrderStateService) =>
-        OrderStateService = pOrderStateService;
+    public IndexViewModel(IOrderStateService orderStateService) =>
+        OrderStateService = orderStateService;
 
     public Pizza ConfiguringPizza { get; set; }
     public bool ShowingConfigureDialog { get; set; }
@@ -22,9 +20,9 @@ public class IndexViewModel : IIndexViewModel
         ResetPizza();
     }
 
-    public void ShowConfigurePizzaDialog(PizzaSpecial pSpecial)
+    public void ShowConfigurePizzaDialog(PizzaSpecial special)
     {
-        ConfiguringPizza = new Pizza(pSpecial);
+        ConfiguringPizza = new Pizza(special);
         ShowingConfigureDialog = true;
     }
 

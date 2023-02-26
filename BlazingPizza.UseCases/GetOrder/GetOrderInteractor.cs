@@ -1,15 +1,15 @@
 ﻿namespace BlazingPizza.UseCases.GetOrder;
-public class GetOrderInteractor : IGetOrderInputPort
+internal sealed class GetOrderInteractor : IGetOrderInputPort
 {
     readonly IBlazingPizzaQueriesRepository Repository;
 
-    public GetOrderInteractor(IBlazingPizzaQueriesRepository pRepository)
+    public GetOrderInteractor(IBlazingPizzaQueriesRepository repository)
     {
-        Repository = pRepository;
+        Repository = repository;
     }
 
-    public async Task<GetOrderDto> GetOrderAsync(int pId)
+    public async Task<GetOrderDto> GetOrderAsync(int id)
     {
-        return await Repository.GetOrderAsync(pId);
+        return await Repository.GetOrderAsync(id);
     }
 }

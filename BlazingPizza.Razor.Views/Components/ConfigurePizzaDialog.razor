@@ -44,9 +44,9 @@
                 else
                 {
                     <select class="form-select"  
-                        @onchange="(pE) => ViewModel.Pizza
+                        @onchange="(e) => ViewModel.Pizza
                             .AddTopping(ViewModel.Toppings.ElementAt(
-                                System.Convert.ToInt32(pE.Value)))">
+                                System.Convert.ToInt32(e.Value)))">
                         <option value="-1" disabled selected>
                             (selecciona)
                         </option>
@@ -61,15 +61,15 @@
                 }
             </div>
             <div class="toppings">
-                @foreach(var topping in Pizza.Toppings)
+                @foreach(var Topping in Pizza.Toppings)
                 {
                     <div class="topping">
-                        @topping.Name
+                        @Topping.Name
                         <span class="topping-price">
-                            @topping.GetFormattedPrice()
+                            @Topping.GetFormattedPrice()
                         </span>
                         <button type="button" class="delete-topping"
-                        @onclick="@(()=> ViewModel.RemoveTopping(topping))">X</button>
+                        @onclick="@(()=> ViewModel.RemoveTopping(Topping))">X</button>
                     </div>
                 }
             </div>

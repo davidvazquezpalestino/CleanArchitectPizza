@@ -1,26 +1,28 @@
-﻿using BlazingPizza.BusinessObjects.Interfaces.GetOrders;
+﻿namespace BlazingPizza.WebApi.Endpoints;
 
-namespace BlazingPizza.WebApi.Endpoints;
-
-public static class Orders
+internal static class Orders
 {
     public static WebApplication UseOrdersEndpoints(
-        this WebApplication pApp)
+        this WebApplication app)
     {
-        pApp.MapPost("/placeorder",
-            async (IPlaceOrderController pController,
-                PlaceOrderOrderDto pOrder) =>
+        app.MapPost("/placeorder",
+            async (IPlaceOrderController controller,
+                PlaceOrderOrderDto order) =>
             {
-                var orderId = await pController.PlaceOrderAsync(pOrder);
-                return Results.Ok(orderId);
+                var OrderId = await controller.PlaceOrderAsync(order);
+                return Results.Ok(OrderId);
             });
 
-        pApp.MapGet("/getorders",
-            async (IGetOrdersController pController) =>
+        app.MapGet("/getorders",
+            async (IGetOrdersController controller) =>
             {
-                return Results.Ok(await pController.GetOrdersAsync());
+                return Results.Ok(await controller.GetOrdersAsync());
             });
 
-        return pApp;
+        app.MapGet("getorder/{id}",
+            async (IGetOrderController controller, int id) =>
+                Results.Ok(await controller.GetOrderAsync(id)));
+
+        return app;
     }
 }

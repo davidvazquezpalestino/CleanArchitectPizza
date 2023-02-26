@@ -1,16 +1,16 @@
-﻿@foreach(var pizza in Order.Pizzas)
+﻿@foreach(var Pizza in Order.Pizzas)
 {
     <p>
         <strong>
-            @pizza.Size cm
-            @pizza.Special.Name
-            (@pizza.GetFormattedTotalPrice())
+            @Pizza.Size cm
+            @Pizza.Special.Name
+            (@Pizza.GetFormattedTotalPrice())
         </strong>
     </p>
     <ul>
-        @foreach(var topping in pizza.Toppings)
+        @foreach(var Topping in Pizza.Toppings)
         {
-            <li>+ @topping.Name</li>
+            <li>+ @Topping.Name</li>
         }
     </ul>
 }

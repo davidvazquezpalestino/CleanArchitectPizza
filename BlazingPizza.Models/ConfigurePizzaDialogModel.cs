@@ -1,11 +1,11 @@
 ﻿namespace BlazingPizza.Models;
-public class ConfigurePizzaDialogModel : IConfigurePizzaDialogModel
+internal sealed class ConfigurePizzaDialogModel : IConfigurePizzaDialogModel
 {
     readonly IBlazingPizzaWebApiGateway Gateway;
 
-    public ConfigurePizzaDialogModel(IBlazingPizzaWebApiGateway pGateway)
+    public ConfigurePizzaDialogModel(IBlazingPizzaWebApiGateway gateway)
     {
-        Gateway = pGateway;
+        Gateway = gateway;
     }
 
     public async Task<IReadOnlyCollection<Topping>> GetToppingsAsync()

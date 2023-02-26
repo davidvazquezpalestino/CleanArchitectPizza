@@ -16,11 +16,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BlazingPizza.BusinessObjects\BlazingPizza.BusinessObjects.csproj" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\images\" />
+    <ProjectReference Include="..\BlazingPizza.Frontend.BusinessObjects\BlazingPizza.Frontend.BusinessObjects.csproj" />
   </ItemGroup>
 
 </Project>

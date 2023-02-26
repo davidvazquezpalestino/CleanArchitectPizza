@@ -1,8 +1,8 @@
 ﻿namespace BlazingPizza.ViewModels;
-public class SpecialsViewModel : ISpecialsViewModel
+internal sealed class SpecialsViewModel : ISpecialsViewModel
 {
     readonly ISpecialsModel Model;
-    public SpecialsViewModel(ISpecialsModel pModel) => Model = pModel;
+    public SpecialsViewModel(ISpecialsModel model) => Model = model;
 
     public IReadOnlyCollection<PizzaSpecial> Specials
     { get; private set; }

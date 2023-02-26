@@ -1454,6 +1454,19 @@
           }
         }
       },
+      "BlazingPizza.Backend.BusinessObjects/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BlazingPizza.Shared.BusinessObjects": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlazingPizza.Backend.BusinessObjects.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazingPizza.Backend.BusinessObjects.dll": {}
+        }
+      },
       "BlazingPizza.Backend.IoC/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -1470,21 +1483,11 @@
           "bin/placeholder/BlazingPizza.Backend.IoC.dll": {}
         }
       },
-      "BlazingPizza.BusinessObjects/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/BlazingPizza.BusinessObjects.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BlazingPizza.BusinessObjects.dll": {}
-        }
-      },
       "BlazingPizza.Controllers/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "BlazingPizza.BusinessObjects": "1.0.0",
+          "BlazingPizza.Backend.BusinessObjects": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "compile": {
@@ -1498,7 +1501,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "BlazingPizza.BusinessObjects": "1.0.0",
+          "BlazingPizza.Backend.BusinessObjects": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2"
         },
         "compile": {
@@ -1506,6 +1509,19 @@
         },
         "runtime": {
           "bin/placeholder/BlazingPizza.EFCore.Repositories.dll": {}
+        }
+      },
+      "BlazingPizza.Frontend.BusinessObjects/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BlazingPizza.Shared.BusinessObjects": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlazingPizza.Frontend.BusinessObjects.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazingPizza.Frontend.BusinessObjects.dll": {}
         }
       },
       "BlazingPizza.Frontend.IoC/1.0.0": {
@@ -1528,7 +1544,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "BlazingPizza.BusinessObjects": "1.0.0",
+          "BlazingPizza.Frontend.BusinessObjects": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
           "Microsoft.Extensions.Http": "7.0.0"
         },
@@ -1543,7 +1559,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "BlazingPizza.BusinessObjects": "1.0.0",
+          "BlazingPizza.Frontend.BusinessObjects": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "compile": {
@@ -1557,8 +1573,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "BlazingPizza.BusinessObjects": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+          "BlazingPizza.Backend.BusinessObjects": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Options": "7.0.0"
         },
         "compile": {
           "bin/placeholder/BlazingPizza.Presenters.dll": {}
@@ -1571,7 +1588,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "BlazingPizza.BusinessObjects": "1.0.0",
+          "BlazingPizza.Frontend.BusinessObjects": "1.0.0",
           "Microsoft.AspNetCore.Components.Web": "7.0.2"
         },
         "compile": {
@@ -1581,11 +1598,21 @@
           "bin/placeholder/BlazingPizza.Razor.Views.dll": {}
         }
       },
+      "BlazingPizza.Shared.BusinessObjects/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BlazingPizza.Shared.BusinessObjects.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazingPizza.Shared.BusinessObjects.dll": {}
+        }
+      },
       "BlazingPizza.UseCases/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "BlazingPizza.BusinessObjects": "1.0.0",
+          "BlazingPizza.Backend.BusinessObjects": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "compile": {
@@ -1599,7 +1626,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "BlazingPizza.BusinessObjects": "1.0.0",
+          "BlazingPizza.Frontend.BusinessObjects": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "compile": {
@@ -4340,15 +4367,15 @@
         "version.txt"
       ]
     },
+    "BlazingPizza.Backend.BusinessObjects/1.0.0": {
+      "type": "project",
+      "path": "../BlazingPizza.Backend.BusinessObjects/BlazingPizza.Backend.BusinessObjects.csproj",
+      "msbuildProject": "../BlazingPizza.Backend.BusinessObjects/BlazingPizza.Backend.BusinessObjects.csproj"
+    },
     "BlazingPizza.Backend.IoC/1.0.0": {
       "type": "project",
       "path": "../BlazingPizza.Backend.IoC/BlazingPizza.Backend.IoC.csproj",
       "msbuildProject": "../BlazingPizza.Backend.IoC/BlazingPizza.Backend.IoC.csproj"
-    },
-    "BlazingPizza.BusinessObjects/1.0.0": {
-      "type": "project",
-      "path": "../BlazingPizza.BusinessObjects/BlazingPizza.BusinessObjects.csproj",
-      "msbuildProject": "../BlazingPizza.BusinessObjects/BlazingPizza.BusinessObjects.csproj"
     },
     "BlazingPizza.Controllers/1.0.0": {
       "type": "project",
@@ -4359,6 +4386,11 @@
       "type": "project",
       "path": "../BlazingPizza.EFCore.Repositories/BlazingPizza.EFCore.Repositories.csproj",
       "msbuildProject": "../BlazingPizza.EFCore.Repositories/BlazingPizza.EFCore.Repositories.csproj"
+    },
+    "BlazingPizza.Frontend.BusinessObjects/1.0.0": {
+      "type": "project",
+      "path": "../BlazingPizza.Frontend.BusinessObjects/BlazingPizza.Frontend.BusinessObjects.csproj",
+      "msbuildProject": "../BlazingPizza.Frontend.BusinessObjects/BlazingPizza.Frontend.BusinessObjects.csproj"
     },
     "BlazingPizza.Frontend.IoC/1.0.0": {
       "type": "project",
@@ -4384,6 +4416,11 @@
       "type": "project",
       "path": "../BlazingPizza.Razor.Views/BlazingPizza.Razor.Views.csproj",
       "msbuildProject": "../BlazingPizza.Razor.Views/BlazingPizza.Razor.Views.csproj"
+    },
+    "BlazingPizza.Shared.BusinessObjects/1.0.0": {
+      "type": "project",
+      "path": "../BlazingPizza.Shared.BusinessObjects/BlazingPizza.Shared.BusinessObjects.csproj",
+      "msbuildProject": "../BlazingPizza.Shared.BusinessObjects/BlazingPizza.Shared.BusinessObjects.csproj"
     },
     "BlazingPizza.UseCases/1.0.0": {
       "type": "project",
@@ -4496,7 +4533,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,12 +1,12 @@
 ﻿namespace BlazingPizza.EFCore.Repositories.Mappers;
 internal static class ToppingMapper
 {
-    internal static BusinessObjects.Entities.Topping ToTopping(
-    this Repositories.Entities.Topping pTopping) =>
-    new BusinessObjects.Entities.Topping
+    internal static SharedEntities.Topping ToTopping(
+    this EFEntities.Topping topping) =>
+    new SharedEntities.Topping
     {
-        Id = pTopping.Id,
-        Name = pTopping.Name,
-        Price = pTopping.Price
+        Id = topping.Id,
+        Name = topping.Name,
+        Price = topping.Price
     };
 }

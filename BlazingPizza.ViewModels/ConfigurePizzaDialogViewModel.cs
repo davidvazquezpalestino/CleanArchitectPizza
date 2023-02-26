@@ -1,11 +1,11 @@
 ﻿namespace BlazingPizza.ViewModels;
-public class ConfigurePizzaDialogViewModel : IConfigurePizzaDialogViewModel
+internal sealed class ConfigurePizzaDialogViewModel : IConfigurePizzaDialogViewModel
 {
     readonly IConfigurePizzaDialogModel Model;
 
-    public ConfigurePizzaDialogViewModel(IConfigurePizzaDialogModel pModel)
+    public ConfigurePizzaDialogViewModel(IConfigurePizzaDialogModel model)
     {
-        Model = pModel;
+        Model = model;
     }
 
     public Pizza Pizza { get; set; }
@@ -15,7 +15,7 @@ public class ConfigurePizzaDialogViewModel : IConfigurePizzaDialogViewModel
     {
         get
         {
-            return ToppingsField?.OrderBy(pT => pT.Name).ToList();
+            return ToppingsField?.OrderBy(t => t.Name).ToList();
         }
 
         private set 
@@ -24,8 +24,8 @@ public class ConfigurePizzaDialogViewModel : IConfigurePizzaDialogViewModel
         }
    }
 
-    public void AddTopping(Topping pTopping) =>
-        Pizza.AddTopping(pTopping);
+    public void AddTopping(Topping topping) =>
+        Pizza.AddTopping(topping);
 
     public async Task GetToppingsAsync()
     {
@@ -35,8 +35,8 @@ public class ConfigurePizzaDialogViewModel : IConfigurePizzaDialogViewModel
         }
     }
 
-    public void RemoveTopping(Topping pTopping) =>
-        Pizza.RemoveTopping(pTopping);
+    public void RemoveTopping(Topping topping) =>
+        Pizza.RemoveTopping(topping);
 
     public int ConfiguredPizzaSize 
     { 

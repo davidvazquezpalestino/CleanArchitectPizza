@@ -11,11 +11,11 @@ public class HttpsClientHandlerService
     {
 #if ANDROID
         var handler = new Xamarin.Android.Net.AndroidMessageHandler();
-        handler.ServerCertificateCustomValidationCallback = (pMessage, pCert, pChain, pErrors) =>
+        handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) =>
         {
-            if (pCert != null && pCert.Issuer.Equals("CN=localhost"))
+            if (cert != null && cert.Issuer.Equals("CN=localhost"))
                 return true;
-            return pErrors == System.Net.Security.SslPolicyErrors.None;
+            return errors == System.Net.Security.SslPolicyErrors.None;
         };
         return handler;
 #elif IOS
@@ -30,9 +30,9 @@ public class HttpsClientHandlerService
     }
 
 #if IOS
-    public bool IsHttpsLocalhost(NSUrlSessionHandler pSender, string pUrl, Security.SecTrust pTrust)
+    public bool IsHttpsLocalhost(NSUrlSessionHandler sender, string url, Security.SecTrust trust)
     {
-        if (pUrl.StartsWith("https://localhost"))
+        if (url.StartsWith("https://localhost"))
             return true;
         return false;
     }

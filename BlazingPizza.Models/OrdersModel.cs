@@ -1,17 +1,16 @@
-﻿using BlazingPizza.BusinessObjects.Interfaces.Orders;
-
-namespace BlazingPizza.Models;
-public class OrdersModel : IOrdersModel
+﻿namespace BlazingPizza.Models;
+internal sealed class OrdersModel : IOrdersModel
 {
     readonly IBlazingPizzaWebApiGateway Gateway;
 
-    public OrdersModel(IBlazingPizzaWebApiGateway pGateway)
+    public OrdersModel(IBlazingPizzaWebApiGateway gateway)
     {
-        Gateway = pGateway;
+        Gateway = gateway;
     }
 
     public async Task<IReadOnlyCollection<GetOrdersDto>> GetOrdersAsync()
     {
         return await Gateway.GetOrdersAsync();
+        //return await Task.FromResult(new List<GetOrdersDto>());
     }
 }

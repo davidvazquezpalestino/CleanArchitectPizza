@@ -9,7 +9,7 @@ public partial class Checkout
 
     async Task PlaceOrder()
     {
-        await ViewModel.PlaceOrderAsync();
-        NavigationManager.NavigateTo("orders");
+        int OrderId = await ViewModel.PlaceOrderAsync();
+        NavigationManager.NavigateTo($"orderdetails/{OrderId}");
     }
 }

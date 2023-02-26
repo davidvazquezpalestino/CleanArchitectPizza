@@ -1,17 +1,17 @@
 ﻿namespace BlazingPizza.WebApi.Endpoints;
-public static class Specials
+internal static class Specials
 {
-    public static WebApplication UseSpecialsEndpoints(this WebApplication pApp)
+    public static WebApplication UseSpecialsEndpoints(this WebApplication app)
     {
-        pApp.MapGet("/specials",
-            async (IGetSpecialsController pController) =>
+        app.MapGet("/specials",
+            async (IGetSpecialsController controller) =>
             {
-                var result = await pController.GetSpecialsAsync();
-                return Results.Ok(result);
+                var Result = await controller.GetSpecialsAsync();
+                return Results.Ok(Result);
             });
 
        // app.MapGet("/hello", () => Results.Ok
 
-        return pApp;
+        return app;
     }
 }

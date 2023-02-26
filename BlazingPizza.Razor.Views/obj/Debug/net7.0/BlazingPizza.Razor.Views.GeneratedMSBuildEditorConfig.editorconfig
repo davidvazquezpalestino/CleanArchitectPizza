@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/GitHub/Proyectos/CleanArchitectPizza/BlazingPizza.Razor.Views/Shared/App.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFwcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/GitHub/Proyectos/CleanArchitectPizza/BlazingPizza.Razor.Views/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -51,6 +55,10 @@ build_metadata.AdditionalFiles.CssScope = b-3opn27ax36
 [C:/GitHub/Proyectos/CleanArchitectPizza/BlazingPizza.Razor.Views/Pages/Checkout.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-r53oxk10ay
+
+[C:/GitHub/Proyectos/CleanArchitectPizza/BlazingPizza.Razor.Views/Pages/OrderDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJEZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-0ob3k7p21z
 
 [C:/GitHub/Proyectos/CleanArchitectPizza/BlazingPizza.Razor.Views/Pages/Orders.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJzLnJhem9y

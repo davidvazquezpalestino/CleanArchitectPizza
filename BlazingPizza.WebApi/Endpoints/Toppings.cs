@@ -1,16 +1,16 @@
 ﻿namespace BlazingPizza.WebApi.Endpoints;
 
-public static class Toppings
+internal static class Toppings
 {
     public static WebApplication UseToppingsEndpoints(
-        this WebApplication pApp)
+        this WebApplication app)
     {
-        pApp.MapGet("/toppings",
-            async (IGetToppingsController pController) =>
+        app.MapGet("/toppings",
+            async (IGetToppingsController controller) =>
             {
-                var result = await pController.GetToppingsAsync();
-                return Results.Ok(result);
+                var Result = await controller.GetToppingsAsync();
+                return Results.Ok(Result);
             });
-        return pApp;
+        return app;
     }
 }

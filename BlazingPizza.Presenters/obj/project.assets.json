@@ -18,14 +18,63 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "BlazingPizza.BusinessObjects/1.0.0": {
+      "Microsoft.Extensions.Options/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "BlazingPizza.Backend.BusinessObjects/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BlazingPizza.Shared.BusinessObjects": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlazingPizza.Backend.BusinessObjects.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazingPizza.Backend.BusinessObjects.dll": {}
+        }
+      },
+      "BlazingPizza.Shared.BusinessObjects/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/BlazingPizza.BusinessObjects.dll": {}
+          "bin/placeholder/BlazingPizza.Shared.BusinessObjects.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BlazingPizza.BusinessObjects.dll": {}
+          "bin/placeholder/BlazingPizza.Shared.BusinessObjects.dll": {}
         }
       }
     }
@@ -60,16 +109,78 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "BlazingPizza.BusinessObjects/1.0.0": {
+    "Microsoft.Extensions.Options/7.0.0": {
+      "sha512": "lP1yBnTTU42cKpMozuafbvNtQ7QcBjr/CcK3bYOGEMH55Fjt+iecXjT6chR7vbgCMqy3PG3aNQSZgo/EuY/9qQ==",
+      "type": "package",
+      "path": "microsoft.extensions.options/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Options.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Options.targets",
+        "lib/net462/Microsoft.Extensions.Options.dll",
+        "lib/net462/Microsoft.Extensions.Options.xml",
+        "lib/net6.0/Microsoft.Extensions.Options.dll",
+        "lib/net6.0/Microsoft.Extensions.Options.xml",
+        "lib/net7.0/Microsoft.Extensions.Options.dll",
+        "lib/net7.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.7.0.0.nupkg.sha512",
+        "microsoft.extensions.options.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/7.0.0": {
+      "sha512": "um1KU5kxcRp3CNuI8o/GrZtD4AIOXDk+RLsytjZ9QPok3ttLUelLKpilVPuaFT3TFjOhSibUAso0odbOaCDj3Q==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Primitives.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
+        "lib/net462/Microsoft.Extensions.Primitives.dll",
+        "lib/net462/Microsoft.Extensions.Primitives.xml",
+        "lib/net6.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net6.0/Microsoft.Extensions.Primitives.xml",
+        "lib/net7.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net7.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "BlazingPizza.Backend.BusinessObjects/1.0.0": {
       "type": "project",
-      "path": "../BlazingPizza.BusinessObjects/BlazingPizza.BusinessObjects.csproj",
-      "msbuildProject": "../BlazingPizza.BusinessObjects/BlazingPizza.BusinessObjects.csproj"
+      "path": "../BlazingPizza.Backend.BusinessObjects/BlazingPizza.Backend.BusinessObjects.csproj",
+      "msbuildProject": "../BlazingPizza.Backend.BusinessObjects/BlazingPizza.Backend.BusinessObjects.csproj"
+    },
+    "BlazingPizza.Shared.BusinessObjects/1.0.0": {
+      "type": "project",
+      "path": "../BlazingPizza.Shared.BusinessObjects/BlazingPizza.Shared.BusinessObjects.csproj",
+      "msbuildProject": "../BlazingPizza.Shared.BusinessObjects/BlazingPizza.Shared.BusinessObjects.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "BlazingPizza.BusinessObjects >= 1.0.0",
-      "Microsoft.Extensions.DependencyInjection.Abstractions >= 7.0.0"
+      "BlazingPizza.Backend.BusinessObjects >= 1.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 7.0.0",
+      "Microsoft.Extensions.Options >= 7.0.0"
     ]
   },
   "packageFolders": {
@@ -122,8 +233,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.BusinessObjects\\BlazingPizza.BusinessObjects.csproj": {
-              "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.BusinessObjects\\BlazingPizza.BusinessObjects.csproj"
+            "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj": {
+              "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj"
             }
           }
         }
@@ -139,6 +250,10 @@
         "targetAlias": "net7.0",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "Microsoft.Extensions.Options": {
             "target": "Package",
             "version": "[7.0.0, )"
           }
@@ -159,7 +274,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

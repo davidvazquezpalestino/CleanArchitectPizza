@@ -1,14 +1,14 @@
 ﻿namespace BlazingPizza.EFCore.Repositories.Mappers;
 internal static class PizzaSpecialMapper
 {
-    internal static BusinessObjects.Entities.PizzaSpecial ToPizzaSpecial(
-    this Repositories.Entities.PizzaSpecial pIzzaSpecial) =>
-    new BusinessObjects.Entities.PizzaSpecial
+    internal static SharedEntities.PizzaSpecial ToPizzaSpecial(
+    this Repositories.Entities.PizzaSpecial pizzaSpecial) =>
+    new SharedEntities.PizzaSpecial
     {
-        Id = pIzzaSpecial.Id,
-        Name = pIzzaSpecial.Name,
-        BasePrice = pIzzaSpecial.BasePrice,
-        Description = pIzzaSpecial.Description,
-        ImageUrl = pIzzaSpecial.ImageUrl
+        Id = pizzaSpecial.Id,
+        Name = pizzaSpecial.Name,
+        BasePrice = pizzaSpecial.BasePrice,
+        Description = pizzaSpecial.Description,
+        ImageUrl = pizzaSpecial.ImageUrl
     };
 }

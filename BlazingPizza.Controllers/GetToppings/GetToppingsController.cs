@@ -1,11 +1,11 @@
 ﻿namespace BlazingPizza.Controllers.GetToppings;
-public class GetToppingsController : IGetToppingsController
+internal sealed class GetToppingsController : IGetToppingsController
 {
     readonly IGetToppingsInputPort InputPort;
 
-    public GetToppingsController(IGetToppingsInputPort pInputPort)
+    public GetToppingsController(IGetToppingsInputPort inputPort)
     {
-        InputPort = pInputPort;
+        InputPort = inputPort;
     }
 
     public async Task<IReadOnlyCollection<Topping>> GetToppingsAsync()

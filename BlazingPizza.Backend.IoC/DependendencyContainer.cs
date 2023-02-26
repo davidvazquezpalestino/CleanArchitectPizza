@@ -2,14 +2,13 @@
 public static class DependendencyContainer
 {
     public static IServiceCollection AddBlazingPizzaBackendServices(
-        this IServiceCollection pServices, string pConnectionString,
-        string pImagesBaseUrlName)
+        this IServiceCollection services)
     {
-        pServices.AddUseCasesServices()
-            .AddRepositoriesServices(pConnectionString)
+        services.AddUseCasesServices()
+            .AddRepositoriesServices()
             .AddControllersServices()
-            .AddPresentersServices(pImagesBaseUrlName);
+            .AddPresentersServices();
 
-        return pServices;
+        return services;
     }
 }

@@ -1,15 +1,15 @@
 ﻿namespace BlazingPizza.Controllers.GetOrder;
-public class GetOrderController : IGetOrderController
+internal sealed class GetOrderController : IGetOrderController
 {
     readonly IGetOrderInputPort InputPort;
 
-    public GetOrderController(IGetOrderInputPort pInputPort)
+    public GetOrderController(IGetOrderInputPort inputPort)
     {
-        InputPort = pInputPort;
+        InputPort = inputPort;
     }
 
-    public async Task<GetOrderDto> GetOrderAsync(int pId)
+    public async Task<GetOrderDto> GetOrderAsync(int id)
     {
-        return await InputPort.GetOrderAsync(pId);
+        return await InputPort.GetOrderAsync(id);
     }
 }

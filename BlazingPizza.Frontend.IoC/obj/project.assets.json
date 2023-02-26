@@ -252,21 +252,24 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "BlazingPizza.BusinessObjects/1.0.0": {
+      "BlazingPizza.Frontend.BusinessObjects/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BlazingPizza.Shared.BusinessObjects": "1.0.0"
+        },
         "compile": {
-          "bin/placeholder/BlazingPizza.BusinessObjects.dll": {}
+          "bin/placeholder/BlazingPizza.Frontend.BusinessObjects.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BlazingPizza.BusinessObjects.dll": {}
+          "bin/placeholder/BlazingPizza.Frontend.BusinessObjects.dll": {}
         }
       },
       "BlazingPizza.Gateways/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "BlazingPizza.BusinessObjects": "1.0.0",
+          "BlazingPizza.Frontend.BusinessObjects": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
           "Microsoft.Extensions.Http": "7.0.0"
         },
@@ -281,7 +284,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "BlazingPizza.BusinessObjects": "1.0.0",
+          "BlazingPizza.Frontend.BusinessObjects": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "compile": {
@@ -295,7 +298,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "BlazingPizza.BusinessObjects": "1.0.0",
+          "BlazingPizza.Frontend.BusinessObjects": "1.0.0",
           "Microsoft.AspNetCore.Components.Web": "7.0.2"
         },
         "compile": {
@@ -305,11 +308,21 @@
           "bin/placeholder/BlazingPizza.Razor.Views.dll": {}
         }
       },
+      "BlazingPizza.Shared.BusinessObjects/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BlazingPizza.Shared.BusinessObjects.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazingPizza.Shared.BusinessObjects.dll": {}
+        }
+      },
       "BlazingPizza.ViewModels/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "BlazingPizza.BusinessObjects": "1.0.0",
+          "BlazingPizza.Frontend.BusinessObjects": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "compile": {
@@ -703,10 +716,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "BlazingPizza.BusinessObjects/1.0.0": {
+    "BlazingPizza.Frontend.BusinessObjects/1.0.0": {
       "type": "project",
-      "path": "../BlazingPizza.BusinessObjects/BlazingPizza.BusinessObjects.csproj",
-      "msbuildProject": "../BlazingPizza.BusinessObjects/BlazingPizza.BusinessObjects.csproj"
+      "path": "../BlazingPizza.Frontend.BusinessObjects/BlazingPizza.Frontend.BusinessObjects.csproj",
+      "msbuildProject": "../BlazingPizza.Frontend.BusinessObjects/BlazingPizza.Frontend.BusinessObjects.csproj"
     },
     "BlazingPizza.Gateways/1.0.0": {
       "type": "project",
@@ -722,6 +735,11 @@
       "type": "project",
       "path": "../BlazingPizza.Razor.Views/BlazingPizza.Razor.Views.csproj",
       "msbuildProject": "../BlazingPizza.Razor.Views/BlazingPizza.Razor.Views.csproj"
+    },
+    "BlazingPizza.Shared.BusinessObjects/1.0.0": {
+      "type": "project",
+      "path": "../BlazingPizza.Shared.BusinessObjects/BlazingPizza.Shared.BusinessObjects.csproj",
+      "msbuildProject": "../BlazingPizza.Shared.BusinessObjects/BlazingPizza.Shared.BusinessObjects.csproj"
     },
     "BlazingPizza.ViewModels/1.0.0": {
       "type": "project",
@@ -827,7 +845,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

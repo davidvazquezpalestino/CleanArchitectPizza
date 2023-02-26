@@ -1,20 +1,20 @@
 ﻿namespace BlazingPizza.Presenters.GetSpecials;
-public class GetSpecialsPresenter : IGetSpecialsPresenter
+internal sealed class GetSpecialsPresenter : IGetSpecialsPresenter
 {
     readonly string ImagesBaseUrl;
 
-    public GetSpecialsPresenter(string pImagesBaseUrl)
+    public GetSpecialsPresenter(IOptions<SpecialsOptions> options)
     {
-        ImagesBaseUrl = pImagesBaseUrl;
+        ImagesBaseUrl = options.Value.ImagesBaseUrl;
     }
 
     public Task<IReadOnlyCollection<PizzaSpecial>>
-        GetSpecialsAsync(IReadOnlyCollection<PizzaSpecial> pSpecials)
+        GetSpecialsAsync(IReadOnlyCollection<PizzaSpecial> specials)
     {
-        foreach (var special in pSpecials)
+        foreach (var Special in specials)
         {
-            special.ImageUrl = $"{ImagesBaseUrl}/{special.ImageUrl}";
+            Special.ImageUrl = $"{ImagesBaseUrl}/{Special.ImageUrl}";
         }
-        return Task.FromResult(pSpecials);
+        return Task.FromResult(specials);
     }
 }

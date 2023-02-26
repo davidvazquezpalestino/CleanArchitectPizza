@@ -2,18 +2,20 @@
 public static class DependencyContainer
 {
     public static IServiceCollection AddRepositoriesServices(
-        this IServiceCollection pServices,
-        string pConnectionString)
+        this IServiceCollection services)
     {
-        pServices.AddDbContext<BlazingPizzaContext>(pOptions =>
-        pOptions.UseSqlServer(pConnectionString));
+        services.AddDbContext<IBlazingPizzaQueriesContext,
+            BlazingPizzaQueriesContext>();
 
-        pServices.AddScoped<IBlazingPizzaQueriesRepository, 
+        services.AddDbContext<IBlazingPizzaCommandsContext,
+            BlazingPizzaCommandsContext>();
+
+        services.AddScoped<IBlazingPizzaQueriesRepository,
             BlazingPizzaQueriesRepository>();
 
-        pServices.AddScoped<IBlazingPizzaCommandsRepository,
+        services.AddScoped<IBlazingPizzaCommandsRepository,
             BlazingPizzaCommandsRepository>();
 
-        return pServices;
+        return services;
     }
 }

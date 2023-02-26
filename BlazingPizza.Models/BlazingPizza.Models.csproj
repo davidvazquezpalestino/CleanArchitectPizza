@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BlazingPizza.BusinessObjects\BlazingPizza.BusinessObjects.csproj" />
+    <ProjectReference Include="..\BlazingPizza.Frontend.BusinessObjects\BlazingPizza.Frontend.BusinessObjects.csproj" />
   </ItemGroup>
 
 </Project>

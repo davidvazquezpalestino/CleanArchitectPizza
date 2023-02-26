@@ -1,25 +1,25 @@
 ﻿namespace BlazingPizza.EFCore.Repositories.Mappers;
 internal static class PizzaMapper
 {
-    internal static EFEntities.Pizza ToEfPizza(
-        this PlaceOrderPizzaDto pIzza) =>
+    internal static EFEntities.Pizza ToEFPizza(
+        this PlaceOrderPizzaDto pizza) =>
         new EFEntities.Pizza
         {
-            PizzaSpecialId = pIzza.PizzaSpecialId,
-            Size = pIzza.Size,
-            Toppings = pIzza.ToppingsIds
-                .Select(pId => new PizzaTopping
+            PizzaSpecialId = pizza.PizzaSpecialId,
+            Size = pizza.Size,
+            Toppings = pizza.ToppingsIds
+                .Select(id => new EFEntities.PizzaTopping
                 {
-                    ToppingId = pId
+                    ToppingId = id
                 }).ToList()
         };
 
-    internal static BusinessObjects.Aggregates.Pizza ToPizza(
-        this EFEntities.Pizza pIzza)
+    internal static SharedAggregates.Pizza ToPizza(
+        this EFEntities.Pizza pizza)
     {
-        var pizza = new BusinessObjects.Aggregates.Pizza(
-            pIzza.PizzaSpecial.ToPizzaSpecial());
-        pizza.SetSize(pIzza.Size);
+        var Pizza = new SharedAggregates.Pizza(
+            pizza.PizzaSpecial.ToPizzaSpecial());
+        Pizza.SetSize(pizza.Size);
         //if (pizza.Toppings != null)
         //{
         //    foreach (var PizzaTopping in pizza.Toppings)
@@ -27,8 +27,8 @@ internal static class PizzaMapper
         //        Pizza.AddTopping(PizzaTopping.Topping.ToTopping());
         //    }
         //}
-        pIzza.Toppings?
-            .ForEach(p => pizza.AddTopping(p.Topping.ToTopping()));
-        return pizza;   
+        pizza.Toppings?
+            .ForEach(p => Pizza.AddTopping(p.Topping.ToTopping()));
+        return Pizza;   
     }
 }

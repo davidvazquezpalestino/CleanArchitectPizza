@@ -2,11 +2,11 @@
 public static class DependencyContainer
 {
     public static IServiceCollection AddPresentersServices(
-        this IServiceCollection pServices, string pImagesBaseUrl)
+        this IServiceCollection services)
     {
-        pServices.AddScoped<IGetSpecialsPresenter>(pRovider =>
-        new GetSpecialsPresenter(pImagesBaseUrl));
+        services.AddScoped<IGetSpecialsPresenter,
+            GetSpecialsPresenter>();
 
-        return pServices;
+        return services;
     }
 }

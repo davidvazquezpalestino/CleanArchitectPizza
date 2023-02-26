@@ -1,26 +1,25 @@
-﻿using BlazingPizza.BusinessObjects.Interfaces.Orders;
-
-namespace BlazingPizza.Models;
+﻿namespace BlazingPizza.Models;
 public static class DependencyContainer
 {
     public static IServiceCollection AddModelsServices(
-        this IServiceCollection pServices)
+        this IServiceCollection services)
     {
-        pServices.AddScoped<ISpecialsModel, SpecialsModel>();
-        pServices.AddScoped<IConfigurePizzaDialogModel,
+        services.AddScoped<ISpecialsModel, SpecialsModel>();
+        services.AddScoped<IConfigurePizzaDialogModel,
             ConfigurePizzaDialogModel>();
-        pServices.AddScoped<IOrderStateService, OrderStateService>();
+        services.AddScoped<IOrderStateService, OrderStateService>();
 
-        pServices.AddScoped<ICheckoutModel, CheckoutModel>();
-        pServices.AddScoped<IOrdersModel, OrdersModel>();
+        services.AddScoped<ICheckoutModel, CheckoutModel>();
+        services.AddScoped<IOrdersModel, OrdersModel>();
+        services.AddScoped<IOrderDetailsModel, OrderDetailsModel>();
 
-        return pServices;
+        return services;
     }
 
-    public static IServiceCollection AddDesktopModelsServices(
-        this IServiceCollection pServices)
-    {
-        pServices.AddScoped<ISpecialsModel, DesktopSpecialsModel>();
-        return pServices;
-    }
+    //public static IServiceCollection AddDesktopModelsServices(
+    //    this IServiceCollection services)
+    //{
+    //    services.AddScoped<ISpecialsModel, DesktopSpecialsModel>();
+    //    return services;
+    //}
 }

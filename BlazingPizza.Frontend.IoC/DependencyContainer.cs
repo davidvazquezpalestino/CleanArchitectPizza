@@ -2,23 +2,24 @@
 public static class DependencyContainer
 {
     public static IServiceCollection AddBlazingPizzaFrontendServices(
-        this IServiceCollection pServices,
-        EndpointsOptions pEndpointsOptions,
-        Action<IHttpClientBuilder> pHttpClientConfigurator = null)
+        this IServiceCollection services,
+        IOptions<EndpointsOptions> endpointsOptions,
+        Action<IHttpClientBuilder> httpClientConfigurator = null)
     {
-        pServices.AddModelsServices()
+        services.AddModelsServices()
             .AddViewModelsServices()
-            .AddBlazingPizzaWebApiGateways(pEndpointsOptions, pHttpClientConfigurator);
+            .AddBlazingPizzaWebApiGateways(
+                 endpointsOptions, httpClientConfigurator);
 
-        return pServices;
+        return services;
     }
 
-    public static IServiceCollection AddBlazingPizzaDesktopServices(
-        this IServiceCollection pServices)
-    {
-        pServices.AddDesktopModelsServices()
-            .AddViewModelsServices();
+    //public static IServiceCollection AddBlazingPizzaDesktopServices(
+    //    this IServiceCollection services)
+    //{
+    //    services.AddDesktopModelsServices()
+    //        .AddViewModelsServices();
 
-        return pServices;
-    }
+    //    return services;
+    //}
 }

@@ -1,13 +1,10 @@
-﻿global using BlazingPizza.BusinessObjects.Interfaces.Specials;
+﻿global using BlazingPizza.Frontend.BusinessObjects.Interfaces.Checkout;
+global using BlazingPizza.Frontend.BusinessObjects.Interfaces.Common;
+global using BlazingPizza.Frontend.BusinessObjects.Interfaces.ConfigurePizzaDialog;
+global using BlazingPizza.Frontend.BusinessObjects.Interfaces.Index;
+global using BlazingPizza.Frontend.BusinessObjects.Interfaces.OrderDetails;
+global using BlazingPizza.Frontend.BusinessObjects.Interfaces.Orders;
+global using BlazingPizza.Frontend.BusinessObjects.Interfaces.Specials;
+global using BlazingPizza.Shared.BusinessObjects.Aggregates;
+global using BlazingPizza.Shared.BusinessObjects.Entities;
 global using Microsoft.AspNetCore.Components;
-global using BlazingPizza.BusinessObjects.Interfaces.Index;
-global using BlazingPizza.BusinessObjects.Entities;
-
-global using BlazingPizza.BusinessObjects.Aggregates;
-global using BlazingPizza.BusinessObjects.Interfaces.ConfigurePizzaDialog;
-global using BlazingPizza.BusinessObjects.Interfaces.Common;
-
-
-global using BlazingPizza.BusinessObjects.Interfaces.Checkout;
-
-global using BlazingPizza.BusinessObjects.Interfaces.Orders;

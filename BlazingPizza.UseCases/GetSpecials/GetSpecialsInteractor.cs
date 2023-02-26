@@ -1,16 +1,16 @@
 ﻿namespace BlazingPizza.UseCases.GetSpecials;
-public class GetSpecialsInteractor : IGetSpecialsInputPort
+internal sealed class GetSpecialsInteractor : IGetSpecialsInputPort
 {
     readonly IBlazingPizzaQueriesRepository Repository;
 
-    public GetSpecialsInteractor(IBlazingPizzaQueriesRepository pRepository)
+    public GetSpecialsInteractor(IBlazingPizzaQueriesRepository repository)
     {
-        Repository = pRepository;
+        Repository = repository;
     }
 
     public async Task<IReadOnlyCollection<PizzaSpecial>> GetSpecialsAsync()
     {
-        var result = await Repository.GetSpecialsAsync();
-        return result.OrderByDescending(pS => pS.BasePrice).ToList();
+        var Result = await Repository.GetSpecialsAsync();
+        return Result.OrderByDescending(s => s.BasePrice).ToList();
     }
 }
