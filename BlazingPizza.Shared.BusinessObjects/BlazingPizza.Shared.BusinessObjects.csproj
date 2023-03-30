@@ -6,4 +6,9 @@
     
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CustomExceptions\CustomExceptions.csproj" />
+    <ProjectReference Include="..\SpecificationValidation.Abstractions\SpecificationValidation.Abstractions.csproj" />
+  </ItemGroup>
+
 </Project>

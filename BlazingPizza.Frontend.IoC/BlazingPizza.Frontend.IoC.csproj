@@ -10,6 +10,7 @@
     <ProjectReference Include="..\BlazingPizza.Gateways\BlazingPizza.Gateways.csproj" />
     <ProjectReference Include="..\BlazingPizza.Models\BlazingPizza.Models.csproj" />
     <ProjectReference Include="..\BlazingPizza.Razor.Views\BlazingPizza.Razor.Views.csproj" />
+    <ProjectReference Include="..\BlazingPizza.Shared.Validators\BlazingPizza.Shared.Validators.csproj" />
     <ProjectReference Include="..\BlazingPizza.ViewModels\BlazingPizza.ViewModels.csproj" />
   </ItemGroup>
 

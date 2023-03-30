@@ -12,3 +12,5 @@ global using BlazingPizza.UseCases.GetSpecials;
 global using BlazingPizza.UseCases.GetToppings;
 global using BlazingPizza.UseCases.PlaceOrder;
 global using Microsoft.Extensions.DependencyInjection;
+global using BlazingPizza.Shared.BusinessObjects.ValueObjects;
+global using SpecificationValidation.Entities;

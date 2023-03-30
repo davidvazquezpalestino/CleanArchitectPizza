@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BlazingPizza.Frontend.BusinessObjects\BlazingPizza.Frontend.BusinessObjects.csproj" />
+    <ProjectReference Include="..\HttpMessageHandlers\HttpMessageHandlers.csproj" />
   </ItemGroup>
 
 </Project>

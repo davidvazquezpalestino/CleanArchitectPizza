@@ -7,7 +7,9 @@ public static class DependendencyContainer
         services.AddUseCasesServices()
             .AddRepositoriesServices()
             .AddControllersServices()
-            .AddPresentersServices();
+            .AddPresentersServices()
+            .AddValidators()
+            .AddHttpExceptionHandlers();
 
         return services;
     }

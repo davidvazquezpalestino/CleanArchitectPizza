@@ -9,3 +9,4 @@ global using BlazingPizza.Frontend.BusinessObjects.Interfaces.Specials;
 global using Microsoft.Extensions.DependencyInjection;
 global using BlazingPizza.Frontend.BusinessObjects.Interfaces.OrderDetails;
 global using BlazingPizza.Frontend.BusinessObjects.Interfaces.Orders;
+global using BlazingPizza.Shared.BusinessObjects.ValueObjects;

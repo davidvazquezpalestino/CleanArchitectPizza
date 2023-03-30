@@ -24,21 +24,14 @@ internal sealed class BlazingPizzaWebApiGateway : IBlazingPizzaWebApiGateway
             .GetFromJsonAsync<IReadOnlyCollection<Topping>>(
             EndpointsOptions.Toppings);
     }
-
     public async Task<int> PlaceOrderAsync(Order order)
     {
-        int OrderId = 0;
         var Response = await Client
             .PostAsJsonAsync(EndpointsOptions.PlaceOrder,
                 (PlaceOrderOrderDto)order);
-        if (Response.IsSuccessStatusCode)
-        {
-            OrderId = await Response.Content.ReadFromJsonAsync<int>();
-        }
 
-        return OrderId;
+        return await Response.Content.ReadFromJsonAsync<int>();
     }
-
     public async Task<IReadOnlyCollection<GetOrdersDto>> GetOrdersAsync()
     {
         return await Client

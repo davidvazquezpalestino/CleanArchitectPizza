@@ -8,3 +8,5 @@ global using BlazingPizza.Frontend.BusinessObjects.Interfaces.Specials;
 global using BlazingPizza.Shared.BusinessObjects.Aggregates;
 global using BlazingPizza.Shared.BusinessObjects.Entities;
 global using Microsoft.AspNetCore.Components;
+global using BlazingPizza.Shared.BusinessObjects.ValueObjects;
+

@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/GitHub/Proyectos/CleanArchitectPizza/BlazingPizza.Razor.Views/Components/AddressEditor.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZGRyZXNzRWRpdG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-moyxbb5yf4
+
 [C:/GitHub/Proyectos/CleanArchitectPizza/BlazingPizza.Razor.Views/Components/ConfiguredPizzaItem.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb25maWd1cmVkUGl6emFJdGVtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-lzsm48tmjj

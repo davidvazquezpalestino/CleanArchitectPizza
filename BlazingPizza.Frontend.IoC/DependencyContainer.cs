@@ -9,17 +9,12 @@ public static class DependencyContainer
         services.AddModelsServices()
             .AddViewModelsServices()
             .AddBlazingPizzaWebApiGateways(
-                 endpointsOptions, httpClientConfigurator);
+                 endpointsOptions, httpClientConfigurator)
+            .AddValidators()
+            .AddToastService();
 
         return services;
     }
 
-    //public static IServiceCollection AddBlazingPizzaDesktopServices(
-    //    this IServiceCollection services)
-    //{
-    //    services.AddDesktopModelsServices()
-    //        .AddViewModelsServices();
 
-    //    return services;
-    //}
 }

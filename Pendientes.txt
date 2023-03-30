@@ -1,0 +1,12 @@
+Siguiente tema:
+
+Invocar JavaScript desde código .NET
+
+
+
+3. Arreglar que el área de mensajes de error no cubra toda la altura de la página.
+
+4. Extender validador para agregar reglas personalizadas, ejemplo NotNull, 
+Equal, MaxLenght. Mínimo las funciones de EF.
+
+

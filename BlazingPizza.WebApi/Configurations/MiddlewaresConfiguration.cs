@@ -5,6 +5,8 @@ internal static class MiddlewaresConfiguration
     public static WebApplication ConfigureWebApiMiddlewares(
         this WebApplication app)
     {
+        app.UseHttpExceptionHandler();
+
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();

@@ -18,8 +18,7 @@ public class Order : BaseOrder
 
     readonly List<Pizza> PizzasField;
 
-    public Address DeliveryAddress { get; private set; } =
-        new Address("", "", "", "", "", "");
+    public Address DeliveryAddress { get; private set; } 
     public LatLong DeliveryLocation { get; private set; } = new();
     public IReadOnlyCollection<Pizza> Pizzas =>
         PizzasField;

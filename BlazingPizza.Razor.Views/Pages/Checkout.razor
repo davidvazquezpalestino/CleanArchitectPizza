@@ -1,16 +1,23 @@
 ﻿@page "/checkout"
-
 <div class="main">
-    <div class="checkout-cols">
-        <div>
-            <h4>Revisar la orden</h4>
-            <OrderReview Order="ViewModel.Order"/>
+    <EditForm Model="ViewModel.Address"
+              OnValidSubmit="PlaceOrder">
+         <SpecificationValidator Validator="AddressValidator" />
+        <div class="checkout-cols">
+            <div>
+                <h4>Revisar la orden</h4>
+                <OrderReview Order="ViewModel.Order" />
+            </div>
+            <div>
+                <h4>Enviar a...</h4>
+                <AddressEditor Address="ViewModel.Address" />
+            </div>
         </div>
-    </div>
 
-    <button class="checkout-button btn btn-warning"
-        @onclick="PlaceOrder"
-        disabled="@ViewModel.IsSubmitting">
-        Realizar pedido
-    </button>
+        <button class="checkout-button btn btn-warning"
+                type="submit"
+                disabled="@ViewModel.IsSubmitting">
+            Realizar pedido
+        </button>
+    </EditForm>
 </div>

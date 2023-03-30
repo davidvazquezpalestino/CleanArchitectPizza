@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "BlazingPizza.Backend.IoC": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:64185;http://localhost:64187"
+    }
+  }
+}

@@ -1,4 +1,6 @@
-﻿namespace BlazingPizza.Gateways;
+﻿using HttpMessageHandlers;
+
+namespace BlazingPizza.Gateways;
 public static class DependencyContainer
 {
     public static IServiceCollection AddBlazingPizzaWebApiGateways(
@@ -13,7 +15,8 @@ public static class DependencyContainer
                 httpClient.BaseAddress = new Uri(
                     endpointsOptions.Value.WebApiBaseAddress);
                 return new BlazingPizzaWebApiGateway(httpClient, endpointsOptions);
-            });
+            })
+            .AddHttpMessageHandler(() => new ExceptionDelegatingHandler());
 
         httpClientConfigurator?.Invoke(Builder);
 

@@ -1,0 +1,26 @@
+﻿@inherits ErrorBoundary
+
+@if(CurrentException is null)
+{
+    @ChildContent
+}
+else if(ErrorContent is not null)
+{
+    @ErrorContent(CurrentException)
+}
+else
+{
+    <div class="errorBoundaryContainer">
+        <div class="messages">
+            @foreach(var Exception in ReceivedExceptions)
+            {
+                <ExceptionView Exception="Exception"/>
+            }
+        </div>
+        <div>
+            <span class="closeIcon" @onclick=Recover>X</span>
+        </div>
+    </div>
+}
+
+

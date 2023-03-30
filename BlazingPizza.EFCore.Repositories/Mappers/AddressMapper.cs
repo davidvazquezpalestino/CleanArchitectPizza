@@ -16,12 +16,12 @@ internal static class AddressMapper
     internal static SharedValueObjects.Address ToAddress(
         this EFEntities.Address address) =>
         new SharedValueObjects.Address
-        (
-            Name: address.Name,
-            AddressLine1: address.AddressLine1,
-            AddressLine2: address.AddressLine2,
-            City: address.City,
-            Region: address.Region,
-            PostalCode: address.PostalCode
-         );
+        {
+            Name = address.Name,
+            AddressLine1 = address.AddressLine1,
+            AddressLine2 = address.AddressLine2,
+            City = address.City,
+            Region = address.Region,
+            PostalCode = address.PostalCode
+         };
 }
