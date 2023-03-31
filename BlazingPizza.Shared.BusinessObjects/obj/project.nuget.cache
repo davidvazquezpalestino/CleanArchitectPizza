@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bt1m3hS/5KYj2eSpCflmbefoMXMTC+L9r/pm39nVjg8uTSI7E/PkzdrEVpIkGTMsRcSaB7k+BF74FDtN3/Kl/w==",
+  "success": true,
+  "projectFilePath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "w9O8GNmr9AuB58NPj6l6PSZDHV6jjK88Qvyh51bWuIsE5aRqxUJjsTzIxxwQf+peMTmiavKKZ6+H+9j0zBrCUQ==",
+  "success": true,
+  "projectFilePath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\Toast.Blazor\\Toast.Blazor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.4\\microsoft.aspnetcore.authorization.7.0.4.nupkg.sha512",
+    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.4\\microsoft.aspnetcore.components.7.0.4.nupkg.sha512",
+    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.4\\microsoft.aspnetcore.components.analyzers.7.0.4.nupkg.sha512",
+    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.4\\microsoft.aspnetcore.components.forms.7.0.4.nupkg.sha512",
+    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.4\\microsoft.aspnetcore.components.web.7.0.4.nupkg.sha512",
+    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.4\\microsoft.aspnetcore.metadata.7.0.4.nupkg.sha512",
+    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.jsinterop\\7.0.4\\microsoft.jsinterop.7.0.4.nupkg.sha512",
+    "C:\\Users\\david_vazquez\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

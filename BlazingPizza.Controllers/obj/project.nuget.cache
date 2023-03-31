@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5otHW0nKHID9F+4bZtgoepA1iu7WEbCS0eKuJHnHAoxZw4y2XOrzasaAsjHXYDaOqnQH+ex4dh1Xod9dNu/d3A==",
+  "success": true,
+  "projectFilePath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,13 +1,12 @@
 ﻿namespace BlazingPizza.EFCore.Repositories.DataContexts;
-class BlazingPizzaContextFactory :
-    IDesignTimeDbContextFactory<BlazingPizzaContext>
+class BlazingPizzaContextFactory : IDesignTimeDbContextFactory<BlazingPizzaContext>
 {
     public BlazingPizzaContext CreateDbContext(string[] args)
     {
         var ConnectionStringsOptions = new ConnectionStringsOptions
         {
-            BlazingPizzaDB = 
-            "Server=(localdb)\\mssqllocaldb;database=BlazingPizzaDBCA"
+            BlazingPizzaDB =
+            "Server=dcf74fb.online-server.cloud;database=BlazingPizza"
         };
 
         return new BlazingPizzaContext(
