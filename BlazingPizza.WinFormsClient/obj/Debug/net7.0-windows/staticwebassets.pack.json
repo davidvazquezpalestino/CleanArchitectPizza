@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\obj\\Debug\\net7.0-windows\\scopedcss\\bundle\\BlazingPizza.WinFormsClient.styles.css",
+      "PackagePath": "staticwebassets\\BlazingPizza.WinFormsClient.styles.css"
+    },
+    {
+      "Id": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows\\staticwebassets\\msbuild.BlazingPizza.WinFormsClient.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows\\staticwebassets\\msbuild.build.BlazingPizza.WinFormsClient.props",
+      "PackagePath": "build\\BlazingPizza.WinFormsClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows\\staticwebassets\\msbuild.buildMultiTargeting.BlazingPizza.WinFormsClient.props",
+      "PackagePath": "buildMultiTargeting\\BlazingPizza.WinFormsClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows\\staticwebassets\\msbuild.buildTransitive.BlazingPizza.WinFormsClient.props",
+      "PackagePath": "buildTransitive\\BlazingPizza.WinFormsClient.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,26 @@
+/* _content/ExceptionHandler.Blazor/CustomErrorBoundary.razor.rz.scp.css */
+.errorBoundaryContainer[b-rhpi8da1sb]{
+    display: flex;
+    flex-direction:row;
+    background-color: red;
+    color:white;
+    border-radius:0.5rem;
+    box-shadow: 4px 5px 15px 0px rgba(0,0,0,0.5);
+    padding: 1rem;
+    margin:5rem;
+    flex:1;  
+}
+
+.messages[b-rhpi8da1sb]{
+    flex:1;
+}
+
+.closeIcon[b-rhpi8da1sb]{
+    opacity: .6;
+    margin-left: 1rem;
+}
+
+.closeIcon:hover[b-rhpi8da1sb]{
+    opacity:.9;
+    cursor:pointer;  
+}

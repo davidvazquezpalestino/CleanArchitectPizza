@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Toast.Blazor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Toast.Blazor.bundle.scp.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Toast.Blazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Toast.Blazor.props",
+      "PackagePath": "build\\Toast.Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Toast.Blazor.props",
+      "PackagePath": "buildMultiTargeting\\Toast.Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Toast.Blazor.props",
+      "PackagePath": "buildTransitive\\Toast.Blazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

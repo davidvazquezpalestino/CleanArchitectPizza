@@ -1,0 +1,12 @@
+C:\GitHub\Proyectos\CleanArchitectPizza\SpecificationValidation.Entities\bin\Debug\net7.0\SpecificationValidation.Entities.deps.json
+C:\GitHub\Proyectos\CleanArchitectPizza\SpecificationValidation.Entities\bin\Debug\net7.0\SpecificationValidation.Entities.dll
+C:\GitHub\Proyectos\CleanArchitectPizza\SpecificationValidation.Entities\bin\Debug\net7.0\SpecificationValidation.Entities.pdb
+C:\GitHub\Proyectos\CleanArchitectPizza\SpecificationValidation.Entities\obj\Debug\net7.0\SpecificationValidation.Entities.csproj.AssemblyReference.cache
+C:\GitHub\Proyectos\CleanArchitectPizza\SpecificationValidation.Entities\obj\Debug\net7.0\SpecificationValidation.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\Proyectos\CleanArchitectPizza\SpecificationValidation.Entities\obj\Debug\net7.0\SpecificationValidation.Entities.AssemblyInfoInputs.cache
+C:\GitHub\Proyectos\CleanArchitectPizza\SpecificationValidation.Entities\obj\Debug\net7.0\SpecificationValidation.Entities.AssemblyInfo.cs
+C:\GitHub\Proyectos\CleanArchitectPizza\SpecificationValidation.Entities\obj\Debug\net7.0\SpecificationValidation.Entities.csproj.CoreCompileInputs.cache
+C:\GitHub\Proyectos\CleanArchitectPizza\SpecificationValidation.Entities\obj\Debug\net7.0\SpecificationValidation.Entities.dll
+C:\GitHub\Proyectos\CleanArchitectPizza\SpecificationValidation.Entities\obj\Debug\net7.0\refint\SpecificationValidation.Entities.dll
+C:\GitHub\Proyectos\CleanArchitectPizza\SpecificationValidation.Entities\obj\Debug\net7.0\SpecificationValidation.Entities.pdb
+C:\GitHub\Proyectos\CleanArchitectPizza\SpecificationValidation.Entities\obj\Debug\net7.0\ref\SpecificationValidation.Entities.dll

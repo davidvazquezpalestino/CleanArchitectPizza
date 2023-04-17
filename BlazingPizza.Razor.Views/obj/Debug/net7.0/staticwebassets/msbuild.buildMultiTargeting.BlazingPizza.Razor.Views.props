@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BlazingPizza.Razor.Views.props" />
+</Project>

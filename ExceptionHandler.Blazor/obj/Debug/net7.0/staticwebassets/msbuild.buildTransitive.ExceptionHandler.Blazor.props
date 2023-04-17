@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ExceptionHandler.Blazor.props" />
+</Project>
