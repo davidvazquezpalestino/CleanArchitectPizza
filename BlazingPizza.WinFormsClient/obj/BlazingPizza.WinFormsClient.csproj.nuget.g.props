@@ -5,12 +5,15 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\david_vazquez\.nuget\packages\;C:\Program Files\DevExpress 22.2\Components\Offline Packages;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\vazqu\.nuget\packages\;C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages;C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages;C:\Program Files\DevExpress 22.1\Components\Offline Packages;C:\Program Files\DevExpress 22.2\Components\Offline Packages;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.5.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\david_vazquez\.nuget\packages\" />
+    <SourceRoot Include="C:\Users\vazqu\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages\" />
+    <SourceRoot Include="C:\Program Files\DevExpress 22.1\Components\Offline Packages\" />
     <SourceRoot Include="C:\Program Files\DevExpress 22.2\Components\Offline Packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
@@ -18,6 +21,6 @@
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.windowsforms\7.0.59\build\Microsoft.AspNetCore.Components.WebView.WindowsForms.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.windowsforms\7.0.59\build\Microsoft.AspNetCore.Components.WebView.WindowsForms.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_Web_WebView2 Condition=" '$(PkgMicrosoft_Web_WebView2)' == '' ">C:\Users\david_vazquez\.nuget\packages\microsoft.web.webview2\1.0.1370.28</PkgMicrosoft_Web_WebView2>
+    <PkgMicrosoft_Web_WebView2 Condition=" '$(PkgMicrosoft_Web_WebView2)' == '' ">C:\Users\vazqu\.nuget\packages\microsoft.web.webview2\1.0.1370.28</PkgMicrosoft_Web_WebView2>
   </PropertyGroup>
 </Project>

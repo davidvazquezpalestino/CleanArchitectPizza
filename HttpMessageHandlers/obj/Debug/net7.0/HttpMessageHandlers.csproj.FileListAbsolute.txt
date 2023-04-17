@@ -1,0 +1,15 @@
+C:\GitHub\Proyectos\CleanArchitectPizza\HttpMessageHandlers\bin\Debug\net7.0\HttpMessageHandlers.deps.json
+C:\GitHub\Proyectos\CleanArchitectPizza\HttpMessageHandlers\bin\Debug\net7.0\HttpMessageHandlers.dll
+C:\GitHub\Proyectos\CleanArchitectPizza\HttpMessageHandlers\bin\Debug\net7.0\HttpMessageHandlers.pdb
+C:\GitHub\Proyectos\CleanArchitectPizza\HttpMessageHandlers\bin\Debug\net7.0\CustomExceptions.dll
+C:\GitHub\Proyectos\CleanArchitectPizza\HttpMessageHandlers\bin\Debug\net7.0\CustomExceptions.pdb
+C:\GitHub\Proyectos\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\HttpMessageHandlers.csproj.AssemblyReference.cache
+C:\GitHub\Proyectos\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\HttpMessageHandlers.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\Proyectos\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\HttpMessageHandlers.AssemblyInfoInputs.cache
+C:\GitHub\Proyectos\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\HttpMessageHandlers.AssemblyInfo.cs
+C:\GitHub\Proyectos\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\HttpMessageHandlers.csproj.CoreCompileInputs.cache
+C:\GitHub\Proyectos\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\HttpMessageHandlers.csproj.CopyComplete
+C:\GitHub\Proyectos\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\HttpMessageHandlers.dll
+C:\GitHub\Proyectos\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\refint\HttpMessageHandlers.dll
+C:\GitHub\Proyectos\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\HttpMessageHandlers.pdb
+C:\GitHub\Proyectos\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\ref\HttpMessageHandlers.dll

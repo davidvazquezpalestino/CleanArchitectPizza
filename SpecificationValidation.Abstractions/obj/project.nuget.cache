@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "IhYZ4Qza1yKiZyWBJwzyV/hIS7AtMlNlIMsqfJmH77E+KbSIOInzcX3uyAFS//T3iIfH1s+/qVe44BxV4IJTCA==",
+  "dgSpecHash": "05wfIZ8rno10nJdH6OoGYysVr7bk9kdIYUwZ8K9kdl6XablEY+ZGHzC1GfXY3F667snMqRG2eG9xwTlzksVxtA==",
   "success": true,
-  "projectFilePath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj",
+  "projectFilePath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

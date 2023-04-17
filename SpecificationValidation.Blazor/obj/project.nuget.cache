@@ -1,22 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "Zpx3LQwEQi+ePY1IdCDJWaoc2B1jzDx9XiNNDXIdhsQL0I+W6gLHFctCffRui4BdrxPnN4d3OMliFlsL3d6mPg==",
+  "dgSpecHash": "I13vxv03CteRaI+dcQLZE6Rqc9XNqoN4eVkjuZeXDJZbW1l0Jp1mPOd0GxUSxxk7HN+YYiIoOm2qpETYrqK7OA==",
   "success": true,
-  "projectFilePath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Blazor\\SpecificationValidation.Blazor.csproj",
+  "projectFilePath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Blazor\\SpecificationValidation.Blazor.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.4\\microsoft.aspnetcore.authorization.7.0.4.nupkg.sha512",
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.4\\microsoft.aspnetcore.components.7.0.4.nupkg.sha512",
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.4\\microsoft.aspnetcore.components.analyzers.7.0.4.nupkg.sha512",
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.4\\microsoft.aspnetcore.components.forms.7.0.4.nupkg.sha512",
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.4\\microsoft.aspnetcore.components.web.7.0.4.nupkg.sha512",
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.4\\microsoft.aspnetcore.metadata.7.0.4.nupkg.sha512",
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.jsinterop\\7.0.4\\microsoft.jsinterop.7.0.4.nupkg.sha512",
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512"
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.4\\microsoft.aspnetcore.authorization.7.0.4.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.4\\microsoft.aspnetcore.components.7.0.4.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.4\\microsoft.aspnetcore.components.analyzers.7.0.4.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.4\\microsoft.aspnetcore.components.forms.7.0.4.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.4\\microsoft.aspnetcore.components.web.7.0.4.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.4\\microsoft.aspnetcore.metadata.7.0.4.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.jsinterop\\7.0.4\\microsoft.jsinterop.7.0.4.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vNc7Ix0BK5JnSHxmuSZavu1Eqt8ME0BB25UqSCa9uPTR206PKvOJ+4phWKnYfj1oRc3fINozxfPg6zuDILTqSA==",
+  "dgSpecHash": "JdJrnKNt5CqEYezg9p3ZNhsKuyKDygqaTigT3O9PaAPJmTxgi6lshIMffj+gDeIK7UKn5FYUNfkuB+FuMDzwkA==",
   "success": true,
-  "projectFilePath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Presenters\\BlazingPizza.Presenters.csproj",
+  "projectFilePath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Presenters\\BlazingPizza.Presenters.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

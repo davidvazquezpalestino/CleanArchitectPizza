@@ -1,24 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.IoC\\BlazingPizza.Backend.IoC.csproj": {}
+    "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.IoC\\BlazingPizza.Backend.IoC.csproj": {}
   },
   "projects": {
-    "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj": {
+    "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj",
+        "projectUniqueName": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj",
         "projectName": "BlazingPizza.Backend.BusinessObjects",
-        "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj",
-        "packagesPath": "C:\\Users\\david_vazquez\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\obj\\",
+        "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\vazqu\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\david_vazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vazqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -28,16 +34,20 @@
         ],
         "sources": {
           "C:\\GIT\\NuGet": {},
-          "C:\\GIT\\NuGet\\AutoTodoMexicana\\ProxyService": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj"
+              "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj": {
+                "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj"
               }
             }
           }
@@ -67,25 +77,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.IoC\\BlazingPizza.Backend.IoC.csproj": {
+    "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.IoC\\BlazingPizza.Backend.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.IoC\\BlazingPizza.Backend.IoC.csproj",
+        "projectUniqueName": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.IoC\\BlazingPizza.Backend.IoC.csproj",
         "projectName": "BlazingPizza.Backend.IoC",
-        "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.IoC\\BlazingPizza.Backend.IoC.csproj",
-        "packagesPath": "C:\\Users\\david_vazquez\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.IoC\\obj\\",
+        "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.IoC\\BlazingPizza.Backend.IoC.csproj",
+        "packagesPath": "C:\\Users\\vazqu\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\david_vazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vazqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -95,31 +111,35 @@
         ],
         "sources": {
           "C:\\GIT\\NuGet": {},
-          "C:\\GIT\\NuGet\\AutoTodoMexicana\\ProxyService": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj"
+              "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj": {
+                "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj"
               },
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.EFCore.Repositories\\BlazingPizza.EFCore.Repositories.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.EFCore.Repositories\\BlazingPizza.EFCore.Repositories.csproj"
+              "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.EFCore.Repositories\\BlazingPizza.EFCore.Repositories.csproj": {
+                "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.EFCore.Repositories\\BlazingPizza.EFCore.Repositories.csproj"
               },
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Presenters\\BlazingPizza.Presenters.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Presenters\\BlazingPizza.Presenters.csproj"
+              "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Presenters\\BlazingPizza.Presenters.csproj": {
+                "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Presenters\\BlazingPizza.Presenters.csproj"
               },
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Shared.Validators\\BlazingPizza.Shared.Validators.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Shared.Validators\\BlazingPizza.Shared.Validators.csproj"
+              "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Shared.Validators\\BlazingPizza.Shared.Validators.csproj": {
+                "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Shared.Validators\\BlazingPizza.Shared.Validators.csproj"
               },
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.UseCases\\BlazingPizza.UseCases.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.UseCases\\BlazingPizza.UseCases.csproj"
+              "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.UseCases\\BlazingPizza.UseCases.csproj": {
+                "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.UseCases\\BlazingPizza.UseCases.csproj"
               },
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj"
+              "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj": {
+                "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj"
               }
             }
           }
@@ -149,25 +169,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj": {
+    "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj",
+        "projectUniqueName": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj",
         "projectName": "BlazingPizza.Controllers",
-        "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj",
-        "packagesPath": "C:\\Users\\david_vazquez\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Controllers\\obj\\",
+        "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj",
+        "packagesPath": "C:\\Users\\vazqu\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Controllers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\david_vazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vazqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -177,16 +203,20 @@
         ],
         "sources": {
           "C:\\GIT\\NuGet": {},
-          "C:\\GIT\\NuGet\\AutoTodoMexicana\\ProxyService": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj"
+              "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj": {
+                "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj"
               }
             }
           }
@@ -222,25 +252,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.EFCore.Repositories\\BlazingPizza.EFCore.Repositories.csproj": {
+    "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.EFCore.Repositories\\BlazingPizza.EFCore.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.EFCore.Repositories\\BlazingPizza.EFCore.Repositories.csproj",
+        "projectUniqueName": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.EFCore.Repositories\\BlazingPizza.EFCore.Repositories.csproj",
         "projectName": "BlazingPizza.EFCore.Repositories",
-        "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.EFCore.Repositories\\BlazingPizza.EFCore.Repositories.csproj",
-        "packagesPath": "C:\\Users\\david_vazquez\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.EFCore.Repositories\\obj\\",
+        "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.EFCore.Repositories\\BlazingPizza.EFCore.Repositories.csproj",
+        "packagesPath": "C:\\Users\\vazqu\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.EFCore.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\david_vazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vazqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -250,16 +286,20 @@
         ],
         "sources": {
           "C:\\GIT\\NuGet": {},
-          "C:\\GIT\\NuGet\\AutoTodoMexicana\\ProxyService": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj"
+              "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj": {
+                "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj"
               }
             }
           }
@@ -301,25 +341,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Presenters\\BlazingPizza.Presenters.csproj": {
+    "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Presenters\\BlazingPizza.Presenters.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Presenters\\BlazingPizza.Presenters.csproj",
+        "projectUniqueName": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Presenters\\BlazingPizza.Presenters.csproj",
         "projectName": "BlazingPizza.Presenters",
-        "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Presenters\\BlazingPizza.Presenters.csproj",
-        "packagesPath": "C:\\Users\\david_vazquez\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Presenters\\obj\\",
+        "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Presenters\\BlazingPizza.Presenters.csproj",
+        "packagesPath": "C:\\Users\\vazqu\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Presenters\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\david_vazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vazqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -329,16 +375,20 @@
         ],
         "sources": {
           "C:\\GIT\\NuGet": {},
-          "C:\\GIT\\NuGet\\AutoTodoMexicana\\ProxyService": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj"
+              "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj": {
+                "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj"
               }
             }
           }
@@ -378,25 +428,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj": {
+    "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj",
+        "projectUniqueName": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj",
         "projectName": "BlazingPizza.Shared.BusinessObjects",
-        "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj",
-        "packagesPath": "C:\\Users\\david_vazquez\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Shared.BusinessObjects\\obj\\",
+        "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\vazqu\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Shared.BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\david_vazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vazqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -406,19 +462,23 @@
         ],
         "sources": {
           "C:\\GIT\\NuGet": {},
-          "C:\\GIT\\NuGet\\AutoTodoMexicana\\ProxyService": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj"
+              "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj": {
+                "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj"
               },
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj"
+              "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj": {
+                "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj"
               }
             }
           }
@@ -448,25 +508,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Shared.Validators\\BlazingPizza.Shared.Validators.csproj": {
+    "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Shared.Validators\\BlazingPizza.Shared.Validators.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Shared.Validators\\BlazingPizza.Shared.Validators.csproj",
+        "projectUniqueName": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Shared.Validators\\BlazingPizza.Shared.Validators.csproj",
         "projectName": "BlazingPizza.Shared.Validators",
-        "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Shared.Validators\\BlazingPizza.Shared.Validators.csproj",
-        "packagesPath": "C:\\Users\\david_vazquez\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Shared.Validators\\obj\\",
+        "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Shared.Validators\\BlazingPizza.Shared.Validators.csproj",
+        "packagesPath": "C:\\Users\\vazqu\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Shared.Validators\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\david_vazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vazqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -476,19 +542,23 @@
         ],
         "sources": {
           "C:\\GIT\\NuGet": {},
-          "C:\\GIT\\NuGet\\AutoTodoMexicana\\ProxyService": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj"
+              "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj": {
+                "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj"
               },
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj"
+              "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj": {
+                "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj"
               }
             }
           }
@@ -518,25 +588,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.UseCases\\BlazingPizza.UseCases.csproj": {
+    "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.UseCases\\BlazingPizza.UseCases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.UseCases\\BlazingPizza.UseCases.csproj",
+        "projectUniqueName": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.UseCases\\BlazingPizza.UseCases.csproj",
         "projectName": "BlazingPizza.UseCases",
-        "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.UseCases\\BlazingPizza.UseCases.csproj",
-        "packagesPath": "C:\\Users\\david_vazquez\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.UseCases\\obj\\",
+        "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.UseCases\\BlazingPizza.UseCases.csproj",
+        "packagesPath": "C:\\Users\\vazqu\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.UseCases\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\david_vazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vazqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -546,16 +622,20 @@
         ],
         "sources": {
           "C:\\GIT\\NuGet": {},
-          "C:\\GIT\\NuGet\\AutoTodoMexicana\\ProxyService": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj"
+              "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj": {
+                "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj"
               }
             }
           }
@@ -591,25 +671,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj": {
+    "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj",
+        "projectUniqueName": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj",
         "projectName": "CustomExceptions.HttpHandlers",
-        "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj",
-        "packagesPath": "C:\\Users\\david_vazquez\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions.HttpHandlers\\obj\\",
+        "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj",
+        "packagesPath": "C:\\Users\\vazqu\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\CustomExceptions.HttpHandlers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\david_vazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vazqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -619,19 +705,23 @@
         ],
         "sources": {
           "C:\\GIT\\NuGet": {},
-          "C:\\GIT\\NuGet\\AutoTodoMexicana\\ProxyService": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj"
+              "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj": {
+                "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj"
               },
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj"
+              "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj": {
+                "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj"
               }
             }
           }
@@ -671,25 +761,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj": {
+    "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj",
+        "projectUniqueName": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj",
         "projectName": "CustomExceptions",
-        "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj",
-        "packagesPath": "C:\\Users\\david_vazquez\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions\\obj\\",
+        "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj",
+        "packagesPath": "C:\\Users\\vazqu\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\CustomExceptions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\david_vazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vazqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -699,9 +795,13 @@
         ],
         "sources": {
           "C:\\GIT\\NuGet": {},
-          "C:\\GIT\\NuGet\\AutoTodoMexicana\\ProxyService": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
         },
         "frameworks": {
           "net7.0": {
@@ -734,25 +834,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj": {
+    "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj": {
       "version": "1.1.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj",
+        "projectUniqueName": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj",
         "projectName": "SpecificationValidation.Abstractions",
-        "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj",
-        "packagesPath": "C:\\Users\\david_vazquez\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Abstractions\\obj\\",
+        "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\vazqu\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\david_vazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vazqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -762,16 +868,20 @@
         ],
         "sources": {
           "C:\\GIT\\NuGet": {},
-          "C:\\GIT\\NuGet\\AutoTodoMexicana\\ProxyService": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj"
+              "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj": {
+                "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj"
               }
             }
           }
@@ -807,25 +917,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj": {
+    "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj": {
       "version": "1.1.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj",
+        "projectUniqueName": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj",
         "projectName": "SpecificationValidation.Entities",
-        "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj",
-        "packagesPath": "C:\\Users\\david_vazquez\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Entities\\obj\\",
+        "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj",
+        "packagesPath": "C:\\Users\\vazqu\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\david_vazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vazqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -835,9 +951,13 @@
         ],
         "sources": {
           "C:\\GIT\\NuGet": {},
-          "C:\\GIT\\NuGet\\AutoTodoMexicana\\ProxyService": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
         },
         "frameworks": {
           "net7.0": {
@@ -870,7 +990,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
