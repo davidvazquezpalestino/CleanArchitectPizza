@@ -9,17 +9,17 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = Toast.Blazor
 build_property.RootNamespace = Toast.Blazor
-build_property.ProjectDir = C:\github\TI Capacitacion\CleanArchitectPizza\Toast.Blazor\
+build_property.ProjectDir = C:\GitHub\Proyectos\CleanArchitectPizza\Toast.Blazor\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\github\TI Capacitacion\CleanArchitectPizza\Toast.Blazor
+build_property.MSBuildProjectDirectory = C:\GitHub\Proyectos\CleanArchitectPizza\Toast.Blazor
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/github/TI Capacitacion/CleanArchitectPizza/Toast.Blazor/_Imports.razor]
+[C:/GitHub/Proyectos/CleanArchitectPizza/Toast.Blazor/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/github/TI Capacitacion/CleanArchitectPizza/Toast.Blazor/Toast.razor]
+[C:/GitHub/Proyectos/CleanArchitectPizza/Toast.Blazor/Toast.razor]
 build_metadata.AdditionalFiles.TargetPath = VG9hc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3n2onc7fc5
