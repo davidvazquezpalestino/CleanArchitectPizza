@@ -27,7 +27,8 @@ public partial class Form1 : Form
 
 
         Services.AddBlazingPizzaFrontendServices(
-            Options.Create(Endpoints));
+            Options.Create(Endpoints),
+            Configuration["geoapifyApiKey"]);
 
         blazorWebView1.HostPage = "wwwroot\\index.html";
         blazorWebView1.Services = Services.BuildServiceProvider();

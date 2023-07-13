@@ -6,3 +6,7 @@ global using Microsoft.Extensions.DependencyInjection;
 global using Microsoft.Extensions.Options;
 global using BlazingPizza.Shared.Validators;
 global using Toast.Blazor;
+global using SweetAlert.Blazor;
+global using Geolocation.Blazor;
+global using Leaflet.Blazor;
+global using BlazingPizza.OrderTrackerSimulator;

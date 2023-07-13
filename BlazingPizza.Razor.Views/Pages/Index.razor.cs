@@ -6,4 +6,11 @@ public partial class Index
 
     [Inject]
     public IOrderStateService OrderStateService { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        ViewModel.ShowingConfigureDialog = false;
+    }
+
+    
 }

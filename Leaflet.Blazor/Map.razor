@@ -1,0 +1,11 @@
+﻿<HeadContent>
+    <link href=@($"{ContentHelper.ContentPath}/css/leaflet.css") rel="stylesheet" />
+</HeadContent>
+
+
+@if(!IsMapReady)
+{
+    <text>Loading map...</text>
+}
+
+<div id="@MapId" style="height:100%;width:100%;min-height:5rem;"></div>

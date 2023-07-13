@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4Fo26uChRkU4AexALi77zWrt1ly8L5/1lBmls7gI/hSWyaNqlTZagdfcqwawqGVz59srOHwnlRK61tCJUdBq4w==",
+  "dgSpecHash": "24Ns1/97LdXO1OfoPaqxbJqXPnr9xrNs4XDAiNiQiMR1F+Doc3r2AWjpwm7QwQfpfufsf+BI5QCIqLrXgEI0bw==",
   "success": true,
-  "projectFilePath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Frontend.BusinessObjects\\BlazingPizza.Frontend.BusinessObjects.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Frontend.BusinessObjects\\BlazingPizza.Frontend.BusinessObjects.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

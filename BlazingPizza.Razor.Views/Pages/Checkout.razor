@@ -9,9 +9,13 @@
                 <OrderReview Order="ViewModel.Order" />
             </div>
             <div>
+                <GeolocationMap OnSetPosition="SetAddress"/>
+            </div>
+            <div>
                 <h4>Enviar a...</h4>
                 <AddressEditor Address="ViewModel.Address" />
             </div>
+
         </div>
 
         <button class="checkout-button btn btn-warning"

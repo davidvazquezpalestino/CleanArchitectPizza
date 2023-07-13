@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "Microsoft.AspNetCore.Authorization/7.0.4": {
+      "Microsoft.AspNetCore.Authorization/7.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "7.0.4",
+          "Microsoft.AspNetCore.Metadata": "7.0.5",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
           "Microsoft.Extensions.Options": "7.0.1"
         },
@@ -20,11 +20,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components/7.0.4": {
+      "Microsoft.AspNetCore.Components/7.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "7.0.4",
-          "Microsoft.AspNetCore.Components.Analyzers": "7.0.4"
+          "Microsoft.AspNetCore.Authorization": "7.0.5",
+          "Microsoft.AspNetCore.Components.Analyzers": "7.0.5"
         },
         "compile": {
           "lib/net7.0/Microsoft.AspNetCore.Components.dll": {
@@ -37,16 +37,16 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/7.0.4": {
+      "Microsoft.AspNetCore.Components.Analyzers/7.0.5": {
         "type": "package",
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Forms/7.0.4": {
+      "Microsoft.AspNetCore.Components.Forms/7.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "7.0.4"
+          "Microsoft.AspNetCore.Components": "7.0.5"
         },
         "compile": {
           "lib/net7.0/Microsoft.AspNetCore.Components.Forms.dll": {
@@ -59,13 +59,13 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Web/7.0.4": {
+      "Microsoft.AspNetCore.Components.Web/7.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "7.0.4",
-          "Microsoft.AspNetCore.Components.Forms": "7.0.4",
+          "Microsoft.AspNetCore.Components": "7.0.5",
+          "Microsoft.AspNetCore.Components.Forms": "7.0.5",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
-          "Microsoft.JSInterop": "7.0.4",
+          "Microsoft.JSInterop": "7.0.5",
           "System.IO.Pipelines": "7.0.0"
         },
         "compile": {
@@ -79,14 +79,14 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebAssembly/7.0.4": {
+      "Microsoft.AspNetCore.Components.WebAssembly/7.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "7.0.4",
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
           "Microsoft.Extensions.Configuration.Binder": "7.0.4",
           "Microsoft.Extensions.Configuration.Json": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0",
-          "Microsoft.JSInterop.WebAssembly": "7.0.4"
+          "Microsoft.JSInterop.WebAssembly": "7.0.5"
         },
         "compile": {
           "lib/net7.0/Microsoft.AspNetCore.Components.WebAssembly.dll": {
@@ -102,13 +102,13 @@
           "build/net7.0/Microsoft.AspNetCore.Components.WebAssembly.props": {}
         }
       },
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/7.0.4": {
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/7.0.5": {
         "type": "package",
         "build": {
           "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Metadata/7.0.4": {
+      "Microsoft.AspNetCore.Metadata/7.0.5": {
         "type": "package",
         "compile": {
           "lib/net7.0/Microsoft.AspNetCore.Metadata.dll": {
@@ -412,7 +412,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.JSInterop/7.0.4": {
+      "Microsoft.JSInterop/7.0.5": {
         "type": "package",
         "compile": {
           "lib/net7.0/Microsoft.JSInterop.dll": {
@@ -425,10 +425,10 @@
           }
         }
       },
-      "Microsoft.JSInterop.WebAssembly/7.0.4": {
+      "Microsoft.JSInterop.WebAssembly/7.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.JSInterop": "7.0.4"
+          "Microsoft.JSInterop": "7.0.5"
         },
         "compile": {
           "lib/net7.0/Microsoft.JSInterop.WebAssembly.dll": {
@@ -558,14 +558,35 @@
           "bin/placeholder/BlazingPizza.Models.dll": {}
         }
       },
+      "BlazingPizza.OrderTrackerSimulator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BlazingPizza.Frontend.BusinessObjects": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "PositionTrackerSimulator": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlazingPizza.OrderTrackerSimulator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazingPizza.OrderTrackerSimulator.dll": {}
+        }
+      },
       "BlazingPizza.Razor.Views/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "BlazingPizza.Frontend.BusinessObjects": "1.0.0",
+          "BlazingPizza.OrderTrackerSimulator": "1.0.0",
+          "Dialog.Blazor": "1.0.0",
           "ExceptionHandler.Blazor": "1.0.0",
-          "Microsoft.AspNetCore.Components.Web": "7.0.4",
+          "GeolocationMap.Blazor": "1.0.0",
+          "Leaflet.Blazor": "1.0.0",
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
           "SpecificationValidation.Blazor": "1.0.0",
+          "SweetAlert.Blazor": "1.0.0",
+          "TemplatedList.Blazor": "1.0.0",
           "Toast.Blazor": "1.0.0"
         },
         "compile": {
@@ -627,18 +648,61 @@
           "bin/placeholder/CustomExceptions.dll": {}
         }
       },
+      "Dialog.Blazor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+        },
+        "compile": {
+          "bin/placeholder/Dialog.Blazor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dialog.Blazor.dll": {}
+        }
+      },
       "ExceptionHandler.Blazor/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CustomExceptions": "1.0.0",
-          "Microsoft.AspNetCore.Components.Web": "7.0.4"
+          "Dialog.Blazor": "1.0.0",
+          "Microsoft.AspNetCore.Components.Web": "7.0.5"
         },
         "compile": {
           "bin/placeholder/ExceptionHandler.Blazor.dll": {}
         },
         "runtime": {
           "bin/placeholder/ExceptionHandler.Blazor.dll": {}
+        }
+      },
+      "Geolocation.Blazor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Microsoft.Extensions.Http": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Geolocation.Blazor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Geolocation.Blazor.dll": {}
+        }
+      },
+      "GeolocationMap.Blazor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Geolocation.Blazor": "1.0.0",
+          "Leaflet.Blazor": "1.0.0",
+          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+        },
+        "compile": {
+          "bin/placeholder/GeolocationMap.Blazor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeolocationMap.Blazor.dll": {}
         }
       },
       "HttpMessageHandlers/1.0.0": {
@@ -652,6 +716,29 @@
         },
         "runtime": {
           "bin/placeholder/HttpMessageHandlers.dll": {}
+        }
+      },
+      "Leaflet.Blazor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+        },
+        "compile": {
+          "bin/placeholder/Leaflet.Blazor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Leaflet.Blazor.dll": {}
+        }
+      },
+      "PositionTrackerSimulator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PositionTrackerSimulator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PositionTrackerSimulator.dll": {}
         }
       },
       "SpecificationValidation.Abstractions/1.1.0": {
@@ -672,7 +759,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "7.0.4",
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
           "SpecificationValidation.Entities": "1.1.0"
         },
         "compile": {
@@ -692,11 +779,37 @@
           "bin/placeholder/SpecificationValidation.Entities.dll": {}
         }
       },
+      "SweetAlert.Blazor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+        },
+        "compile": {
+          "bin/placeholder/SweetAlert.Blazor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SweetAlert.Blazor.dll": {}
+        }
+      },
+      "TemplatedList.Blazor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+        },
+        "compile": {
+          "bin/placeholder/TemplatedList.Blazor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TemplatedList.Blazor.dll": {}
+        }
+      },
       "Toast.Blazor/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "7.0.4"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5"
         },
         "compile": {
           "bin/placeholder/Toast.Blazor.dll": {}
@@ -707,10 +820,10 @@
       }
     },
     "net7.0/browser-wasm": {
-      "Microsoft.AspNetCore.Authorization/7.0.4": {
+      "Microsoft.AspNetCore.Authorization/7.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "7.0.4",
+          "Microsoft.AspNetCore.Metadata": "7.0.5",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
           "Microsoft.Extensions.Options": "7.0.1"
         },
@@ -725,11 +838,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components/7.0.4": {
+      "Microsoft.AspNetCore.Components/7.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "7.0.4",
-          "Microsoft.AspNetCore.Components.Analyzers": "7.0.4"
+          "Microsoft.AspNetCore.Authorization": "7.0.5",
+          "Microsoft.AspNetCore.Components.Analyzers": "7.0.5"
         },
         "compile": {
           "lib/net7.0/Microsoft.AspNetCore.Components.dll": {
@@ -742,16 +855,16 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/7.0.4": {
+      "Microsoft.AspNetCore.Components.Analyzers/7.0.5": {
         "type": "package",
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Forms/7.0.4": {
+      "Microsoft.AspNetCore.Components.Forms/7.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "7.0.4"
+          "Microsoft.AspNetCore.Components": "7.0.5"
         },
         "compile": {
           "lib/net7.0/Microsoft.AspNetCore.Components.Forms.dll": {
@@ -764,13 +877,13 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Web/7.0.4": {
+      "Microsoft.AspNetCore.Components.Web/7.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "7.0.4",
-          "Microsoft.AspNetCore.Components.Forms": "7.0.4",
+          "Microsoft.AspNetCore.Components": "7.0.5",
+          "Microsoft.AspNetCore.Components.Forms": "7.0.5",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
-          "Microsoft.JSInterop": "7.0.4",
+          "Microsoft.JSInterop": "7.0.5",
           "System.IO.Pipelines": "7.0.0"
         },
         "compile": {
@@ -784,14 +897,14 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebAssembly/7.0.4": {
+      "Microsoft.AspNetCore.Components.WebAssembly/7.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "7.0.4",
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
           "Microsoft.Extensions.Configuration.Binder": "7.0.4",
           "Microsoft.Extensions.Configuration.Json": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0",
-          "Microsoft.JSInterop.WebAssembly": "7.0.4"
+          "Microsoft.JSInterop.WebAssembly": "7.0.5"
         },
         "compile": {
           "lib/net7.0/Microsoft.AspNetCore.Components.WebAssembly.dll": {
@@ -807,13 +920,13 @@
           "build/net7.0/Microsoft.AspNetCore.Components.WebAssembly.props": {}
         }
       },
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/7.0.4": {
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/7.0.5": {
         "type": "package",
         "build": {
           "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Metadata/7.0.4": {
+      "Microsoft.AspNetCore.Metadata/7.0.5": {
         "type": "package",
         "compile": {
           "lib/net7.0/Microsoft.AspNetCore.Metadata.dll": {
@@ -1117,7 +1230,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.JSInterop/7.0.4": {
+      "Microsoft.JSInterop/7.0.5": {
         "type": "package",
         "compile": {
           "lib/net7.0/Microsoft.JSInterop.dll": {
@@ -1130,10 +1243,10 @@
           }
         }
       },
-      "Microsoft.JSInterop.WebAssembly/7.0.4": {
+      "Microsoft.JSInterop.WebAssembly/7.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.JSInterop": "7.0.4"
+          "Microsoft.JSInterop": "7.0.5"
         },
         "compile": {
           "lib/net7.0/Microsoft.JSInterop.WebAssembly.dll": {
@@ -1257,14 +1370,35 @@
           "bin/placeholder/BlazingPizza.Models.dll": {}
         }
       },
+      "BlazingPizza.OrderTrackerSimulator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BlazingPizza.Frontend.BusinessObjects": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "PositionTrackerSimulator": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlazingPizza.OrderTrackerSimulator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazingPizza.OrderTrackerSimulator.dll": {}
+        }
+      },
       "BlazingPizza.Razor.Views/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "BlazingPizza.Frontend.BusinessObjects": "1.0.0",
+          "BlazingPizza.OrderTrackerSimulator": "1.0.0",
+          "Dialog.Blazor": "1.0.0",
           "ExceptionHandler.Blazor": "1.0.0",
-          "Microsoft.AspNetCore.Components.Web": "7.0.4",
+          "GeolocationMap.Blazor": "1.0.0",
+          "Leaflet.Blazor": "1.0.0",
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
           "SpecificationValidation.Blazor": "1.0.0",
+          "SweetAlert.Blazor": "1.0.0",
+          "TemplatedList.Blazor": "1.0.0",
           "Toast.Blazor": "1.0.0"
         },
         "compile": {
@@ -1326,18 +1460,61 @@
           "bin/placeholder/CustomExceptions.dll": {}
         }
       },
+      "Dialog.Blazor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+        },
+        "compile": {
+          "bin/placeholder/Dialog.Blazor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dialog.Blazor.dll": {}
+        }
+      },
       "ExceptionHandler.Blazor/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CustomExceptions": "1.0.0",
-          "Microsoft.AspNetCore.Components.Web": "7.0.4"
+          "Dialog.Blazor": "1.0.0",
+          "Microsoft.AspNetCore.Components.Web": "7.0.5"
         },
         "compile": {
           "bin/placeholder/ExceptionHandler.Blazor.dll": {}
         },
         "runtime": {
           "bin/placeholder/ExceptionHandler.Blazor.dll": {}
+        }
+      },
+      "Geolocation.Blazor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Microsoft.Extensions.Http": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Geolocation.Blazor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Geolocation.Blazor.dll": {}
+        }
+      },
+      "GeolocationMap.Blazor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Geolocation.Blazor": "1.0.0",
+          "Leaflet.Blazor": "1.0.0",
+          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+        },
+        "compile": {
+          "bin/placeholder/GeolocationMap.Blazor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeolocationMap.Blazor.dll": {}
         }
       },
       "HttpMessageHandlers/1.0.0": {
@@ -1351,6 +1528,29 @@
         },
         "runtime": {
           "bin/placeholder/HttpMessageHandlers.dll": {}
+        }
+      },
+      "Leaflet.Blazor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+        },
+        "compile": {
+          "bin/placeholder/Leaflet.Blazor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Leaflet.Blazor.dll": {}
+        }
+      },
+      "PositionTrackerSimulator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PositionTrackerSimulator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PositionTrackerSimulator.dll": {}
         }
       },
       "SpecificationValidation.Abstractions/1.1.0": {
@@ -1371,7 +1571,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "7.0.4",
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
           "SpecificationValidation.Entities": "1.1.0"
         },
         "compile": {
@@ -1391,11 +1591,37 @@
           "bin/placeholder/SpecificationValidation.Entities.dll": {}
         }
       },
+      "SweetAlert.Blazor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+        },
+        "compile": {
+          "bin/placeholder/SweetAlert.Blazor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SweetAlert.Blazor.dll": {}
+        }
+      },
+      "TemplatedList.Blazor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+        },
+        "compile": {
+          "bin/placeholder/TemplatedList.Blazor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TemplatedList.Blazor.dll": {}
+        }
+      },
       "Toast.Blazor/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "7.0.4"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5"
         },
         "compile": {
           "bin/placeholder/Toast.Blazor.dll": {}
@@ -1407,10 +1633,10 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.Authorization/7.0.4": {
-      "sha512": "ccVCRKKSclEs88EN61pJkVModWE3e0h/YnLZYBgBoelUZSIbbKuzcJBdnt03G+sGV3fU0oC365C0Zjmd2m8qfA==",
+    "Microsoft.AspNetCore.Authorization/7.0.5": {
+      "sha512": "17BgaYa1QB8mOERZ/TSNwsWHrh65iU61VrsqivbZc+VUqnACtPCPbP0MFl/7CznXWCOXQZ59QRB6A5t0skyo2g==",
       "type": "package",
-      "path": "microsoft.aspnetcore.authorization/7.0.4",
+      "path": "microsoft.aspnetcore.authorization/7.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1422,14 +1648,14 @@
         "lib/net7.0/Microsoft.AspNetCore.Authorization.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
-        "microsoft.aspnetcore.authorization.7.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.7.0.5.nupkg.sha512",
         "microsoft.aspnetcore.authorization.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components/7.0.4": {
-      "sha512": "abcaqRJo+7HU1KIqGLQ7YtwgStunyQXhPf5dgeOWL3d7VrV79aeTqhXnE/5DR7jiy68toVbfj0Qhib0mkIIuKg==",
+    "Microsoft.AspNetCore.Components/7.0.5": {
+      "sha512": "9xYFXpfEI2H5W3lVSBjzMPK/kGVdMKI49laoUqkjjILMGHdMcnk7ckB7D4SbkzVUWa2rHNXn7H5oiYiL62blTw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components/7.0.4",
+      "path": "microsoft.aspnetcore.components/7.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1437,14 +1663,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net7.0/Microsoft.AspNetCore.Components.dll",
         "lib/net7.0/Microsoft.AspNetCore.Components.xml",
-        "microsoft.aspnetcore.components.7.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.components.7.0.5.nupkg.sha512",
         "microsoft.aspnetcore.components.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Analyzers/7.0.4": {
-      "sha512": "PgQqzTlANn/i/cVOz8iCiVl+7t15t5ZaVL+jyQR4bVbL4E4Ktv6FDceUZqUwN+6J40lZvqRnNWajsDWTyrFKNQ==",
+    "Microsoft.AspNetCore.Components.Analyzers/7.0.5": {
+      "sha512": "jjweXKrkmQ9E2MWyHCuGHAk4I7mIY6WCjq35iRbJWl2nW8G2t41hWrEwUXip5qeL5YzAaiucPMPkHwgc1NH4jA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.analyzers/7.0.4",
+      "path": "microsoft.aspnetcore.components.analyzers/7.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1453,14 +1679,14 @@
         "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
         "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
         "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
-        "microsoft.aspnetcore.components.analyzers.7.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.7.0.5.nupkg.sha512",
         "microsoft.aspnetcore.components.analyzers.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Forms/7.0.4": {
-      "sha512": "hhRnhw7JDApJk3m48wOCuYQl86G+qpaLDhf3QGYgVr5jESEEqcFXHs7x5KRkR9Y0VgtEoZz/m9l6mMmqqwFr7w==",
+    "Microsoft.AspNetCore.Components.Forms/7.0.5": {
+      "sha512": "CphmoPsk7zMeQnQOXdE8z6/WQ5npzt1UG++7YYq54MlMJYlIp8M+5fiR3CniNarThnewnAcG2iDywFQuk8JPIg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.forms/7.0.4",
+      "path": "microsoft.aspnetcore.components.forms/7.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1468,14 +1694,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net7.0/Microsoft.AspNetCore.Components.Forms.dll",
         "lib/net7.0/Microsoft.AspNetCore.Components.Forms.xml",
-        "microsoft.aspnetcore.components.forms.7.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.components.forms.7.0.5.nupkg.sha512",
         "microsoft.aspnetcore.components.forms.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Web/7.0.4": {
-      "sha512": "x5mpZkY6oWA6x6JaJD5wlY9CdxpnIDbw6hS/azwXrvubiF3L4F5qoQyl/y0jiaHhQ4bkdtmenc+tOwh3ugAEXA==",
+    "Microsoft.AspNetCore.Components.Web/7.0.5": {
+      "sha512": "lrfHlLJZ+e6Y/DRq2e2Z8OzvNwmLNevd5ol54mL05aZK6Oj+pTM1UrkP46Vmow3w1VEUxMH3tyX+S+wAPWUnvQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.web/7.0.4",
+      "path": "microsoft.aspnetcore.components.web/7.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1483,14 +1709,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net7.0/Microsoft.AspNetCore.Components.Web.dll",
         "lib/net7.0/Microsoft.AspNetCore.Components.Web.xml",
-        "microsoft.aspnetcore.components.web.7.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.components.web.7.0.5.nupkg.sha512",
         "microsoft.aspnetcore.components.web.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.WebAssembly/7.0.4": {
-      "sha512": "NMw9Ucpdj2o+pmqOlhQJRLZ+UskFbzyov5tIi+2Q0atu/CrtUa/PHbYyFKIeq9nTURFOD5qUsKfZzsqa7rv6xg==",
+    "Microsoft.AspNetCore.Components.WebAssembly/7.0.5": {
+      "sha512": "2DxiCV2dTyY8KCM/j6A1194BHJ9cihCNg73Zkot0qLN2m2QV/MMJcZkKHNPWca+v9c6wK+o8kDaQnM3ySMYUKA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.webassembly/7.0.4",
+      "path": "microsoft.aspnetcore.components.webassembly/7.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1500,14 +1726,14 @@
         "build/net7.0/blazor.webassembly.js",
         "lib/net7.0/Microsoft.AspNetCore.Components.WebAssembly.dll",
         "lib/net7.0/Microsoft.AspNetCore.Components.WebAssembly.xml",
-        "microsoft.aspnetcore.components.webassembly.7.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.components.webassembly.7.0.5.nupkg.sha512",
         "microsoft.aspnetcore.components.webassembly.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.WebAssembly.DevServer/7.0.4": {
-      "sha512": "XguXe3vqeAU95zJ8MG9yxd+jBSOuJ6PDldg6jkpauclEuV43G+PE64RFc1HzKeAqnBXroY9Lmc6Yn/nhvlXFvw==",
+    "Microsoft.AspNetCore.Components.WebAssembly.DevServer/7.0.5": {
+      "sha512": "mT8e9w1+0M2qqL8xZuLX4LYEZ4C0uDjYnuujnD1TNn+D5p2RLNCWAhKXKIRCOJuHCAoTyB+m9nLCSRgLxER+mg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.webassembly.devserver/7.0.4",
+      "path": "microsoft.aspnetcore.components.webassembly.devserver/7.0.5",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1515,7 +1741,7 @@
         "Icon.png",
         "THIRD-PARTY-NOTICES.txt",
         "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets",
-        "microsoft.aspnetcore.components.webassembly.devserver.7.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.components.webassembly.devserver.7.0.5.nupkg.sha512",
         "microsoft.aspnetcore.components.webassembly.devserver.nuspec",
         "tools/ARM64/aspnetcorev2_inprocess.dll",
         "tools/BlazorDebugProxy/BrowserDebugHost.dll",
@@ -1642,10 +1868,10 @@
         "tools/x86/aspnetcorev2_inprocess.dll"
       ]
     },
-    "Microsoft.AspNetCore.Metadata/7.0.4": {
-      "sha512": "AxRqILbKo0fwUFqazh88qRaWJfh3OOSOPE6tm/H+IOvX0hrn2M95dukO+ZEk+idL++oOoVkqK30AgUyPAKFF5g==",
+    "Microsoft.AspNetCore.Metadata/7.0.5": {
+      "sha512": "S+EJS5RwVfrgBEyYKvNfMVQPH8CNIRhIH5UkGKalwIcppiYpi6k8pv7GDqjLiKLVa06LY+kNftXfUM5PwW7z/w==",
       "type": "package",
-      "path": "microsoft.aspnetcore.metadata/7.0.4",
+      "path": "microsoft.aspnetcore.metadata/7.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1657,7 +1883,7 @@
         "lib/net7.0/Microsoft.AspNetCore.Metadata.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
-        "microsoft.aspnetcore.metadata.7.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.7.0.5.nupkg.sha512",
         "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
@@ -2119,10 +2345,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.JSInterop/7.0.4": {
-      "sha512": "FD8GFIz6RfZx+W8ljnXZ6g41xcqUqTvdRzafBHeXMqRbU3LQpKfoq5spJq+k/N1l0yL9TvQJXax1znpePxOI9w==",
+    "Microsoft.JSInterop/7.0.5": {
+      "sha512": "2kXMXlpGmlgLaEMv7k1YzUsPdEVb42PWyIt/46bX0BUMcz1dmFFyCiPJK1jk64t+Pwf3GGP7ykCyxOgB79mz2w==",
       "type": "package",
-      "path": "microsoft.jsinterop/7.0.4",
+      "path": "microsoft.jsinterop/7.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2130,14 +2356,14 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net7.0/Microsoft.JSInterop.dll",
         "lib/net7.0/Microsoft.JSInterop.xml",
-        "microsoft.jsinterop.7.0.4.nupkg.sha512",
+        "microsoft.jsinterop.7.0.5.nupkg.sha512",
         "microsoft.jsinterop.nuspec"
       ]
     },
-    "Microsoft.JSInterop.WebAssembly/7.0.4": {
-      "sha512": "3JRF6j6n8ETcK9dx07WfweFRpqklrqgYBqN5MwWBCalj4maS7JfZ9IqgjDOGRX53fveSuqHHLiXICc8wfzR1/Q==",
+    "Microsoft.JSInterop.WebAssembly/7.0.5": {
+      "sha512": "8u+duxlRWLTGfmJBt9KYOi306ZMppYNRMo293ydqpiMzZwm2DUrw4CmRV6l/5F4/QQwyfkObIzHWdsHnNgHpYQ==",
       "type": "package",
-      "path": "microsoft.jsinterop.webassembly/7.0.4",
+      "path": "microsoft.jsinterop.webassembly/7.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2145,7 +2371,7 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net7.0/Microsoft.JSInterop.WebAssembly.dll",
         "lib/net7.0/Microsoft.JSInterop.WebAssembly.xml",
-        "microsoft.jsinterop.webassembly.7.0.4.nupkg.sha512",
+        "microsoft.jsinterop.webassembly.7.0.5.nupkg.sha512",
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
@@ -2298,6 +2524,11 @@
       "path": "../BlazingPizza.Models/BlazingPizza.Models.csproj",
       "msbuildProject": "../BlazingPizza.Models/BlazingPizza.Models.csproj"
     },
+    "BlazingPizza.OrderTrackerSimulator/1.0.0": {
+      "type": "project",
+      "path": "../BlazingPizza.OrderTrackerSimulator/BlazingPizza.OrderTrackerSimulator.csproj",
+      "msbuildProject": "../BlazingPizza.OrderTrackerSimulator/BlazingPizza.OrderTrackerSimulator.csproj"
+    },
     "BlazingPizza.Razor.Views/1.0.0": {
       "type": "project",
       "path": "../BlazingPizza.Razor.Views/BlazingPizza.Razor.Views.csproj",
@@ -2323,15 +2554,40 @@
       "path": "../CustomExceptions/CustomExceptions.csproj",
       "msbuildProject": "../CustomExceptions/CustomExceptions.csproj"
     },
+    "Dialog.Blazor/1.0.0": {
+      "type": "project",
+      "path": "../Dialog.Blazor/Dialog.Blazor.csproj",
+      "msbuildProject": "../Dialog.Blazor/Dialog.Blazor.csproj"
+    },
     "ExceptionHandler.Blazor/1.0.0": {
       "type": "project",
       "path": "../ExceptionHandler.Blazor/ExceptionHandler.Blazor.csproj",
       "msbuildProject": "../ExceptionHandler.Blazor/ExceptionHandler.Blazor.csproj"
     },
+    "Geolocation.Blazor/1.0.0": {
+      "type": "project",
+      "path": "../Geolocation.Blazor/Geolocation.Blazor.csproj",
+      "msbuildProject": "../Geolocation.Blazor/Geolocation.Blazor.csproj"
+    },
+    "GeolocationMap.Blazor/1.0.0": {
+      "type": "project",
+      "path": "../GeolocationMap.Blazor/GeolocationMap.Blazor.csproj",
+      "msbuildProject": "../GeolocationMap.Blazor/GeolocationMap.Blazor.csproj"
+    },
     "HttpMessageHandlers/1.0.0": {
       "type": "project",
       "path": "../HttpMessageHandlers/HttpMessageHandlers.csproj",
       "msbuildProject": "../HttpMessageHandlers/HttpMessageHandlers.csproj"
+    },
+    "Leaflet.Blazor/1.0.0": {
+      "type": "project",
+      "path": "../Leaflet.Blazor/Leaflet.Blazor.csproj",
+      "msbuildProject": "../Leaflet.Blazor/Leaflet.Blazor.csproj"
+    },
+    "PositionTrackerSimulator/1.0.0": {
+      "type": "project",
+      "path": "../PositionTrackerSimulator/PositionTrackerSimulator.csproj",
+      "msbuildProject": "../PositionTrackerSimulator/PositionTrackerSimulator.csproj"
     },
     "SpecificationValidation.Abstractions/1.1.0": {
       "type": "project",
@@ -2348,6 +2604,16 @@
       "path": "../SpecificationValidation.Entities/SpecificationValidation.Entities.csproj",
       "msbuildProject": "../SpecificationValidation.Entities/SpecificationValidation.Entities.csproj"
     },
+    "SweetAlert.Blazor/1.0.0": {
+      "type": "project",
+      "path": "../SweetAlert.Blazor/SweetAlert.Blazor.csproj",
+      "msbuildProject": "../SweetAlert.Blazor/SweetAlert.Blazor.csproj"
+    },
+    "TemplatedList.Blazor/1.0.0": {
+      "type": "project",
+      "path": "../TemplatedList.Blazor/TemplatedList.Blazor.csproj",
+      "msbuildProject": "../TemplatedList.Blazor/TemplatedList.Blazor.csproj"
+    },
     "Toast.Blazor/1.0.0": {
       "type": "project",
       "path": "../Toast.Blazor/Toast.Blazor.csproj",
@@ -2357,40 +2623,34 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "BlazingPizza.Frontend.IoC >= 1.0.0",
-      "Microsoft.AspNetCore.Components.WebAssembly >= 7.0.4",
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 7.0.4"
+      "Microsoft.AspNetCore.Components.WebAssembly >= 7.0.5",
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 7.0.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vazqu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages": {},
-    "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {},
-    "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {},
+    "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\": {},
     "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
+    "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\BlazingPizza.BlazorClient.csproj",
+      "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\BlazingPizza.BlazorClient.csproj",
       "projectName": "BlazingPizza.BlazorClient",
-      "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\BlazingPizza.BlazorClient.csproj",
-      "packagesPath": "C:\\Users\\vazqu\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\obj\\",
+      "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\BlazingPizza.BlazorClient.csproj",
+      "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
+      "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
-        "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+        "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\vazqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+        "C:\\Users\\DAVID VAZQUEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2398,11 +2658,10 @@
         "net7.0"
       ],
       "sources": {
-        "C:\\GIT\\NuGet": {},
-        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Github\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
@@ -2411,8 +2670,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Frontend.IoC\\BlazingPizza.Frontend.IoC.csproj": {
-              "projectPath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Frontend.IoC\\BlazingPizza.Frontend.IoC.csproj"
+            "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Frontend.IoC\\BlazingPizza.Frontend.IoC.csproj": {
+              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Frontend.IoC\\BlazingPizza.Frontend.IoC.csproj"
             }
           }
         }
@@ -2429,12 +2688,12 @@
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
-            "version": "[7.0.4, )"
+            "version": "[7.0.5, )"
           },
           "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[7.0.4, )"
+            "version": "[7.0.5, )"
           }
         },
         "imports": [
@@ -2451,7 +2710,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[7.0.5, 7.0.5]"
+            "version": "[7.0.9, 7.0.9]"
           }
         ],
         "frameworkReferences": {
@@ -2459,7 +2718,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

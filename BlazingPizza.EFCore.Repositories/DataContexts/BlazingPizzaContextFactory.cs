@@ -6,8 +6,8 @@ class BlazingPizzaContextFactory :
     {
         var ConnectionStringsOptions = new ConnectionStringsOptions
         {
-            BlazingPizzaDB =
-                "Server=dcf74fb.online-server.cloud;Database=BlazingPizza;User Id=sa;Password=Mssql2022;MultipleActiveResultSets=true;encrypt=false;trustServerCertificate=false;"
+            BlazingPizzaDB = 
+            "Server=(localdb)\\mssqllocaldb;database=BlazingPizzaDBCA"
         };
 
         return new BlazingPizzaContext(

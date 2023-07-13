@@ -56,7 +56,7 @@ internal sealed class BlazingPizzaQueriesRepository : IBlazingPizzaQueriesReposi
             TimeSpan.FromSeconds(10);
 
         TimeSpan DeliveryDurationTime =
-            TimeSpan.FromMinutes(1);
+            TimeSpan.FromMinutes(1.5);
 
         DateTime DispatchTime = 
             order.CreatedTime.Add(PreparationDurationTime);
@@ -93,14 +93,15 @@ internal sealed class BlazingPizzaQueriesRepository : IBlazingPizzaQueriesReposi
     {
         OrderStatus Status;
         bool IsDelivered;
-        GetStatus(order, out Status, out IsDelivered);
+        GetStatus(order, out Status, out IsDelivered);        
         return new GetOrderDto
         {
             Id = order.Id,
             CreatedTime = order.CreatedTime,
             Pizzas = order.Pizzas.Select(p => (PizzaDto)p).ToList(),
             Status = Status,
-            IsDelivered = IsDelivered
+            IsDelivered = IsDelivered,
+            DeliveryLocation = order.DeliveryLocation
         };
     }
 

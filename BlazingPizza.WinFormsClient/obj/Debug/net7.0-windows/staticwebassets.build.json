@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "VLLvbZ7/O3I/DiXYJ3GefxzOIfYyhZ8jr4UNoVjtenU=",
+  "Hash": "PgYTVAoQDZu1pP7UqgDCHcGgzXfeh8AFImbXKDbZoUo=",
   "Source": "BlazingPizza.WinFormsClient",
   "BasePath": "/",
   "Mode": "Root",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\BlazingPizza.Razor.Views.csproj",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\BlazingPizza.Razor.Views.csproj",
       "Version": 2,
       "Source": "BlazingPizza.Razor.Views",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,7 +18,18 @@
       "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\ExceptionHandler.Blazor\\ExceptionHandler.Blazor.csproj",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Dialog.Blazor\\Dialog.Blazor.csproj",
+      "Version": 2,
+      "Source": "Dialog.Blazor",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\ExceptionHandler.Blazor\\ExceptionHandler.Blazor.csproj",
       "Version": 2,
       "Source": "ExceptionHandler.Blazor",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -29,7 +40,40 @@
       "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Blazor\\SpecificationValidation.Blazor.csproj",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Geolocation.Blazor\\Geolocation.Blazor.csproj",
+      "Version": 2,
+      "Source": "Geolocation.Blazor",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\GeolocationMap.Blazor\\GeolocationMap.Blazor.csproj",
+      "Version": 2,
+      "Source": "GeolocationMap.Blazor",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\Leaflet.Blazor.csproj",
+      "Version": 2,
+      "Source": "Leaflet.Blazor",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\SpecificationValidation.Blazor\\SpecificationValidation.Blazor.csproj",
       "Version": 2,
       "Source": "SpecificationValidation.Blazor",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -40,7 +84,29 @@
       "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\Toast.Blazor\\Toast.Blazor.csproj",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\SweetAlert.Blazor\\SweetAlert.Blazor.csproj",
+      "Version": 2,
+      "Source": "SweetAlert.Blazor",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\TemplatedList.Blazor\\TemplatedList.Blazor.csproj",
+      "Version": 2,
+      "Source": "TemplatedList.Blazor",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Toast.Blazor\\Toast.Blazor.csproj",
       "Version": 2,
       "Source": "Toast.Blazor",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -55,45 +121,87 @@
     {
       "Name": "BlazingPizza.Razor.Views\\wwwroot",
       "Source": "BlazingPizza.Razor.Views",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
       "BasePath": "_content/BlazingPizza.Razor.Views",
       "Pattern": "**"
     },
     {
       "Name": "BlazingPizza.WinFormsClient\\wwwroot",
       "Source": "BlazingPizza.WinFormsClient",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\wwwroot\\",
       "BasePath": "/",
+      "Pattern": "**"
+    },
+    {
+      "Name": "Dialog.Blazor\\wwwroot",
+      "Source": "Dialog.Blazor",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Dialog.Blazor\\wwwroot\\",
+      "BasePath": "_content/Dialog.Blazor",
       "Pattern": "**"
     },
     {
       "Name": "ExceptionHandler.Blazor\\wwwroot",
       "Source": "ExceptionHandler.Blazor",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\ExceptionHandler.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\ExceptionHandler.Blazor\\wwwroot\\",
       "BasePath": "_content/ExceptionHandler.Blazor",
+      "Pattern": "**"
+    },
+    {
+      "Name": "Geolocation.Blazor\\wwwroot",
+      "Source": "Geolocation.Blazor",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Geolocation.Blazor\\wwwroot\\",
+      "BasePath": "_content/Geolocation.Blazor",
+      "Pattern": "**"
+    },
+    {
+      "Name": "GeolocationMap.Blazor\\wwwroot",
+      "Source": "GeolocationMap.Blazor",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\GeolocationMap.Blazor\\wwwroot\\",
+      "BasePath": "_content/GeolocationMap.Blazor",
+      "Pattern": "**"
+    },
+    {
+      "Name": "Leaflet.Blazor\\wwwroot",
+      "Source": "Leaflet.Blazor",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\",
+      "BasePath": "_content/Leaflet.Blazor",
       "Pattern": "**"
     },
     {
       "Name": "SpecificationValidation.Blazor\\wwwroot",
       "Source": "SpecificationValidation.Blazor",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\SpecificationValidation.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\SpecificationValidation.Blazor\\wwwroot\\",
       "BasePath": "_content/SpecificationValidation.Blazor",
+      "Pattern": "**"
+    },
+    {
+      "Name": "SweetAlert.Blazor\\wwwroot",
+      "Source": "SweetAlert.Blazor",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\SweetAlert.Blazor\\wwwroot\\",
+      "BasePath": "_content/SweetAlert.Blazor",
+      "Pattern": "**"
+    },
+    {
+      "Name": "TemplatedList.Blazor\\wwwroot",
+      "Source": "TemplatedList.Blazor",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\TemplatedList.Blazor\\wwwroot\\",
+      "BasePath": "_content/TemplatedList.Blazor",
       "Pattern": "**"
     },
     {
       "Name": "Toast.Blazor\\wwwroot",
       "Source": "Toast.Blazor",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\Toast.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Toast.Blazor\\wwwroot\\",
       "BasePath": "_content/Toast.Blazor",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazingPizza.Razor.Views.bundle.scp.css",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazingPizza.Razor.Views.bundle.scp.css",
       "SourceId": "BlazingPizza.Razor.Views",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazingPizza.Razor.Views",
       "RelativePath": "BlazingPizza.Razor.Views.bundle.scp.css",
       "AssetKind": "All",
@@ -104,13 +212,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazingPizza.Razor.Views.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazingPizza.Razor.Views.bundle.scp.css"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\app.css",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\app.css",
       "SourceId": "BlazingPizza.Razor.Views",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
       "BasePath": "_content/BlazingPizza.Razor.Views",
       "RelativePath": "css/app.css",
       "AssetKind": "All",
@@ -124,10 +232,10 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "BlazingPizza.Razor.Views",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
       "BasePath": "_content/BlazingPizza.Razor.Views",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -141,10 +249,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\bootstrap.min.css.map",
       "SourceId": "BlazingPizza.Razor.Views",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
       "BasePath": "_content/BlazingPizza.Razor.Views",
       "RelativePath": "css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -158,10 +266,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand.css",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand.css",
       "SourceId": "BlazingPizza.Razor.Views",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
       "BasePath": "_content/BlazingPizza.Razor.Views",
       "RelativePath": "css/font/quicksand.css",
       "AssetKind": "All",
@@ -175,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font\\quicksand.css"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-300.woff",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-300.woff",
       "SourceId": "BlazingPizza.Razor.Views",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
       "BasePath": "_content/BlazingPizza.Razor.Views",
       "RelativePath": "css/font/quicksand-v8-latin-300.woff",
       "AssetKind": "All",
@@ -192,10 +300,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font\\quicksand-v8-latin-300.woff"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-300.woff2",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-300.woff2",
       "SourceId": "BlazingPizza.Razor.Views",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
       "BasePath": "_content/BlazingPizza.Razor.Views",
       "RelativePath": "css/font/quicksand-v8-latin-300.woff2",
       "AssetKind": "All",
@@ -209,10 +317,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font\\quicksand-v8-latin-300.woff2"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-500.woff",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-500.woff",
       "SourceId": "BlazingPizza.Razor.Views",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
       "BasePath": "_content/BlazingPizza.Razor.Views",
       "RelativePath": "css/font/quicksand-v8-latin-500.woff",
       "AssetKind": "All",
@@ -226,10 +334,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font\\quicksand-v8-latin-500.woff"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-500.woff2",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-500.woff2",
       "SourceId": "BlazingPizza.Razor.Views",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
       "BasePath": "_content/BlazingPizza.Razor.Views",
       "RelativePath": "css/font/quicksand-v8-latin-500.woff2",
       "AssetKind": "All",
@@ -243,10 +351,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font\\quicksand-v8-latin-500.woff2"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-700.woff",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-700.woff",
       "SourceId": "BlazingPizza.Razor.Views",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
       "BasePath": "_content/BlazingPizza.Razor.Views",
       "RelativePath": "css/font/quicksand-v8-latin-700.woff",
       "AssetKind": "All",
@@ -260,10 +368,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font\\quicksand-v8-latin-700.woff"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-700.woff2",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-700.woff2",
       "SourceId": "BlazingPizza.Razor.Views",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
       "BasePath": "_content/BlazingPizza.Razor.Views",
       "RelativePath": "css/font/quicksand-v8-latin-700.woff2",
       "AssetKind": "All",
@@ -277,10 +385,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font\\quicksand-v8-latin-700.woff2"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-regular.woff",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-regular.woff",
       "SourceId": "BlazingPizza.Razor.Views",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
       "BasePath": "_content/BlazingPizza.Razor.Views",
       "RelativePath": "css/font/quicksand-v8-latin-regular.woff",
       "AssetKind": "All",
@@ -294,10 +402,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font\\quicksand-v8-latin-regular.woff"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-regular.woff2",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-regular.woff2",
       "SourceId": "BlazingPizza.Razor.Views",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
       "BasePath": "_content/BlazingPizza.Razor.Views",
       "RelativePath": "css/font/quicksand-v8-latin-regular.woff2",
       "AssetKind": "All",
@@ -311,10 +419,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font\\quicksand-v8-latin-regular.woff2"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\images\\bike.svg",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\images\\bike.svg",
       "SourceId": "BlazingPizza.Razor.Views",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
       "BasePath": "_content/BlazingPizza.Razor.Views",
       "RelativePath": "images/bike.svg",
       "AssetKind": "All",
@@ -328,10 +436,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bike.svg"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\images\\icon-512.png",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\images\\icon-512.png",
       "SourceId": "BlazingPizza.Razor.Views",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
       "BasePath": "_content/BlazingPizza.Razor.Views",
       "RelativePath": "images/icon-512.png",
       "AssetKind": "All",
@@ -345,10 +453,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icon-512.png"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\images\\logo.svg",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\images\\logo.svg",
       "SourceId": "BlazingPizza.Razor.Views",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
       "BasePath": "_content/BlazingPizza.Razor.Views",
       "RelativePath": "images/logo.svg",
       "AssetKind": "All",
@@ -362,10 +470,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.svg"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\images\\pizza-slice.svg",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\images\\pizza-slice.svg",
       "SourceId": "BlazingPizza.Razor.Views",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\",
       "BasePath": "_content/BlazingPizza.Razor.Views",
       "RelativePath": "images/pizza-slice.svg",
       "AssetKind": "All",
@@ -379,10 +487,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pizza-slice.svg"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\obj\\Debug\\net7.0-windows\\scopedcss\\bundle\\BlazingPizza.WinFormsClient.styles.css",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\obj\\Debug\\net7.0-windows\\scopedcss\\bundle\\BlazingPizza.WinFormsClient.styles.css",
       "SourceId": "BlazingPizza.WinFormsClient",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\obj\\Debug\\net7.0-windows\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\obj\\Debug\\net7.0-windows\\scopedcss\\bundle\\",
       "BasePath": "/",
       "RelativePath": "BlazingPizza.WinFormsClient.styles.css",
       "AssetKind": "All",
@@ -393,13 +501,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\obj\\Debug\\net7.0-windows\\scopedcss\\bundle\\BlazingPizza.WinFormsClient.styles.css"
+      "OriginalItemSpec": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\obj\\Debug\\net7.0-windows\\scopedcss\\bundle\\BlazingPizza.WinFormsClient.styles.css"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\wwwroot\\css\\app.css",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\wwwroot\\css\\app.css",
       "SourceId": "BlazingPizza.WinFormsClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/app.css",
       "AssetKind": "All",
@@ -413,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\wwwroot\\index.html",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\wwwroot\\index.html",
       "SourceId": "BlazingPizza.WinFormsClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -430,10 +538,27 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ExceptionHandler.Blazor.bundle.scp.css",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Dialog.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Dialog.Blazor.bundle.scp.css",
+      "SourceId": "Dialog.Blazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Dialog.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Dialog.Blazor",
+      "RelativePath": "Dialog.Blazor.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Dialog.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Dialog.Blazor.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ExceptionHandler.Blazor.bundle.scp.css",
       "SourceId": "ExceptionHandler.Blazor",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ExceptionHandler.Blazor",
       "RelativePath": "ExceptionHandler.Blazor.bundle.scp.css",
       "AssetKind": "All",
@@ -444,13 +569,251 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ExceptionHandler.Blazor.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Github\\Soluciones\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ExceptionHandler.Blazor.bundle.scp.css"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Toast.Blazor.bundle.scp.css",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Geolocation.Blazor\\wwwroot\\geolocation.js",
+      "SourceId": "Geolocation.Blazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Geolocation.Blazor\\wwwroot\\",
+      "BasePath": "_content/Geolocation.Blazor",
+      "RelativePath": "geolocation.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\geolocation.js"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\css\\images\\destination.png",
+      "SourceId": "Leaflet.Blazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\",
+      "BasePath": "_content/Leaflet.Blazor",
+      "RelativePath": "css/images/destination.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\images\\destination.png"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\css\\images\\drone.png",
+      "SourceId": "Leaflet.Blazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\",
+      "BasePath": "_content/Leaflet.Blazor",
+      "RelativePath": "css/images/drone.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\images\\drone.png"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\css\\images\\layers.png",
+      "SourceId": "Leaflet.Blazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\",
+      "BasePath": "_content/Leaflet.Blazor",
+      "RelativePath": "css/images/layers.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\images\\layers.png"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\css\\images\\layers-2x.png",
+      "SourceId": "Leaflet.Blazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\",
+      "BasePath": "_content/Leaflet.Blazor",
+      "RelativePath": "css/images/layers-2x.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\images\\layers-2x.png"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\css\\images\\marker-icon.png",
+      "SourceId": "Leaflet.Blazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\",
+      "BasePath": "_content/Leaflet.Blazor",
+      "RelativePath": "css/images/marker-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\images\\marker-icon.png"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\css\\images\\marker-icon-2x.png",
+      "SourceId": "Leaflet.Blazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\",
+      "BasePath": "_content/Leaflet.Blazor",
+      "RelativePath": "css/images/marker-icon-2x.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\images\\marker-icon-2x.png"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\css\\images\\marker-shadow.png",
+      "SourceId": "Leaflet.Blazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\",
+      "BasePath": "_content/Leaflet.Blazor",
+      "RelativePath": "css/images/marker-shadow.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\images\\marker-shadow.png"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\css\\images\\pizzastore.png",
+      "SourceId": "Leaflet.Blazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\",
+      "BasePath": "_content/Leaflet.Blazor",
+      "RelativePath": "css/images/pizzastore.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\images\\pizzastore.png"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\css\\leaflet.css",
+      "SourceId": "Leaflet.Blazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\",
+      "BasePath": "_content/Leaflet.Blazor",
+      "RelativePath": "css/leaflet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\leaflet.css"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\js\\leafletService.js",
+      "SourceId": "Leaflet.Blazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\",
+      "BasePath": "_content/Leaflet.Blazor",
+      "RelativePath": "js/leafletService.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\leafletService.js"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\js\\leaflet-src.esm.js",
+      "SourceId": "Leaflet.Blazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\",
+      "BasePath": "_content/Leaflet.Blazor",
+      "RelativePath": "js/leaflet-src.esm.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\leaflet-src.esm.js"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\js\\leaflet-src.esm.js.map",
+      "SourceId": "Leaflet.Blazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\wwwroot\\",
+      "BasePath": "_content/Leaflet.Blazor",
+      "RelativePath": "js/leaflet-src.esm.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\leaflet-src.esm.js.map"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\SweetAlert.Blazor\\wwwroot\\sweetalertModule.js",
+      "SourceId": "SweetAlert.Blazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\SweetAlert.Blazor\\wwwroot\\",
+      "BasePath": "_content/SweetAlert.Blazor",
+      "RelativePath": "sweetalertModule.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sweetalertModule.js"
+    },
+    {
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Toast.Blazor.bundle.scp.css",
       "SourceId": "Toast.Blazor",
       "SourceType": "Project",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Toast.Blazor",
       "RelativePath": "Toast.Blazor.bundle.scp.css",
       "AssetKind": "All",
@@ -461,7 +824,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Toast.Blazor.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Toast.Blazor.bundle.scp.css"
     }
   ]
 }

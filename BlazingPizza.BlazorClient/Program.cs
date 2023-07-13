@@ -12,6 +12,7 @@ builder.Services.Configure<EndpointsOptions>(options =>
     options = Endpoints);
 
 builder.Services.AddBlazingPizzaFrontendServices(
-    Options.Create(Endpoints));
+    Options.Create(Endpoints),
+    builder.Configuration["geoapifyApiKey"]);
 
 await builder.Build().RunAsync();

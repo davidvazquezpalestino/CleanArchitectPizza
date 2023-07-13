@@ -21,13 +21,17 @@
                 <p>
                     Estado:
                     <strong>
-                        @ViewModel.Order.Status.GetText()
+                        @OrderStatus.GetText()
                     </strong>
                 </p>
             </div>
             <div class="track-order-body">
                 <div class="track-order-details">
                     <OrderReview Order="ViewModel.Order" />
+                </div>
+                <div class="track-order-map">
+                    <OrderTrackerMap Order="ViewModel.Order"
+                                 OnNotificationReceived="OnNotificationReceived" />
                 </div>
             </div>
 

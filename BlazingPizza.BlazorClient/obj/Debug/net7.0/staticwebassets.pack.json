@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\obj\\Debug\\net7.0\\build-gz\\e0G3zbAV.gz",
+      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\obj\\Debug\\net7.0\\build-gz\\Q0HlQtVr.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazingPizza.BlazorClient.styles.css",
+      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazingPizza.BlazorClient.styles.css",
       "PackagePath": "staticwebassets\\BlazingPizza.BlazorClient.styles.css"
     },
     {
-      "Id": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\wwwroot\\appsettings.json",
+      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\wwwroot\\appsettings.json",
       "PackagePath": "staticwebassets\\appsettings.json"
     },
     {
-      "Id": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\wwwroot\\css\\app.css",
+      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\wwwroot\\index.html",
+      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

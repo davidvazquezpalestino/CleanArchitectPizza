@@ -9,21 +9,21 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = ExceptionHandler.Blazor
 build_property.RootNamespace = ExceptionHandler.Blazor
-build_property.ProjectDir = C:\GitHub\Proyectos\CleanArchitectPizza\ExceptionHandler.Blazor\
+build_property.ProjectDir = C:\Github\Soluciones\CleanArchitectPizza\ExceptionHandler.Blazor\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\GitHub\Proyectos\CleanArchitectPizza\ExceptionHandler.Blazor
+build_property.MSBuildProjectDirectory = C:\Github\Soluciones\CleanArchitectPizza\ExceptionHandler.Blazor
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/GitHub/Proyectos/CleanArchitectPizza/ExceptionHandler.Blazor/ExceptionView.razor]
+[C:/Github/Soluciones/CleanArchitectPizza/ExceptionHandler.Blazor/ExceptionView.razor]
 build_metadata.AdditionalFiles.TargetPath = RXhjZXB0aW9uVmlldy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GitHub/Proyectos/CleanArchitectPizza/ExceptionHandler.Blazor/_Imports.razor]
+[C:/Github/Soluciones/CleanArchitectPizza/ExceptionHandler.Blazor/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GitHub/Proyectos/CleanArchitectPizza/ExceptionHandler.Blazor/CustomErrorBoundary.razor]
+[C:/Github/Soluciones/CleanArchitectPizza/ExceptionHandler.Blazor/CustomErrorBoundary.razor]
 build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tRXJyb3JCb3VuZGFyeS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-rhpi8da1sb

@@ -4,6 +4,7 @@ public static class DependencyContainer
     public static IServiceCollection AddBlazingPizzaFrontendServices(
         this IServiceCollection services,
         IOptions<EndpointsOptions> endpointsOptions,
+        string geocoderApiKey,
         Action<IHttpClientBuilder> httpClientConfigurator = null)
     {
         services.AddModelsServices()
@@ -11,7 +12,13 @@ public static class DependencyContainer
             .AddBlazingPizzaWebApiGateways(
                  endpointsOptions, httpClientConfigurator)
             .AddValidators()
-            .AddToastService();
+            .AddToastService()
+            .AddSweetAlertService()
+            .AddGeolocationService()
+            .AddDefaultGeocoderService(geocoderApiKey)
+            .AddLeafletServices()
+            .AddOrderStatusNotificatorService();
+
 
         return services;
     }

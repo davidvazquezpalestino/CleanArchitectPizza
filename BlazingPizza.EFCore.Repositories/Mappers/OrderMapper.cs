@@ -16,6 +16,9 @@ internal static class OrderMapper
         this EFEntities.Order order) =>
         SharedAggregates.Order.Create(
             order.Id, order.CreatedTime, order.UserId)
-            .AddPizzas(order.Pizzas?.Select(p => p.ToPizza()));
+            .AddPizzas(order.Pizzas?.Select(p => p.ToPizza()))
+        .SetDeliveryLocation(new Shared.BusinessObjects.ValueObjects.LatLong
+            (order.DeliveryLocation.Latitude,
+            order.DeliveryLocation.Longitude));
     
 }

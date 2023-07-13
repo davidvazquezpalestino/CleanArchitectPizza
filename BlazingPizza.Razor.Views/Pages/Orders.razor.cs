@@ -5,8 +5,9 @@ public partial class Orders
     [Inject]
     public IOrdersViewModel ViewModel { get; set; }
 
-    protected override async Task OnInitializedAsync()
+    async Task<List<GetOrdersDto>> LoadOrders()
     {
         await ViewModel.GetOrdersAsync();
+        return ViewModel.Orders.ToList();
     }
 }

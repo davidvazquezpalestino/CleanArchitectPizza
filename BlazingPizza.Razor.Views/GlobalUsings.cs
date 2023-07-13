@@ -10,3 +10,9 @@ global using BlazingPizza.Shared.BusinessObjects.Entities;
 global using Microsoft.AspNetCore.Components;
 global using BlazingPizza.Shared.BusinessObjects.ValueObjects;
 
+global using SweetAlert.Blazor;
+global using BlazingPizza.Frontend.BusinessObjects.ValueObjects;
+global using BlazingPizza.Shared.BusinessObjects.Dtos;
+global using Leaflet.Blazor;
+global using BlazingPizza.Shared.BusinessObjects.Enums;
+global using Leaflet.Blazor;

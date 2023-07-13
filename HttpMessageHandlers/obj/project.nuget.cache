@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MaCHhVCXOCqbHdAXYIQyLF0MOMcy7EZyVBEPSvtLVOhQ4zl/5fj1ErRfSRvxsVs5DQdFFJ2uJjFeN95c8T6mUA==",
+  "dgSpecHash": "evHYtCKvVcsUUYAp8RQXKfSI+zdxwhwF5bsbjJzEtVWzDgn5ZCf8aANBaG5JB7Eq6C3biVrIKWVUD94ZHnFO9A==",
   "success": true,
-  "projectFilePath": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

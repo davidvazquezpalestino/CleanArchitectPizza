@@ -46,5 +46,10 @@
 .track-order-details[b-0ob3k7p21z] {
     overflow-y: auto;
     padding: 1.5rem 3rem;
-    flex-grow: 1;
+    
+}
+
+.track-order-map[b-0ob3k7p21z]{
+    height:100%;
+    flex-grow:1;
 }

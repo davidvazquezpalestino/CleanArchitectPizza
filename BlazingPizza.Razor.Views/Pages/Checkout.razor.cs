@@ -1,4 +1,5 @@
 ﻿using ExceptionHandler.Blazor;
+using Geolocation.Blazor.Geocoding;
 using Microsoft.AspNetCore.Components.Web;
 using SpecificationValidation.Entities;
 using Toast.Blazor;
@@ -33,4 +34,15 @@ public partial class Checkout
                     ViewModel.PlaceOrderException), 0);
         }
     }   
+
+    void SetAddress(GeocodingAddress address)
+    {
+        ViewModel.Address.AddressLine1 = address.AddressLine1;
+        ViewModel.Address.AddressLine2 = address.AddressLine2;
+        ViewModel.Address.Region = address.State;
+        ViewModel.Address.City = address.City;
+        ViewModel.Address.PostalCode = address.PostalCode;
+        ViewModel.Order.SetDeliveryLocation(
+            new LatLong(address.Latitude, address.Longitude));
+    }
 }

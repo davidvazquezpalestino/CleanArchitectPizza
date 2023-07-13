@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ka+cNgMsZk8OxhsU2im+lN2EG1v8gZBZQF5kkwOkD6w=",
+  "Hash": "VM/NYT4ze2Gy3bmtZxcPdJ0JLGd/8AoRy70o/Ml3Lzs=",
   "Source": "Toast.Blazor",
   "BasePath": "_content/Toast.Blazor",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Toast.Blazor\\wwwroot",
       "Source": "Toast.Blazor",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\Toast.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Toast.Blazor\\wwwroot\\",
       "BasePath": "_content/Toast.Blazor",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Toast.Blazor.styles.css",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Toast.Blazor.styles.css",
       "SourceId": "Toast.Blazor",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Toast.Blazor",
       "RelativePath": "Toast.Blazor.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Toast.Blazor.styles.css"
+      "OriginalItemSpec": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Toast.Blazor.styles.css"
     },
     {
-      "Identity": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Toast.Blazor.bundle.scp.css",
+      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Toast.Blazor.bundle.scp.css",
       "SourceId": "Toast.Blazor",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Toast.Blazor",
       "RelativePath": "Toast.Blazor.bundle.scp.css",
       "AssetKind": "All",
@@ -48,7 +48,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\GitHub\\Proyectos\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Toast.Blazor.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Toast.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Toast.Blazor.bundle.scp.css"
     }
   ]
 }

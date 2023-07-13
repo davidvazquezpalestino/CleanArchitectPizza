@@ -8,6 +8,7 @@ public class GetOrderDto
 
     public OrderStatus Status { get; init; }
     public bool IsDelivered { get; init; }
+    public LatLong DeliveryLocation { get; init; }
 
     public decimal GetTotalPrice() =>
         Pizzas.Sum(p => p.GetTotalPrice());
