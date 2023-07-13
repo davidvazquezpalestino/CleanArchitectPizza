@@ -21,3 +21,26 @@ C:\Github\Soluciones\CleanArchitectPizza\BlazingPizza.UseCases\obj\Debug\net7.0\
 C:\Github\Soluciones\CleanArchitectPizza\BlazingPizza.UseCases\obj\Debug\net7.0\refint\BlazingPizza.UseCases.dll
 C:\Github\Soluciones\CleanArchitectPizza\BlazingPizza.UseCases\obj\Debug\net7.0\BlazingPizza.UseCases.pdb
 C:\Github\Soluciones\CleanArchitectPizza\BlazingPizza.UseCases\obj\Debug\net7.0\ref\BlazingPizza.UseCases.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\bin\Debug\net7.0\BlazingPizza.UseCases.deps.json
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\bin\Debug\net7.0\BlazingPizza.UseCases.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\bin\Debug\net7.0\BlazingPizza.UseCases.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\bin\Debug\net7.0\BlazingPizza.Backend.BusinessObjects.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\bin\Debug\net7.0\BlazingPizza.Shared.BusinessObjects.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\bin\Debug\net7.0\CustomExceptions.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\bin\Debug\net7.0\SpecificationValidation.Abstractions.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\bin\Debug\net7.0\SpecificationValidation.Entities.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\bin\Debug\net7.0\BlazingPizza.Backend.BusinessObjects.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\bin\Debug\net7.0\BlazingPizza.Shared.BusinessObjects.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\bin\Debug\net7.0\CustomExceptions.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\bin\Debug\net7.0\SpecificationValidation.Abstractions.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\bin\Debug\net7.0\SpecificationValidation.Entities.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\obj\Debug\net7.0\BlazingPizza.UseCases.csproj.AssemblyReference.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\obj\Debug\net7.0\BlazingPizza.UseCases.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\obj\Debug\net7.0\BlazingPizza.UseCases.AssemblyInfoInputs.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\obj\Debug\net7.0\BlazingPizza.UseCases.AssemblyInfo.cs
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\obj\Debug\net7.0\BlazingPizza.UseCases.csproj.CoreCompileInputs.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\obj\Debug\net7.0\BlazingPizza.UseCases.csproj.CopyComplete
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\obj\Debug\net7.0\BlazingPizza.UseCases.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\obj\Debug\net7.0\refint\BlazingPizza.UseCases.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\obj\Debug\net7.0\BlazingPizza.UseCases.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.UseCases\obj\Debug\net7.0\ref\BlazingPizza.UseCases.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8zPNwFe3D/5m3eQvDGmMk3e2RGImmFrxwPALkysO77lhZfpH78kn9kZNhxGCkis9LJU+1/CINgT1wZ6LSqavmg==",
+  "dgSpecHash": "cyxvxG2w2V8iSjSRU3ceJ+QOEMF52Ex74WwPGfEwCVHqM1VN/+sEfuKHzSnzzt3rMGcFprbliBfpUqCs5yjJOQ==",
   "success": true,
-  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj",
+  "projectFilePath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

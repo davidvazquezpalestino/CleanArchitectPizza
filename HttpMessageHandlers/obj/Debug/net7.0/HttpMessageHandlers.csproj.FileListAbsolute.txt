@@ -13,3 +13,18 @@ C:\Github\Soluciones\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\Ht
 C:\Github\Soluciones\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\refint\HttpMessageHandlers.dll
 C:\Github\Soluciones\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\HttpMessageHandlers.pdb
 C:\Github\Soluciones\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\ref\HttpMessageHandlers.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\HttpMessageHandlers\bin\Debug\net7.0\HttpMessageHandlers.deps.json
+C:\github\TI Capacitacion\CleanArchitectPizza\HttpMessageHandlers\bin\Debug\net7.0\HttpMessageHandlers.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\HttpMessageHandlers\bin\Debug\net7.0\HttpMessageHandlers.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\HttpMessageHandlers\bin\Debug\net7.0\CustomExceptions.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\HttpMessageHandlers\bin\Debug\net7.0\CustomExceptions.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\HttpMessageHandlers.csproj.AssemblyReference.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\HttpMessageHandlers.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\TI Capacitacion\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\HttpMessageHandlers.AssemblyInfoInputs.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\HttpMessageHandlers.AssemblyInfo.cs
+C:\github\TI Capacitacion\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\HttpMessageHandlers.csproj.CoreCompileInputs.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\HttpMessageHandlers.csproj.CopyComplete
+C:\github\TI Capacitacion\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\HttpMessageHandlers.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\refint\HttpMessageHandlers.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\HttpMessageHandlers.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\HttpMessageHandlers\obj\Debug\net7.0\ref\HttpMessageHandlers.dll

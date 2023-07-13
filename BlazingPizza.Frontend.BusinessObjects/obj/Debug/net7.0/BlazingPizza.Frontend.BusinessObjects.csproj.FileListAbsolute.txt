@@ -19,3 +19,24 @@ C:\Github\Soluciones\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\o
 C:\Github\Soluciones\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\obj\Debug\net7.0\refint\BlazingPizza.Frontend.BusinessObjects.dll
 C:\Github\Soluciones\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\obj\Debug\net7.0\BlazingPizza.Frontend.BusinessObjects.pdb
 C:\Github\Soluciones\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\obj\Debug\net7.0\ref\BlazingPizza.Frontend.BusinessObjects.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\bin\Debug\net7.0\BlazingPizza.Frontend.BusinessObjects.deps.json
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\bin\Debug\net7.0\BlazingPizza.Frontend.BusinessObjects.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\bin\Debug\net7.0\BlazingPizza.Frontend.BusinessObjects.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\bin\Debug\net7.0\BlazingPizza.Shared.BusinessObjects.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\bin\Debug\net7.0\CustomExceptions.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\bin\Debug\net7.0\SpecificationValidation.Abstractions.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\bin\Debug\net7.0\SpecificationValidation.Entities.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\bin\Debug\net7.0\BlazingPizza.Shared.BusinessObjects.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\bin\Debug\net7.0\CustomExceptions.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\bin\Debug\net7.0\SpecificationValidation.Abstractions.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\bin\Debug\net7.0\SpecificationValidation.Entities.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\obj\Debug\net7.0\BlazingPizza.Frontend.BusinessObjects.csproj.AssemblyReference.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\obj\Debug\net7.0\BlazingPizza.Frontend.BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\obj\Debug\net7.0\BlazingPizza.Frontend.BusinessObjects.AssemblyInfoInputs.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\obj\Debug\net7.0\BlazingPizza.Frontend.BusinessObjects.AssemblyInfo.cs
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\obj\Debug\net7.0\BlazingPizza.Frontend.BusinessObjects.csproj.CoreCompileInputs.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\obj\Debug\net7.0\BlazingPizza.Frontend.BusinessObjects.csproj.CopyComplete
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\obj\Debug\net7.0\BlazingPizza.Frontend.BusinessObjects.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\obj\Debug\net7.0\refint\BlazingPizza.Frontend.BusinessObjects.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\obj\Debug\net7.0\BlazingPizza.Frontend.BusinessObjects.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Frontend.BusinessObjects\obj\Debug\net7.0\ref\BlazingPizza.Frontend.BusinessObjects.dll

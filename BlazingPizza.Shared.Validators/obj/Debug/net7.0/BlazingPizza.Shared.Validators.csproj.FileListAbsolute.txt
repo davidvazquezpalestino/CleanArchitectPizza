@@ -19,3 +19,24 @@ C:\Github\Soluciones\CleanArchitectPizza\BlazingPizza.Shared.Validators\obj\Debu
 C:\Github\Soluciones\CleanArchitectPizza\BlazingPizza.Shared.Validators\obj\Debug\net7.0\refint\BlazingPizza.Shared.Validators.dll
 C:\Github\Soluciones\CleanArchitectPizza\BlazingPizza.Shared.Validators\obj\Debug\net7.0\BlazingPizza.Shared.Validators.pdb
 C:\Github\Soluciones\CleanArchitectPizza\BlazingPizza.Shared.Validators\obj\Debug\net7.0\ref\BlazingPizza.Shared.Validators.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\bin\Debug\net7.0\BlazingPizza.Shared.Validators.deps.json
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\bin\Debug\net7.0\BlazingPizza.Shared.Validators.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\bin\Debug\net7.0\BlazingPizza.Shared.Validators.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\bin\Debug\net7.0\BlazingPizza.Shared.BusinessObjects.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\bin\Debug\net7.0\CustomExceptions.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\bin\Debug\net7.0\SpecificationValidation.Abstractions.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\bin\Debug\net7.0\SpecificationValidation.Entities.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\bin\Debug\net7.0\BlazingPizza.Shared.BusinessObjects.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\bin\Debug\net7.0\SpecificationValidation.Abstractions.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\bin\Debug\net7.0\CustomExceptions.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\bin\Debug\net7.0\SpecificationValidation.Entities.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\obj\Debug\net7.0\BlazingPizza.Shared.Validators.csproj.AssemblyReference.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\obj\Debug\net7.0\BlazingPizza.Shared.Validators.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\obj\Debug\net7.0\BlazingPizza.Shared.Validators.AssemblyInfoInputs.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\obj\Debug\net7.0\BlazingPizza.Shared.Validators.AssemblyInfo.cs
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\obj\Debug\net7.0\BlazingPizza.Shared.Validators.csproj.CoreCompileInputs.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\obj\Debug\net7.0\BlazingPizza.Shared.Validators.csproj.CopyComplete
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\obj\Debug\net7.0\BlazingPizza.Shared.Validators.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\obj\Debug\net7.0\refint\BlazingPizza.Shared.Validators.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\obj\Debug\net7.0\BlazingPizza.Shared.Validators.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Shared.Validators\obj\Debug\net7.0\ref\BlazingPizza.Shared.Validators.dll

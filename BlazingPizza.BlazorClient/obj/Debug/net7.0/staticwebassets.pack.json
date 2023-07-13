@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\obj\\Debug\\net7.0\\build-gz\\Q0HlQtVr.gz",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\obj\\Debug\\net7.0\\build-gz\\j2xq+wxx.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazingPizza.BlazorClient.styles.css",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazingPizza.BlazorClient.styles.css",
       "PackagePath": "staticwebassets\\BlazingPizza.BlazorClient.styles.css"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\wwwroot\\appsettings.json",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\wwwroot\\appsettings.json",
       "PackagePath": "staticwebassets\\appsettings.json"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\wwwroot\\css\\app.css",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\wwwroot\\index.html",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.BlazorClient\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

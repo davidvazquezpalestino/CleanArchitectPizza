@@ -1060,7 +1060,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\": {},
+    "C:\\Users\\david_vazquez\\.nuget\\packages\\": {},
     "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
     "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
@@ -1068,11 +1068,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Frontend.IoC\\BlazingPizza.Frontend.IoC.csproj",
+      "projectUniqueName": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Frontend.IoC\\BlazingPizza.Frontend.IoC.csproj",
       "projectName": "BlazingPizza.Frontend.IoC",
-      "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Frontend.IoC\\BlazingPizza.Frontend.IoC.csproj",
-      "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-      "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Frontend.IoC\\obj\\",
+      "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Frontend.IoC\\BlazingPizza.Frontend.IoC.csproj",
+      "packagesPath": "C:\\Users\\david_vazquez\\.nuget\\packages\\",
+      "outputPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Frontend.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -1080,7 +1080,7 @@
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\DAVID VAZQUEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\david_vazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -1091,7 +1091,6 @@
       ],
       "sources": {
         "C:\\Github\\Packages": {},
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
@@ -1102,20 +1101,20 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Gateways\\BlazingPizza.Gateways.csproj": {
-              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Gateways\\BlazingPizza.Gateways.csproj"
+            "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Gateways\\BlazingPizza.Gateways.csproj": {
+              "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Gateways\\BlazingPizza.Gateways.csproj"
             },
-            "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Models\\BlazingPizza.Models.csproj": {
-              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Models\\BlazingPizza.Models.csproj"
+            "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Models\\BlazingPizza.Models.csproj": {
+              "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Models\\BlazingPizza.Models.csproj"
             },
-            "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\BlazingPizza.Razor.Views.csproj": {
-              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\BlazingPizza.Razor.Views.csproj"
+            "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\BlazingPizza.Razor.Views.csproj": {
+              "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\BlazingPizza.Razor.Views.csproj"
             },
-            "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Shared.Validators\\BlazingPizza.Shared.Validators.csproj": {
-              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Shared.Validators\\BlazingPizza.Shared.Validators.csproj"
+            "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Shared.Validators\\BlazingPizza.Shared.Validators.csproj": {
+              "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Shared.Validators\\BlazingPizza.Shared.Validators.csproj"
             },
-            "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.ViewModels\\BlazingPizza.ViewModels.csproj": {
-              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.ViewModels\\BlazingPizza.ViewModels.csproj"
+            "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.ViewModels\\BlazingPizza.ViewModels.csproj": {
+              "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.ViewModels\\BlazingPizza.ViewModels.csproj"
             }
           }
         }
@@ -1145,7 +1144,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

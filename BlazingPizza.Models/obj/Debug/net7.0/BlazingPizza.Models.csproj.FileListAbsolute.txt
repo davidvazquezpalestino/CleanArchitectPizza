@@ -21,3 +21,26 @@ C:\Github\Soluciones\CleanArchitectPizza\BlazingPizza.Models\obj\Debug\net7.0\Bl
 C:\Github\Soluciones\CleanArchitectPizza\BlazingPizza.Models\obj\Debug\net7.0\refint\BlazingPizza.Models.dll
 C:\Github\Soluciones\CleanArchitectPizza\BlazingPizza.Models\obj\Debug\net7.0\BlazingPizza.Models.pdb
 C:\Github\Soluciones\CleanArchitectPizza\BlazingPizza.Models\obj\Debug\net7.0\ref\BlazingPizza.Models.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\bin\Debug\net7.0\BlazingPizza.Models.deps.json
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\bin\Debug\net7.0\BlazingPizza.Models.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\bin\Debug\net7.0\BlazingPizza.Models.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\bin\Debug\net7.0\BlazingPizza.Frontend.BusinessObjects.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\bin\Debug\net7.0\BlazingPizza.Shared.BusinessObjects.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\bin\Debug\net7.0\CustomExceptions.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\bin\Debug\net7.0\SpecificationValidation.Abstractions.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\bin\Debug\net7.0\SpecificationValidation.Entities.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\bin\Debug\net7.0\BlazingPizza.Frontend.BusinessObjects.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\bin\Debug\net7.0\BlazingPizza.Shared.BusinessObjects.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\bin\Debug\net7.0\CustomExceptions.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\bin\Debug\net7.0\SpecificationValidation.Abstractions.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\bin\Debug\net7.0\SpecificationValidation.Entities.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\obj\Debug\net7.0\BlazingPizza.Models.csproj.AssemblyReference.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\obj\Debug\net7.0\BlazingPizza.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\obj\Debug\net7.0\BlazingPizza.Models.AssemblyInfoInputs.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\obj\Debug\net7.0\BlazingPizza.Models.AssemblyInfo.cs
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\obj\Debug\net7.0\BlazingPizza.Models.csproj.CoreCompileInputs.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\obj\Debug\net7.0\BlazingPizza.Models.csproj.CopyComplete
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\obj\Debug\net7.0\BlazingPizza.Models.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\obj\Debug\net7.0\refint\BlazingPizza.Models.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\obj\Debug\net7.0\BlazingPizza.Models.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.Models\obj\Debug\net7.0\ref\BlazingPizza.Models.dll

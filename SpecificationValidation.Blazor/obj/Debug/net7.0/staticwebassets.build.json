@@ -1,19 +1,11 @@
 {
   "Version": 1,
-  "Hash": "bv0OpAfH4GvCSL6znpLst7jzAxER+DOgbReM8SWNKTQ=",
+  "Hash": "dQM8I9DYdpOGEI6p0rxKflXGWJt41p1p+slmtgAM3CQ=",
   "Source": "SpecificationValidation.Blazor",
   "BasePath": "_content/SpecificationValidation.Blazor",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "SpecificationValidation.Blazor\\wwwroot",
-      "Source": "SpecificationValidation.Blazor",
-      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\SpecificationValidation.Blazor\\wwwroot\\",
-      "BasePath": "_content/SpecificationValidation.Blazor",
-      "Pattern": "**"
-    }
-  ],
+  "DiscoveryPatterns": [],
   "Assets": []
 }

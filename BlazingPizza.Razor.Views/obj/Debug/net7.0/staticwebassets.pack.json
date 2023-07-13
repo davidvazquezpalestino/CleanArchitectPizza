@@ -1,71 +1,71 @@
 {
   "Files": [
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazingPizza.Razor.Views.bundle.scp.css",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazingPizza.Razor.Views.bundle.scp.css",
       "PackagePath": "staticwebassets\\BlazingPizza.Razor.Views.bundle.scp.css"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\app.css",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\bootstrap.min.css.map",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-300.woff",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-300.woff",
       "PackagePath": "staticwebassets\\css\\font\\quicksand-v8-latin-300.woff"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-300.woff2",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-300.woff2",
       "PackagePath": "staticwebassets\\css\\font\\quicksand-v8-latin-300.woff2"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-500.woff",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-500.woff",
       "PackagePath": "staticwebassets\\css\\font\\quicksand-v8-latin-500.woff"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-500.woff2",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-500.woff2",
       "PackagePath": "staticwebassets\\css\\font\\quicksand-v8-latin-500.woff2"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-700.woff",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-700.woff",
       "PackagePath": "staticwebassets\\css\\font\\quicksand-v8-latin-700.woff"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-700.woff2",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-700.woff2",
       "PackagePath": "staticwebassets\\css\\font\\quicksand-v8-latin-700.woff2"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-regular.woff",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-regular.woff",
       "PackagePath": "staticwebassets\\css\\font\\quicksand-v8-latin-regular.woff"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-regular.woff2",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand-v8-latin-regular.woff2",
       "PackagePath": "staticwebassets\\css\\font\\quicksand-v8-latin-regular.woff2"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand.css",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\css\\font\\quicksand.css",
       "PackagePath": "staticwebassets\\css\\font\\quicksand.css"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\images\\bike.svg",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\images\\bike.svg",
       "PackagePath": "staticwebassets\\images\\bike.svg"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\images\\icon-512.png",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\images\\icon-512.png",
       "PackagePath": "staticwebassets\\images\\icon-512.png"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\images\\logo.svg",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\images\\logo.svg",
       "PackagePath": "staticwebassets\\images\\logo.svg"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\images\\pizza-slice.svg",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Razor.Views\\wwwroot\\images\\pizza-slice.svg",
       "PackagePath": "staticwebassets\\images\\pizza-slice.svg"
     },
     {

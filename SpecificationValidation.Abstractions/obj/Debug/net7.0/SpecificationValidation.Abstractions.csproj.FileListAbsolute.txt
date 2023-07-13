@@ -13,3 +13,18 @@ C:\Github\Soluciones\CleanArchitectPizza\SpecificationValidation.Abstractions\ob
 C:\Github\Soluciones\CleanArchitectPizza\SpecificationValidation.Abstractions\obj\Debug\net7.0\refint\SpecificationValidation.Abstractions.dll
 C:\Github\Soluciones\CleanArchitectPizza\SpecificationValidation.Abstractions\obj\Debug\net7.0\SpecificationValidation.Abstractions.pdb
 C:\Github\Soluciones\CleanArchitectPizza\SpecificationValidation.Abstractions\obj\Debug\net7.0\ref\SpecificationValidation.Abstractions.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\SpecificationValidation.Abstractions\bin\Debug\net7.0\SpecificationValidation.Abstractions.deps.json
+C:\github\TI Capacitacion\CleanArchitectPizza\SpecificationValidation.Abstractions\bin\Debug\net7.0\SpecificationValidation.Abstractions.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\SpecificationValidation.Abstractions\bin\Debug\net7.0\SpecificationValidation.Abstractions.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\SpecificationValidation.Abstractions\bin\Debug\net7.0\SpecificationValidation.Entities.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\SpecificationValidation.Abstractions\bin\Debug\net7.0\SpecificationValidation.Entities.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\SpecificationValidation.Abstractions\obj\Debug\net7.0\SpecificationValidation.Abstractions.csproj.AssemblyReference.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\SpecificationValidation.Abstractions\obj\Debug\net7.0\SpecificationValidation.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\TI Capacitacion\CleanArchitectPizza\SpecificationValidation.Abstractions\obj\Debug\net7.0\SpecificationValidation.Abstractions.AssemblyInfoInputs.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\SpecificationValidation.Abstractions\obj\Debug\net7.0\SpecificationValidation.Abstractions.AssemblyInfo.cs
+C:\github\TI Capacitacion\CleanArchitectPizza\SpecificationValidation.Abstractions\obj\Debug\net7.0\SpecificationValidation.Abstractions.csproj.CoreCompileInputs.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\SpecificationValidation.Abstractions\obj\Debug\net7.0\SpecificationValidation.Abstractions.csproj.CopyComplete
+C:\github\TI Capacitacion\CleanArchitectPizza\SpecificationValidation.Abstractions\obj\Debug\net7.0\SpecificationValidation.Abstractions.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\SpecificationValidation.Abstractions\obj\Debug\net7.0\refint\SpecificationValidation.Abstractions.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\SpecificationValidation.Abstractions\obj\Debug\net7.0\SpecificationValidation.Abstractions.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\SpecificationValidation.Abstractions\obj\Debug\net7.0\ref\SpecificationValidation.Abstractions.dll

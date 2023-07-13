@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "6hKNK4eUd+id93eBdr8Svjt+lFfZI5SSUt/BmEJLHBU=",
+  "Hash": "O7s53anMJbhAlaC9luZEW0pob35HGY/iAL+q48aF4NA=",
   "Source": "ExceptionHandler.Blazor",
   "BasePath": "_content/ExceptionHandler.Blazor",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Dialog.Blazor\\Dialog.Blazor.csproj",
+      "Identity": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\Dialog.Blazor\\Dialog.Blazor.csproj",
       "Version": 2,
       "Source": "Dialog.Blazor",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,28 +18,13 @@
       "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
-  "DiscoveryPatterns": [
-    {
-      "Name": "Dialog.Blazor\\wwwroot",
-      "Source": "Dialog.Blazor",
-      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Dialog.Blazor\\wwwroot\\",
-      "BasePath": "_content/Dialog.Blazor",
-      "Pattern": "**"
-    },
-    {
-      "Name": "ExceptionHandler.Blazor\\wwwroot",
-      "Source": "ExceptionHandler.Blazor",
-      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\ExceptionHandler.Blazor\\wwwroot\\",
-      "BasePath": "_content/ExceptionHandler.Blazor",
-      "Pattern": "**"
-    }
-  ],
+  "DiscoveryPatterns": [],
   "Assets": [
     {
-      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Dialog.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Dialog.Blazor.bundle.scp.css",
+      "Identity": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\Dialog.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Dialog.Blazor.bundle.scp.css",
       "SourceId": "Dialog.Blazor",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Dialog.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\Dialog.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Dialog.Blazor",
       "RelativePath": "Dialog.Blazor.bundle.scp.css",
       "AssetKind": "All",
@@ -50,13 +35,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Dialog.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Dialog.Blazor.bundle.scp.css"
+      "OriginalItemSpec": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\Dialog.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Dialog.Blazor.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\ExceptionHandler.Blazor.styles.css",
+      "Identity": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\ExceptionHandler.Blazor.styles.css",
       "SourceId": "ExceptionHandler.Blazor",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ExceptionHandler.Blazor",
       "RelativePath": "ExceptionHandler.Blazor.styles.css",
       "AssetKind": "All",
@@ -67,13 +52,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Github\\Soluciones\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\ExceptionHandler.Blazor.styles.css"
+      "OriginalItemSpec": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\ExceptionHandler.Blazor.styles.css"
     },
     {
-      "Identity": "C:\\Github\\Soluciones\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ExceptionHandler.Blazor.bundle.scp.css",
+      "Identity": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ExceptionHandler.Blazor.bundle.scp.css",
       "SourceId": "ExceptionHandler.Blazor",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Github\\Soluciones\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ExceptionHandler.Blazor",
       "RelativePath": "ExceptionHandler.Blazor.bundle.scp.css",
       "AssetKind": "All",
@@ -84,7 +69,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Github\\Soluciones\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ExceptionHandler.Blazor.bundle.scp.css"
+      "OriginalItemSpec": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ExceptionHandler.Blazor.bundle.scp.css"
     }
   ]
 }

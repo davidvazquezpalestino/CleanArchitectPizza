@@ -15,13 +15,13 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazingPizza.WinFormsClient
 build_property.RootNamespace = BlazingPizza.WinFormsClient
-build_property.ProjectDir = C:\Github\Soluciones\CleanArchitectPizza\BlazingPizza.WinFormsClient\
+build_property.ProjectDir = C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.WinFormsClient\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Github\Soluciones\CleanArchitectPizza\BlazingPizza.WinFormsClient
+build_property.MSBuildProjectDirectory = C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.WinFormsClient
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Github/Soluciones/CleanArchitectPizza/BlazingPizza.WinFormsClient/_Imports.razor]
+[C:/github/TI Capacitacion/CleanArchitectPizza/BlazingPizza.WinFormsClient/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

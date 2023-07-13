@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KTuNKgp2BV2FKxR1nK6HE/BvgLp6xu5qWjcMLr1vZSKqjp31kymIMaHW/FN4Bez+z6Sf/Zh5D3oCJvRRWxd0zQ==",
+  "dgSpecHash": "ZDJ1eLHOzgzk9NqgS8jDdqi4y7wZj+WUPwCUQcu+LM7IyiDqTqzKj0ilRKz2to2MKW0hhIHlcz63FyBX8J8tHQ==",
   "success": true,
-  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj",
+  "projectFilePath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

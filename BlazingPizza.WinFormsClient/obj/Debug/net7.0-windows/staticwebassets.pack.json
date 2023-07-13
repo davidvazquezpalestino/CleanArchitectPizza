@@ -1,15 +1,15 @@
 {
   "Files": [
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\obj\\Debug\\net7.0-windows\\scopedcss\\bundle\\BlazingPizza.WinFormsClient.styles.css",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\obj\\Debug\\net7.0-windows\\scopedcss\\bundle\\BlazingPizza.WinFormsClient.styles.css",
       "PackagePath": "staticwebassets\\BlazingPizza.WinFormsClient.styles.css"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\wwwroot\\css\\app.css",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\wwwroot\\index.html",
+      "Id": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

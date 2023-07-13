@@ -27,3 +27,32 @@ C:\Github\Soluciones\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.
 C:\Github\Soluciones\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\refint\ExceptionHandler.Blazor.dll
 C:\Github\Soluciones\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\ExceptionHandler.Blazor.pdb
 C:\Github\Soluciones\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\ref\ExceptionHandler.Blazor.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\bin\Debug\net7.0\Dialog.Blazor.staticwebassets.runtime.json
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\bin\Debug\net7.0\ExceptionHandler.Blazor.staticwebassets.runtime.json
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\bin\Debug\net7.0\ExceptionHandler.Blazor.deps.json
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\bin\Debug\net7.0\ExceptionHandler.Blazor.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\bin\Debug\net7.0\ExceptionHandler.Blazor.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\bin\Debug\net7.0\CustomExceptions.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\bin\Debug\net7.0\Dialog.Blazor.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\bin\Debug\net7.0\CustomExceptions.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\bin\Debug\net7.0\Dialog.Blazor.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\ExceptionHandler.Blazor.csproj.AssemblyReference.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\ExceptionHandler.Blazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\ExceptionHandler.Blazor.AssemblyInfoInputs.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\ExceptionHandler.Blazor.AssemblyInfo.cs
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\ExceptionHandler.Blazor.csproj.CoreCompileInputs.cache
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\staticwebassets\msbuild.ExceptionHandler.Blazor.Microsoft.AspNetCore.StaticWebAssets.props
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\staticwebassets\msbuild.build.ExceptionHandler.Blazor.props
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ExceptionHandler.Blazor.props
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ExceptionHandler.Blazor.props
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\staticwebassets.pack.json
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\staticwebassets.build.json
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\staticwebassets.development.json
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\scopedcss\CustomErrorBoundary.razor.rz.scp.css
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\scopedcss\bundle\ExceptionHandler.Blazor.styles.css
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\scopedcss\projectbundle\ExceptionHandler.Blazor.bundle.scp.css
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\ExceptionHandler.Blazor.csproj.CopyComplete
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\ExceptionHandler.Blazor.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\refint\ExceptionHandler.Blazor.dll
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\ExceptionHandler.Blazor.pdb
+C:\github\TI Capacitacion\CleanArchitectPizza\ExceptionHandler.Blazor\obj\Debug\net7.0\ref\ExceptionHandler.Blazor.dll
