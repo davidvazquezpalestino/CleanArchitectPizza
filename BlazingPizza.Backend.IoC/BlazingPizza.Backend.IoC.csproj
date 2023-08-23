@@ -13,6 +13,7 @@
     <ProjectReference Include="..\BlazingPizza.Shared.Validators\BlazingPizza.Shared.Validators.csproj" />
     <ProjectReference Include="..\BlazingPizza.UseCases\BlazingPizza.UseCases.csproj" />
     <ProjectReference Include="..\CustomExceptions.HttpHandlers\CustomExceptions.HttpHandlers.csproj" />
+    <ProjectReference Include="..\Membership.IoC\Membership.IoC.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,25 @@
+﻿<div class="user-info">
+    <AuthorizeView>
+        <Authorizing>
+            <text>...</text>
+        </Authorizing>
+        <Authorized>
+            <img src="@ImagePath/user.svg"/>
+            <div>
+                <span class="username">
+                    @context.User.Identity.Name
+                </span>
+                <a class="sign-out" href="user/logout">Cerrar sesión</a>
+            </div>
+        </Authorized>
+        <NotAuthorized>
+            <a class="sign-in" href="user/register">Register</a>
+            <a class="sign-in" href="user/login">Iniciar sesión</a>
+        </NotAuthorized>
+    </AuthorizeView>
+</div>
+@code{
+    string ImagePath =>
+        "_content/" + GetType().Assembly.GetName().Name +
+        "/images";
+}

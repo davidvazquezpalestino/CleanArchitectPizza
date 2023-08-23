@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RVVZnv4kucAuJ5WW4EQ8AEuoMK1x8eS3f1LwVaLu9B1ew3LOwfmMdAzZ1dIPeRZFlhdoJESeSoXd6AyyU50wiQ==",
+  "dgSpecHash": "wOpXuLWYn+WHNjmhzhUawrOOBiHFjQqhWL+4yb+DFZ92D8pg/efd+twtZ4aQPOhe9b30fHI21FDdI3xN06Am5Q==",
   "success": true,
-  "projectFilePath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj",
+  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

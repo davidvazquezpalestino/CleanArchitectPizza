@@ -15,4 +15,9 @@ builder.Services.AddBlazingPizzaFrontendServices(
     Options.Create(Endpoints),
     builder.Configuration["geoapifyApiKey"]);
 
+builder.Services.AddMembershipBlazorServices(
+    userEndpoints => builder.Configuration.GetSection(
+        UserEndpointsOptions.SectionKey).Bind(userEndpoints));
+
+
 await builder.Build().RunAsync();

@@ -1,0 +1,518 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.OrderTrackerSimulator\\BlazingPizza.OrderTrackerSimulator.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Frontend.BusinessObjects\\BlazingPizza.Frontend.BusinessObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Frontend.BusinessObjects\\BlazingPizza.Frontend.BusinessObjects.csproj",
+        "projectName": "BlazingPizza.Frontend.BusinessObjects",
+        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Frontend.BusinessObjects\\BlazingPizza.Frontend.BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Frontend.BusinessObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DAVID VAZQUEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Github\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj": {
+                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.OrderTrackerSimulator\\BlazingPizza.OrderTrackerSimulator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.OrderTrackerSimulator\\BlazingPizza.OrderTrackerSimulator.csproj",
+        "projectName": "BlazingPizza.OrderTrackerSimulator",
+        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.OrderTrackerSimulator\\BlazingPizza.OrderTrackerSimulator.csproj",
+        "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.OrderTrackerSimulator\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DAVID VAZQUEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Github\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Frontend.BusinessObjects\\BlazingPizza.Frontend.BusinessObjects.csproj": {
+                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Frontend.BusinessObjects\\BlazingPizza.Frontend.BusinessObjects.csproj"
+              },
+              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\PositionTrackerSimulator\\PositionTrackerSimulator.csproj": {
+                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\PositionTrackerSimulator\\PositionTrackerSimulator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj",
+        "projectName": "BlazingPizza.Shared.BusinessObjects",
+        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Shared.BusinessObjects\\BlazingPizza.Shared.BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Shared.BusinessObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DAVID VAZQUEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Github\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj": {
+                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj"
+              },
+              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj",
+        "projectName": "CustomExceptions",
+        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj",
+        "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DAVID VAZQUEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Github\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\PositionTrackerSimulator\\PositionTrackerSimulator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\PositionTrackerSimulator\\PositionTrackerSimulator.csproj",
+        "projectName": "PositionTrackerSimulator",
+        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\PositionTrackerSimulator\\PositionTrackerSimulator.csproj",
+        "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\PositionTrackerSimulator\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DAVID VAZQUEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Github\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj",
+        "projectName": "SpecificationValidation.Abstractions",
+        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\SpecificationValidation.Abstractions\\SpecificationValidation.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\SpecificationValidation.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DAVID VAZQUEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Github\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj": {
+                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj",
+        "projectName": "SpecificationValidation.Entities",
+        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj",
+        "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\SpecificationValidation.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DAVID VAZQUEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Github\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fQWGD9mFqJK8iJJvgvHskzwQVsvlVJHmmaaXoeymxzBCAvwHPi/api": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

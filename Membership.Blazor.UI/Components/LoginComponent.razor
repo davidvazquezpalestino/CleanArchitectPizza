@@ -1,0 +1,24 @@
+﻿<CustomErrorBoundary>
+    <EditForm Model="User" OnValidSubmit="Login">
+        <DataAnnotationsValidator />
+
+        <div class="form-field-column">
+            <label>Correo:</label>
+            <div>
+                <InputText @bind-Value=User.UserName />
+                <ValidationMessage For="@(()=>User.UserName)" />
+            </div>
+        </div>
+        <div class="form-field-column">
+            <label>Contraseña:</label>
+            <div>
+                <InputText type="password" @bind-Value=User.Password />
+                <ValidationMessage For="@(()=>User.Password)" />
+            </div>
+        </div>
+        
+        <div class="form-field-column">
+            <button class="btn btn-primary">Iniciar sesión</button>
+        </div>
+    </EditForm>
+</CustomErrorBoundary>

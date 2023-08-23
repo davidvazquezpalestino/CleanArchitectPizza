@@ -1,5 +1,6 @@
 namespace BlazingPizza.Razor.Views.Pages;
 
+[Authorize]
 public partial class OrderDetails
 {
     [Inject]

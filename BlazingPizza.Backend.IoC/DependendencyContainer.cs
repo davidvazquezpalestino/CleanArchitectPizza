@@ -1,4 +1,6 @@
-﻿namespace BlazingPizza.Backend.IoC;
+﻿using Membership.IoC;
+
+namespace BlazingPizza.Backend.IoC;
 public static class DependendencyContainer
 {
     public static IServiceCollection AddBlazingPizzaBackendServices(
@@ -9,7 +11,8 @@ public static class DependendencyContainer
             .AddControllersServices()
             .AddPresentersServices()
             .AddValidators()
-            .AddHttpExceptionHandlers();
+            .AddHttpExceptionHandlers()
+            .AddMembershipServices();
 
         return services;
     }

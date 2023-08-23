@@ -1,15 +1,32 @@
-﻿<Router AppAssembly="@typeof(App).Assembly"
-    >
-    <Found Context="routeData">
-        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
-        <FocusOnNavigate RouteData="@routeData" Selector="h1" />
-    </Found>
-    <NotFound>
-        <PageTitle>Not found</PageTitle>
-        <LayoutView Layout="@typeof(MainLayout)">
-            <p class="mx-auto mt-5">
-                Lo lamentamos, el recurso solicitado no ha sido encontrado.
-             </p>
-        </LayoutView>
-    </NotFound>
-</Router>
+﻿<CascadingAuthenticationState>
+    <Router AppAssembly="@typeof(App).Assembly">
+        <Found Context="routeData">
+            <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)">
+                <NotAuthorized>
+                    <div class="main">
+                        <div>
+                            Se requiere autorización para acceder a este recurso.
+                        </div>
+                        <a href="user/login" class="btn btn-success mt-3">
+                            Iniciar sesión
+                        </a>
+                    </div>
+                </NotAuthorized>
+                <Authorizing>
+                    <div class="main">
+                        Authorizando...
+                    </div>
+                </Authorizing>
+            </AuthorizeRouteView>
+            <FocusOnNavigate RouteData="@routeData" Selector="h1" />
+        </Found>
+        <NotFound>
+            <PageTitle>Not found</PageTitle>
+            <LayoutView Layout="@typeof(MainLayout)">
+                <p class="mx-auto mt-5">
+                    Lo lamentamos, el recurso solicitado no ha sido encontrado.
+                </p>
+            </LayoutView>
+        </NotFound>
+    </Router>
+</CascadingAuthenticationState>

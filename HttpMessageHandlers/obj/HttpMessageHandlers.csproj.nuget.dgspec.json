@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj": {}
+    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj": {}
   },
   "projects": {
-    "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj": {
+    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj",
+        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj",
         "projectName": "CustomExceptions",
-        "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj",
-        "packagesPath": "C:\\Users\\david_vazquez\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions\\obj\\",
+        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj",
+        "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\david_vazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DAVID VAZQUEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -30,6 +30,7 @@
         ],
         "sources": {
           "C:\\Github\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
@@ -67,18 +68,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj": {
+    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj",
+        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj",
         "projectName": "HttpMessageHandlers",
-        "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj",
-        "packagesPath": "C:\\Users\\david_vazquez\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\HttpMessageHandlers\\obj\\",
+        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj",
+        "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\HttpMessageHandlers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -86,7 +87,7 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\david_vazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DAVID VAZQUEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -97,6 +98,7 @@
         ],
         "sources": {
           "C:\\Github\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
@@ -107,8 +109,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj": {
-                "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj"
+              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj": {
+                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj"
               }
             }
           }
@@ -138,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

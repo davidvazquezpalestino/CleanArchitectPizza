@@ -9,13 +9,13 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazingPizza.BlazorClient
 build_property.RootNamespace = BlazingPizza.BlazorClient
-build_property.ProjectDir = C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.BlazorClient\
+build_property.ProjectDir = C:\Users\DAVID VAZQUEZ\Downloads\BlazingPizza\BlazingPizza.BlazorClient\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\github\TI Capacitacion\CleanArchitectPizza\BlazingPizza.BlazorClient
+build_property.MSBuildProjectDirectory = C:\Users\DAVID VAZQUEZ\Downloads\BlazingPizza\BlazingPizza.BlazorClient
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/github/TI Capacitacion/CleanArchitectPizza/BlazingPizza.BlazorClient/_Imports.razor]
+[C:/Users/DAVID VAZQUEZ/Downloads/BlazingPizza/BlazingPizza.BlazorClient/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

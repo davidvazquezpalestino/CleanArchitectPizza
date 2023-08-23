@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.7" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,6 +27,7 @@
     <ProjectReference Include="..\ExceptionHandler.Blazor\ExceptionHandler.Blazor.csproj" />
     <ProjectReference Include="..\GeolocationMap.Blazor\GeolocationMap.Blazor.csproj" />
     <ProjectReference Include="..\Leaflet.Blazor\Leaflet.Blazor.csproj" />
+    <ProjectReference Include="..\Membership.Blazor.UI\Membership.Blazor.UI.csproj" />
     <ProjectReference Include="..\SpecificationValidation.Blazor\SpecificationValidation.Blazor.csproj" />
     <ProjectReference Include="..\SweetAlert.Blazor\SweetAlert.Blazor.csproj" />
     <ProjectReference Include="..\TemplatedList.Blazor\TemplatedList.Blazor.csproj" />

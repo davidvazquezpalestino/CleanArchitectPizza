@@ -144,7 +144,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\": {},
+    "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\": {},
     "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
     "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
@@ -152,11 +152,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj",
+      "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj",
       "projectName": "BlazingPizza.Controllers",
-      "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj",
-      "packagesPath": "C:\\Users\\david_vazquez\\.nuget\\packages\\",
-      "outputPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Controllers\\obj\\",
+      "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj",
+      "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Controllers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -164,7 +164,7 @@
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\david_vazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DAVID VAZQUEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -175,6 +175,7 @@
       ],
       "sources": {
         "C:\\Github\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
@@ -185,8 +186,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj": {
-              "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj"
+            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj": {
+              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Backend.BusinessObjects\\BlazingPizza.Backend.BusinessObjects.csproj"
             }
           }
         }
@@ -222,7 +223,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

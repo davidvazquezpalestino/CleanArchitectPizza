@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CustomExceptions\CustomExceptions.csproj" />
+    <ProjectReference Include="..\Membership.Entities\Membership.Entities.csproj" />
     <ProjectReference Include="..\SpecificationValidation.Entities\SpecificationValidation.Entities.csproj" />
   </ItemGroup>
 

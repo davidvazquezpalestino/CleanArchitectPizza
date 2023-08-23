@@ -10,3 +10,4 @@ global using SweetAlert.Blazor;
 global using Geolocation.Blazor;
 global using Leaflet.Blazor;
 global using BlazingPizza.OrderTrackerSimulator;
+global using Membership.Blazor.Entities.Interfaces;

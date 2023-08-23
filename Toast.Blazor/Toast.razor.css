@@ -44,7 +44,10 @@
     flex-direction:row;
     flex:1;
     padding:.5rem 1rem;
+    /*padding:.5rem 0 .5rem 1rem;*/
     justify-content:space-between;
+    max-height: 50vh;
+    overflow:hidden;
 }
 .toastIcon{
     display:flex;

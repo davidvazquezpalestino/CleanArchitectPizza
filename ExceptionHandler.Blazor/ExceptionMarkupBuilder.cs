@@ -16,7 +16,7 @@ public class ExceptionMarkupBuilder
         {
             if(exception is ProblemDetailsException Ex)
             {
-                SB.Append("<div style='margin-bottom:1rem;'>");
+                SB.Append("<div style='margin-bottom:1rem;word-break:break-all;overflow-y:auto;'>");
                 SB.Append($"{Ex.ProblemDetails.Detail}</div>");
                 if(Ex.ProblemDetails.InvalidParams != null)
                 {

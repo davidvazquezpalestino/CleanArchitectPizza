@@ -8,10 +8,13 @@
         <div>Elegir Pizza</div>
     </NavLink>
 
-    <NavLink href="orders" class="nav-tab">
-        <img src="@ImagePath/bike.svg"/>
-        <div>Mis ordenes</div>
-    </NavLink>
-    
+    <AuthorizeView>
+        <NavLink href="orders" class="nav-tab">
+            <img src="@ImagePath/bike.svg" />
+            <div>Mis ordenes</div>
+        </NavLink>
+    </AuthorizeView>
+    <LoginDisplay />
+
 </div>
 

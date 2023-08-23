@@ -379,6 +379,29 @@
           "bin/placeholder/CustomExceptions.dll": {}
         }
       },
+      "Membership.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Membership.Shared.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Membership.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Membership.Entities.dll": {}
+        }
+      },
+      "Membership.Shared.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Membership.Shared.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Membership.Shared.Entities.dll": {}
+        }
+      },
       "SpecificationValidation.Entities/1.1.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -888,6 +911,16 @@
       "path": "../CustomExceptions/CustomExceptions.csproj",
       "msbuildProject": "../CustomExceptions/CustomExceptions.csproj"
     },
+    "Membership.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Membership.Entities/Membership.Entities.csproj",
+      "msbuildProject": "../Membership.Entities/Membership.Entities.csproj"
+    },
+    "Membership.Shared.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Membership.Shared.Entities/Membership.Shared.Entities.csproj",
+      "msbuildProject": "../Membership.Shared.Entities/Membership.Shared.Entities.csproj"
+    },
     "SpecificationValidation.Entities/1.1.0": {
       "type": "project",
       "path": "../SpecificationValidation.Entities/SpecificationValidation.Entities.csproj",
@@ -897,13 +930,14 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "CustomExceptions >= 1.0.0",
+      "Membership.Entities >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics >= 2.2.0",
       "Microsoft.Extensions.Hosting.Abstractions >= 7.0.0",
       "SpecificationValidation.Entities >= 1.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\david_vazquez\\.nuget\\packages\\": {},
+    "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\": {},
     "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
     "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
@@ -911,11 +945,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj",
+      "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj",
       "projectName": "CustomExceptions.HttpHandlers",
-      "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj",
-      "packagesPath": "C:\\Users\\david_vazquez\\.nuget\\packages\\",
-      "outputPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions.HttpHandlers\\obj\\",
+      "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj",
+      "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions.HttpHandlers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -923,7 +957,7 @@
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\david_vazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DAVID VAZQUEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -934,6 +968,7 @@
       ],
       "sources": {
         "C:\\Github\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
@@ -944,11 +979,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj": {
-              "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj"
+            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj": {
+              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj"
             },
-            "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj": {
-              "projectPath": "C:\\github\\TI Capacitacion\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj"
+            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj": {
+              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj"
+            },
+            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj": {
+              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj"
             }
           }
         }
@@ -988,7 +1026,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

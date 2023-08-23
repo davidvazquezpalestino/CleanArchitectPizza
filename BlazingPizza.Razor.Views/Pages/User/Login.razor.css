@@ -1,0 +1,19 @@
+﻿.login {
+    display: flex;
+    justify-content: center;
+}
+
+    .login h4 {
+        margin: auto;
+    }
+
+    .login > div {
+        max-width: 500px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        border: 1px solid #ddd;
+        background: rgba(255,255,255,0.3);
+        padding: 1.25rem 1rem;
+    }

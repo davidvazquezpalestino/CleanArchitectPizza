@@ -23,8 +23,9 @@ internal sealed class BlazingPizzaQueriesRepository : IBlazingPizzaQueriesReposi
             .Select(t => t.ToTopping())
             .ToListAsync();
     }
-    public async Task<IReadOnlyCollection<GetOrdersDto>> GetOrdersAsync() =>
+    public async Task<IReadOnlyCollection<GetOrdersDto>> GetOrdersAsync(string userId) =>
         (await Context.Orders
+            .Where(o => o.UserId == userId)
             .Include(o => o.Pizzas).ThenInclude(p => p.PizzaSpecial)
             .Include(o => o.Pizzas).ThenInclude(p => p.Toppings)
                 .ThenInclude(t => t.Topping)
@@ -34,9 +35,10 @@ internal sealed class BlazingPizzaQueriesRepository : IBlazingPizzaQueriesReposi
 
    
 
-    public async Task<GetOrderDto> GetOrderAsync(int id)
+    public async Task<GetOrderDto> GetOrderAsync(int id, string userId)
     {
         var Order = await Context.Orders
+            .Where(o => o.UserId == userId)
             .Where(o => o.Id == id)
             .Include(o => o.Pizzas).ThenInclude(p => p.PizzaSpecial)
             .Include(o => o.Pizzas).ThenInclude(p => p.Toppings)

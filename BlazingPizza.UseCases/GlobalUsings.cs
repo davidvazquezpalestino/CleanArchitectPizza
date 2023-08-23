@@ -14,3 +14,4 @@ global using BlazingPizza.UseCases.PlaceOrder;
 global using Microsoft.Extensions.DependencyInjection;
 global using BlazingPizza.Shared.BusinessObjects.ValueObjects;
 global using SpecificationValidation.Entities;
+global using Membership.Entities;

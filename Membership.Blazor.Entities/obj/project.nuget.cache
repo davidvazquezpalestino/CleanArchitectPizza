@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "ois23iEhwYaivPPc5cXGCDJvKFbVDd7+/MkLhfPpxn/Id3eNSGRQFnfsiGsxcdTNZ9zOZQVLHTXWkgnpitHeYQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.7\\microsoft.aspnetcore.authorization.7.0.7.nupkg.sha512",
+    "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.7\\microsoft.aspnetcore.components.7.0.7.nupkg.sha512",
+    "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.7\\microsoft.aspnetcore.components.analyzers.7.0.7.nupkg.sha512",
+    "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\7.0.7\\microsoft.aspnetcore.components.authorization.7.0.7.nupkg.sha512",
+    "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.7\\microsoft.aspnetcore.metadata.7.0.7.nupkg.sha512",
+    "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,13 @@
+global using System.ComponentModel.DataAnnotations;
+global using Membership.Blazor.Entities.Interfaces;
+global using Membership.Blazor.UI.Models;
+global using Membership.Shared.Entities;
+global using Microsoft.AspNetCore.Components;
+global using Microsoft.AspNetCore.Components.Authorization;
+global using Microsoft.JSInterop;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Security.Claims;
+global using System.Text.Json;
+global using Membership.Blazor.UI.AuthenticationStateProviders;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Net.Http.Headers;

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "c0X3svSIGfKenTNed2weGZvxWnxOkQSlrdawYpwkh1mzmcpfh1sSeMqx5I07266fOHz1rbAyfjIPHRTdCJ6S0g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserManager\\Membership.UserManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
