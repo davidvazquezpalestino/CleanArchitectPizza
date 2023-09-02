@@ -1,7 +1,7 @@
 ﻿namespace BlazingPizza.EFCore.Repositories.Mappers;
 internal static class AddressMapper
 {
-    internal static EFEntities.Address ToEFAddress(
+    internal static EFEntities.Address ToEfAddress(
         this SharedValueObjects.Address address) =>
         new EFEntities.Address
         {

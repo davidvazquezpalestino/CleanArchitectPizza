@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dh2uTye7VNMIb2d2z2TriRmA1Ajh+nkVGYtKxEhTDaBdDu83eNrb0SzHo0YEt9yZwC7Lk+QW0pZYaLsXh0m02Q==",
+  "dgSpecHash": "uZ4UkflcH8IVIJRyZo1uWnpSA62irx9FqONjwU9IRihkj4xf0x5b9YIz9rwBzlE58GmYbteqS6dX/6WSvr2foA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.IoC\\Membership.IoC.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.IoC\\Membership.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

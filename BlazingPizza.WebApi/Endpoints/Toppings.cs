@@ -8,8 +8,8 @@ internal static class Toppings
         app.MapGet("/toppings",
             async (IGetToppingsController controller) =>
             {
-                var Result = await controller.GetToppingsAsync();
-                return Results.Ok(Result);
+                var result = await controller.GetToppingsAsync();
+                return Results.Ok(result);
             });
         return app;
     }

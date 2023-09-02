@@ -1,5 +1,5 @@
 ﻿namespace CustomExceptions;
-public interface IHttpExceptionHandler<ExceptionType> where ExceptionType : Exception
+public interface IHttpExceptionHandler<TExceptionType> where TExceptionType : Exception
 {
-    ProblemDetails Handle(ExceptionType exception);
+    ProblemDetails Handle(TExceptionType exception);
 }

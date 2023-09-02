@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Geolocation.Blazor\\Geolocation.Blazor.csproj": {}
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Geolocation.Blazor\\Geolocation.Blazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Geolocation.Blazor\\Geolocation.Blazor.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Geolocation.Blazor\\Geolocation.Blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Geolocation.Blazor\\Geolocation.Blazor.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Geolocation.Blazor\\Geolocation.Blazor.csproj",
         "projectName": "Geolocation.Blazor",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Geolocation.Blazor\\Geolocation.Blazor.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Geolocation.Blazor\\Geolocation.Blazor.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Geolocation.Blazor\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Geolocation.Blazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",

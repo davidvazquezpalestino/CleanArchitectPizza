@@ -60,15 +60,15 @@
                 }
             </div>
             <div class="toppings">
-                @foreach(var Topping in Pizza.Toppings)
+                @foreach(Topping topping in Pizza.Toppings)
                 {
                     <div class="topping">
-                        @Topping.Name
+                        @topping.Name
                         <span class="topping-price">
-                            @Topping.GetFormattedPrice()
+                            @topping.GetFormattedPrice()
                         </span>
                         <button type="button" class="delete-topping"
-                        @onclick="@(()=> ViewModel.RemoveTopping(Topping))">X</button>
+                        @onclick="@(()=> ViewModel.RemoveTopping(topping))">X</button>
                     </div>
                 }
             </div>

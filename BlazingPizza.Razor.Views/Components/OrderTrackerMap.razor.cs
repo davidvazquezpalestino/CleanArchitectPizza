@@ -75,8 +75,8 @@ public partial class OrderTrackerMap : IDisposable
         DroneId = -1;
         await Map.RemoveMarkersAsync();
         await Map.SetViewMapAsync(FromLatLong(order.DeliveryLocation));
-        var Origin = await Notificator.SubscribeAsync(order, OnMove);
-        await Map.AddMarkerAsync(FromLatLong(Origin), "Pizza Store", 
+        LatLong origin = await Notificator.SubscribeAsync(order, OnMove);
+        await Map.AddMarkerAsync(FromLatLong(origin), "Pizza Store", 
             "Pizza Store", "pizzastore");
         await Map.AddMarkerAsync(FromLatLong(order.DeliveryLocation), "Usted",
             "Lugar de entrega",

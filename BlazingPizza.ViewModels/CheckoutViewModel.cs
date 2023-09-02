@@ -23,14 +23,14 @@ internal sealed class CheckoutViewModel : ICheckoutViewModel
 
     public async Task<int> PlaceOrderAsync()
     {
-        int OrderId = 0;
+        int orderId = 0;
 
         IsSubmitting = true;
         Order.SetDeliveryAddress(Address);
 
         try
         {
-            OrderId = await Model.PlaceOrderAsync(Order);
+            orderId = await Model.PlaceOrderAsync(Order);
             OrderStateService.ResetOrder();
             Address = new Address();
         }
@@ -41,7 +41,7 @@ internal sealed class CheckoutViewModel : ICheckoutViewModel
 
         IsSubmitting = false;
 
-        return OrderId;
+        return orderId;
     }
 
 

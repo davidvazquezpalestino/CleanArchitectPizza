@@ -4,10 +4,10 @@ internal static class JwtHelper
     static SigningCredentials GetSigningCredentials(
         JwtConfigurationOptions options)
     {
-        var Key = Encoding.UTF8.GetBytes(options.SecurityKey);
-        var Secret = new SymmetricSecurityKey(Key);
+        var key = Encoding.UTF8.GetBytes(options.SecurityKey);
+        SymmetricSecurityKey secret = new SymmetricSecurityKey(key);
 
-        return new SigningCredentials(Secret, SecurityAlgorithms.HmacSha256);
+        return new SigningCredentials(secret, SecurityAlgorithms.HmacSha256);
     }
 
 
@@ -31,9 +31,9 @@ internal static class JwtHelper
         };
     public static List<Claim> GetUserClaimsFromToken(string accessToken)
     {
-        var Handler = new JwtSecurityTokenHandler();
-        var Token = Handler.ReadJwtToken(accessToken);
-        return Token.Claims
+        JwtSecurityTokenHandler handler = new JwtSecurityTokenHandler();
+        JwtSecurityToken token = handler.ReadJwtToken(accessToken);
+        return token.Claims
             .Where(c => c.Type == "FullName" || c.Type == ClaimTypes.Name)
             .ToList();       
     }
@@ -41,10 +41,10 @@ internal static class JwtHelper
     public static string GetAccessToken(
         JwtConfigurationOptions options, List<Claim> userClaims)
     {
-        SigningCredentials SigningCredentials = GetSigningCredentials(options);
+        SigningCredentials signingCredentials = GetSigningCredentials(options);
 
-        JwtSecurityToken JwtSecurityToken =
-            GetJwtSecurityToken(options, SigningCredentials, userClaims);
-        return new JwtSecurityTokenHandler().WriteToken(JwtSecurityToken);
+        JwtSecurityToken jwtSecurityToken =
+            GetJwtSecurityToken(options, signingCredentials, userClaims);
+        return new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken);
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rx1/j2Yzn9/yA5/lA8S4/N4vt3r9nHYJMXcmjo8kNoS/dFDsKwRKCgTcTd+kyJR/7gHuP5RGUAZDwyimLeReFQ==",
+  "dgSpecHash": "XgplDa65SdRgJbLgeAR4C5B89kC6APKmNRGvUI+ixz6ZYBW88X9GFvyrU3C/CKVHA9rcfYlFX6ohDfHFYSYs/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.aspnetcore.diagnostics\\2.2.0\\microsoft.aspnetcore.diagnostics.2.2.0.nupkg.sha512",
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.abstractions\\2.2.0\\microsoft.aspnetcore.diagnostics.abstractions.2.2.0.nupkg.sha512",

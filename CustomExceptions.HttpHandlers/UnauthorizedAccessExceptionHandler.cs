@@ -10,7 +10,7 @@ internal class UnauthorizedAccessExceptionHandler :
 {
     public ProblemDetails Handle(UnauthorizedAccessException exception)
     {
-        ProblemDetails ProblemDetails = new ProblemDetails
+        ProblemDetails problemDetails = new ProblemDetails
         {
             Status = StatusCodes.Status401Unauthorized,
             Type = StatusCodes.Status401UnauthorizedType,
@@ -18,6 +18,6 @@ internal class UnauthorizedAccessExceptionHandler :
             Detail = "El recurso solicitado no fue autorizado."
         };
 
-        return ProblemDetails;
+        return problemDetails;
     }
 }

@@ -1,63 +1,58 @@
 ﻿namespace Membership.Blazor.UI.AuthenticationStateProviders;
-internal class JWTAuthenticationStateProvider : AuthenticationStateProvider,
-    IAuthenticationStateProvider
+internal class JWTAuthenticationStateProvider : AuthenticationStateProvider, IAuthenticationStateProvider
 {
     const string SessionKey = "ast";
-    readonly IJSRuntime JSRuntime;
+    readonly IJSRuntime JsRuntime;
     readonly IUserWebApiGateway UserWebApiGateway;
     public JWTAuthenticationStateProvider(IJSRuntime jsRuntime, 
         IUserWebApiGateway userWebApiGateway)
     {
-        JSRuntime = jsRuntime;
+        JsRuntime = jsRuntime;
         UserWebApiGateway = userWebApiGateway;
     }
 
     public override async Task<AuthenticationState> GetAuthenticationStateAsync()
     {
-        ClaimsIdentity Identity = new ClaimsIdentity();
+        ClaimsIdentity identity = new ClaimsIdentity();
 
-        var StoredTokens = await GetUserTokensAsync();
+        UserTokensDto storedTokens = await GetUserTokensAsync();
 
-        if (StoredTokens != default)
+        if (storedTokens != default)
         {
-            var Handler = new JwtSecurityTokenHandler();
-            var Token = Handler.ReadJwtToken(StoredTokens.Access_Token);
-            Identity = new ClaimsIdentity(Token.Claims,
-                nameof(JWTAuthenticationStateProvider));
+            JwtSecurityTokenHandler handler = new JwtSecurityTokenHandler();
+            JwtSecurityToken token = handler.ReadJwtToken(storedTokens.AccessToken);
+            identity = new ClaimsIdentity(token.Claims, nameof(JWTAuthenticationStateProvider));
         }
 
-        return new AuthenticationState(
-            new ClaimsPrincipal(Identity));
+        return new AuthenticationState(new ClaimsPrincipal(identity));
     }
 
     public async Task<UserTokensDto> GetUserTokensAsync()
     {
-        string State = await JSRuntime.InvokeAsync<string>(
-            "sessionStorage.getItem", SessionKey);
+        string state = await JsRuntime.InvokeAsync<string>("sessionStorage.getItem", SessionKey);
 
-        UserTokensDto StoredTokens = default;
-        if(State != null)
+        UserTokensDto storedTokens = default;
+        if(state != null)
         {
-            StoredTokens = JsonSerializer.Deserialize<UserTokensDto>(State);
+            storedTokens = JsonSerializer.Deserialize<UserTokensDto>(state);
             /* Verificar el token de acceso */
 
-            var Handler = new JwtSecurityTokenHandler();
-            var Token = Handler.ReadJwtToken(StoredTokens.Access_Token);
-            if(Token.ValidTo <= DateTime.UtcNow)
+            JwtSecurityTokenHandler handler = new JwtSecurityTokenHandler();
+            JwtSecurityToken token = handler.ReadJwtToken(storedTokens.AccessToken);
+            if(token.ValidTo <= DateTime.UtcNow)
             {
                 try
                 {
-                    var NewTokens = await UserWebApiGateway.RefreshTokenAsync(
-                        StoredTokens);
-                    await LoginAsync(NewTokens);
-                    StoredTokens = NewTokens;
+                    UserTokensDto newTokens = await UserWebApiGateway.RefreshTokenAsync(storedTokens);
+                    await LoginAsync(newTokens);
+                    storedTokens = newTokens;
                     Console.WriteLine();
                     Console.WriteLine("***** Access token actualizado.");
                     Console.WriteLine();
                 }
                 catch (Exception ex)
                 {
-                    StoredTokens = default;
+                    storedTokens = default;
                     Console.WriteLine(ex.Message);
                     await LogoutAsync();
                 }
@@ -65,25 +60,21 @@ internal class JWTAuthenticationStateProvider : AuthenticationStateProvider,
 
             /* Verificar el token de acceso */
         }
-        return StoredTokens;       
+        return storedTokens;       
     }
 
     public async Task LoginAsync(UserTokensDto userTokensDto)
     {
-        string State = JsonSerializer.Serialize(userTokensDto);
-        await JSRuntime.InvokeVoidAsync(
-            "sessionStorage.setItem", SessionKey, State);
+        string state = JsonSerializer.Serialize(userTokensDto);
+        await JsRuntime.InvokeVoidAsync("sessionStorage.setItem", SessionKey, state);
 
-        NotifyAuthenticationStateChanged(
-            GetAuthenticationStateAsync());
+        NotifyAuthenticationStateChanged(GetAuthenticationStateAsync());
     }
 
     public async Task LogoutAsync()
     {
-        await JSRuntime.InvokeVoidAsync(
-            "sessionStorage.removeItem", SessionKey);
+        await JsRuntime.InvokeVoidAsync("sessionStorage.removeItem", SessionKey);
 
-        NotifyAuthenticationStateChanged(
-            GetAuthenticationStateAsync());
+        NotifyAuthenticationStateChanged(GetAuthenticationStateAsync());
     }
 }

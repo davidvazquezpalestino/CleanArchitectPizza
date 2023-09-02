@@ -13,7 +13,7 @@ public partial class ConfiguredPizzaItem
     async Task RemovePizzaConfirmation()
     {
 
-        var MessageParameters = new ConfirmArgs(
+        ConfirmArgs messageParameters = new ConfirmArgs(
             "¿Eliminar la pizza?",
             $"¿Eliminar la pizza {Pizza.Special.Name} de la orden?",
             Icon.Warning,
@@ -23,9 +23,9 @@ public partial class ConfiguredPizzaItem
              );
 
 
-        bool Remove = await SweetAlertService.ConfirmAsync(MessageParameters);
+        bool remove = await SweetAlertService.ConfirmAsync(messageParameters);
 
-        if (Remove)
+        if (remove)
         {
             await OnRemoved.InvokeAsync();
         }

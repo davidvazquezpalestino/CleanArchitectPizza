@@ -4277,11 +4277,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Backend.IoC\\BlazingPizza.Backend.IoC.csproj",
+      "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Backend.IoC\\BlazingPizza.Backend.IoC.csproj",
       "projectName": "BlazingPizza.Backend.IoC",
-      "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Backend.IoC\\BlazingPizza.Backend.IoC.csproj",
+      "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Backend.IoC\\BlazingPizza.Backend.IoC.csproj",
       "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Backend.IoC\\obj\\",
+      "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Backend.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -4311,26 +4311,26 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj": {
-              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj"
+            "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj": {
+              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Controllers\\BlazingPizza.Controllers.csproj"
             },
-            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.EFCore.Repositories\\BlazingPizza.EFCore.Repositories.csproj": {
-              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.EFCore.Repositories\\BlazingPizza.EFCore.Repositories.csproj"
+            "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.EFCore.Repositories\\BlazingPizza.EFCore.Repositories.csproj": {
+              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.EFCore.Repositories\\BlazingPizza.EFCore.Repositories.csproj"
             },
-            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Presenters\\BlazingPizza.Presenters.csproj": {
-              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Presenters\\BlazingPizza.Presenters.csproj"
+            "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Presenters\\BlazingPizza.Presenters.csproj": {
+              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Presenters\\BlazingPizza.Presenters.csproj"
             },
-            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Shared.Validators\\BlazingPizza.Shared.Validators.csproj": {
-              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Shared.Validators\\BlazingPizza.Shared.Validators.csproj"
+            "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Shared.Validators\\BlazingPizza.Shared.Validators.csproj": {
+              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Shared.Validators\\BlazingPizza.Shared.Validators.csproj"
             },
-            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.UseCases\\BlazingPizza.UseCases.csproj": {
-              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.UseCases\\BlazingPizza.UseCases.csproj"
+            "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.UseCases\\BlazingPizza.UseCases.csproj": {
+              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.UseCases\\BlazingPizza.UseCases.csproj"
             },
-            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj": {
-              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj"
+            "C:\\Github\\Soluciones\\CleanArchitectPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj": {
+              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\CustomExceptions.HttpHandlers\\CustomExceptions.HttpHandlers.csproj"
             },
-            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.IoC\\Membership.IoC.csproj": {
-              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.IoC\\Membership.IoC.csproj"
+            "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.IoC\\Membership.IoC.csproj": {
+              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.IoC\\Membership.IoC.csproj"
             }
           }
         }

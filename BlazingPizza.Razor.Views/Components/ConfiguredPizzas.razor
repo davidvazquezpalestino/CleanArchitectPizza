@@ -3,10 +3,10 @@
     {
         <div class="order-contents">
             <h2>Tu orden</h2>
-            @foreach(var ConfiguredPizza in Order.Pizzas)
+            @foreach(Pizza configuredPizza in Order.Pizzas)
             {
-                <ConfiguredPizzaItem Pizza="ConfiguredPizza"
-                    OnRemoved="() => Order.RemovePizza(ConfiguredPizza)"/>
+                <ConfiguredPizzaItem Pizza="configuredPizza"
+                    OnRemoved="() => Order.RemovePizza(configuredPizza)"/>
             }
         </div>
     }

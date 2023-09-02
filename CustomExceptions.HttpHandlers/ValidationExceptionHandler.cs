@@ -3,28 +3,28 @@ internal class ValidationExceptionHandler : IHttpExceptionHandler<ValidationExce
 {
     public ProblemDetails Handle(ValidationException exception)
     {
-        var Errors = new Dictionary<string, List<string>>();
-        foreach (var Error in exception.Errors)
+        var errors = new Dictionary<string, List<string>>();
+        foreach (IValidationError error in exception.Errors)
         {
-            if (Errors.ContainsKey(Error.PropertyName))
+            if (errors.ContainsKey(error.PropertyName))
             {
-                Errors[Error.PropertyName].Add(Error.Message);
+                errors[error.PropertyName].Add(error.Message);
             }
             else
             {
-                Errors.Add(Error.PropertyName, new List<string> { Error.Message });
+                errors.Add(error.PropertyName, new List<string> { error.Message });
             }
         }
 
-        ProblemDetails ProblemDetails = new ProblemDetails
+        ProblemDetails problemDetails = new ProblemDetails
         {
             Status = StatusCodes.Status400BadRequest,
             Type = StatusCodes.Status400BadRequestType,
             Title = "Error de validación",
             Detail = "Corrige los siguientes problemas:",
-            InvalidParams = Errors
+            InvalidParams = errors
         };
 
-        return ProblemDetails;
+        return problemDetails;
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aPNPm7kkmG//0FyRcnbhGKwQTKI4k/ExC3bADGJgAKrCsv7kDlVSAnjEp7yxT8ukwLFD+ai+iRAfGR0k1HKbHg==",
+  "dgSpecHash": "zfx+M94gUWBEusuNkX07gpgugIkCwu46mumHjQhFu14HJOb3TVFZzvZlja78mPZxHlCtBP63pHnfuNmrkeltLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserManager.AspNetIdentity\\Membership.UserManager.AspNetIdentity.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserManager.AspNetIdentity\\Membership.UserManager.AspNetIdentity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

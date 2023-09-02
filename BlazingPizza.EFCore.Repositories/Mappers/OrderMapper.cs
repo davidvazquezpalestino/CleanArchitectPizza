@@ -1,15 +1,15 @@
 ﻿namespace BlazingPizza.EFCore.Repositories.Mappers;
 internal static class OrderMapper
 {
-    internal static EFEntities.Order ToEFOrder(
+    internal static EFEntities.Order ToEfOrder(
         this PlaceOrderOrderDto order) =>
         new EFEntities.Order
         {
             CreatedTime = DateTime.Now,
             UserId = order.UserId,
-            DeliveryAddress = order.DeliveryAddress.ToEFAddress(),
-            DeliveryLocation = order.DeliveryLocation.ToEFLatLong(),
-            Pizzas = order.Pizzas.Select(p => p.ToEFPizza()).ToList()
+            DeliveryAddress = order.DeliveryAddress.ToEfAddress(),
+            DeliveryLocation = order.DeliveryLocation.ToEfLatLong(),
+            Pizzas = order.Pizzas.Select(p => p.ToEfPizza()).ToList()
         };
 
     internal static SharedAggregates.Order ToOrder(

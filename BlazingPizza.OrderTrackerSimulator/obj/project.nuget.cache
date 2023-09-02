@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QOR6FmTChVg/JoClP09mjIY7xPhXiBDwoJD+LcRcaQLm45Rk6mDhtT8TWcbfBiLCyeXZC23U6Ytarpxaq2U9Ow==",
+  "dgSpecHash": "E0jkdYycP9BLaXal9K+ykFZmJYrhc2WWWsQ/kS0Xs+YjxPbRkNp9ApDhsX4ktnKKxtOVecjkHz5oek39r+j8zA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.OrderTrackerSimulator\\BlazingPizza.OrderTrackerSimulator.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.OrderTrackerSimulator\\BlazingPizza.OrderTrackerSimulator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],

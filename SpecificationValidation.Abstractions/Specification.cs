@@ -9,11 +9,11 @@ public abstract class Specification<T> : ISpecification<T>
             PropertyRules.Where(pr => pr.PropertyName == propertyName).ToList());
     protected PropertyRule<T> Property(Expression<Func<T, object>> property)
     {
-        var PropertyRule = new PropertyRule<T>(
+        var propertyRule = new PropertyRule<T>(
             ExpressionHelper.GetPropertyName(property));
 
-        PropertyRules.Add(PropertyRule);
-        return PropertyRule;
+        PropertyRules.Add(propertyRule);
+        return propertyRule;
     }
     readonly List<ValidationError> ErrorsField = new();
     readonly List<PropertyRule<T>> PropertyRules = new();
@@ -21,15 +21,15 @@ public abstract class Specification<T> : ISpecification<T>
     bool ValidateRules(T entity, List<PropertyRule<T>> propertyRules)
     {
         ErrorsField.Clear();
-        foreach (var Property in propertyRules)
+        foreach (var property in propertyRules)
         {
-            foreach (var Rule in Property.Rules)
+            foreach (var rule in property.Rules)
             {
-                if (!Rule.Predicate(entity))
+                if (!rule.Predicate(entity))
                 {
                     ErrorsField.Add(new ValidationError(
-                        Property.PropertyName, Rule.ErrorMessage));
-                    if (Property.OnFirstErrorAction ==
+                        property.PropertyName, rule.ErrorMessage));
+                    if (property.OnFirstErrorAction ==
                         OnFirstErrorAction.StopValidation)
                     {
                         break;

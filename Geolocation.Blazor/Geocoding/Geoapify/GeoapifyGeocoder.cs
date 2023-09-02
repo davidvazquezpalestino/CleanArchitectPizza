@@ -14,34 +14,34 @@ internal class GeoapifyGeocoder : IGeocoder
     public async Task<GeocodingAddress> GetGeocodingAddressAsync(
         double latitude, double longitude)
     {
-        const string BaseUri = "https://api.geoapify.com/v1/geocode/reverse";
-        GeocodingAddress Address = null;
+        const string baseUri = "https://api.geoapify.com/v1/geocode/reverse";
+        GeocodingAddress address = null;
 
-        var Result = await Client.GetFromJsonAsync<JsonResponse>(
-            $"{BaseUri}?{BuildParameters(latitude, longitude, ApiKey)}");
+        JsonResponse result = await Client.GetFromJsonAsync<JsonResponse>(
+            $"{baseUri}?{BuildParameters(latitude, longitude, ApiKey)}");
 
-        if (Result.Results.Any())
+        if (result.Results.Any())
         {
-            Address = new GeocodingAddress
+            address = new GeocodingAddress
             {
-                Latitude = Result.Results[0].Lat,
-                Longitude = Result.Results[0].Lon,
-                DisplayAddress = Result.Results[0].Formatted,
-                Country = Result.Results[0].Country,
-                State = Result.Results[0].State,
-                City = Result.Results[0].City,
-                PostalCode = Result.Results[0].PostCode,
-                HouseNumber = Result.Results[0].HouseNumber,
-                AddressLine1 = Result.Results[0].Address_Line1,
-                AddressLine2 = Result.Results[0].Address_Line2
+                Latitude = result.Results[0].Lat,
+                Longitude = result.Results[0].Lon,
+                DisplayAddress = result.Results[0].Formatted,
+                Country = result.Results[0].Country,
+                State = result.Results[0].State,
+                City = result.Results[0].City,
+                PostalCode = result.Results[0].PostCode,
+                HouseNumber = result.Results[0].HouseNumber,
+                AddressLine1 = result.Results[0].AddressLine1,
+                AddressLine2 = result.Results[0].AddressLine2
             };
         }
-        return Address;
+        return address;
     }
 
     string BuildParameters(double latitude, double longitude, string apiKey)
     {
-        Dictionary<string, string> Parameters = new Dictionary<string, string>()
+        Dictionary<string, string> parameters = new Dictionary<string, string>()
         {
             { "lat", latitude.ToString("###.#########")},
             { "lon", longitude.ToString("###.#########")},
@@ -52,7 +52,7 @@ internal class GeoapifyGeocoder : IGeocoder
             { "apiKey", apiKey }
         };
 
-        return string.Join('&', Parameters
+        return string.Join('&', parameters
             .Select(p => $"{p.Key}={p.Value}").ToArray());
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nwQDYEPP8GsGsRqgGxKAz8xQUUpysAz6wzhZY+9OXdJ0Ip+IWoCja4I/iVWhVFdrk0EA5kVllx1fLZIdj8l8Cw==",
+  "dgSpecHash": "e4W8RWNRQiyFNeWlSd6gaMgAW1pR37wANKuzN9cfQ4ZJ0CFtItizqBYmYaKNA07/RWsSxBOt5GYxWanAew6y3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.IoC\\Membership.Blazor.IoC.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.IoC\\Membership.Blazor.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.7\\microsoft.aspnetcore.authorization.7.0.7.nupkg.sha512",
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.7\\microsoft.aspnetcore.components.7.0.7.nupkg.sha512",

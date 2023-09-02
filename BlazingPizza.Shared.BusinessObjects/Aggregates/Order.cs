@@ -9,11 +9,11 @@ public class Order : BaseOrder
     public static Order Create(int orderId, DateTime createdTime,
         string userId)
     {
-        Order Result = new Order();
-        Result.Id = orderId;
-        Result.CreatedTime = createdTime;
-        Result.UserId = userId;
-        return Result;
+        Order result = new Order();
+        result.Id = orderId;
+        result.CreatedTime = createdTime;
+        result.UserId = userId;
+        return result;
     }
 
     readonly List<Pizza> PizzasField;
@@ -69,13 +69,13 @@ public class Order : BaseOrder
 
     public static implicit operator Order(GetOrderDto order)
     {
-        var NewOrder = Create(order.Id, order.CreatedTime, order.UserId);
+        Order newOrder = Create(order.Id, order.CreatedTime, order.UserId);
 
-        order.Pizzas.ToList().ForEach(p => NewOrder.AddPizza(p));
+        order.Pizzas.ToList().ForEach(p => newOrder.AddPizza(p));
         //foreach(var Item in order.Pizzas)
         //{
         //    NewOrder.AddPizza(Item);
         //}
-        return NewOrder;
+        return newOrder;
     }
 }

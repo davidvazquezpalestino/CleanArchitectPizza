@@ -191,11 +191,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj",
+      "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj",
       "projectName": "Membership.RefreshTokenManager.Memory",
-      "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj",
+      "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj",
       "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.RefreshTokenManager.Memory\\obj\\",
+      "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.RefreshTokenManager.Memory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -225,8 +225,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj": {
-              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj"
+            "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Entities\\Membership.Entities.csproj": {
+              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Entities\\Membership.Entities.csproj"
             }
           }
         }

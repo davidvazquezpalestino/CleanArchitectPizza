@@ -15,14 +15,14 @@ internal class LoginPresenter : ILoginPresenter
 
     public async Task HandleUserDataAsync(UserDto userData)
     {
-        List<Claim> Claims = JwtHelper.GetUserClaims(userData);
+        List<Claim> claims = JwtHelper.GetUserClaims(userData);
 
-        string AccessToken = JwtHelper.GetAccessToken(Options, Claims);
+        string accessToken = JwtHelper.GetAccessToken(Options, claims);
 
-        string RefreshToken =
-            await RefreshTokenManager.GetNewTokenAsync(AccessToken);
+        string refreshToken =
+            await RefreshTokenManager.GetNewTokenAsync(accessToken);
 
-        UserTokens = new UserTokensDto(AccessToken, RefreshToken);
+        UserTokens = new UserTokensDto(accessToken, refreshToken);
     }
 
    

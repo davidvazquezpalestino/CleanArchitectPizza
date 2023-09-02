@@ -3,7 +3,7 @@ internal class GeneralExceptionHandler : IHttpExceptionHandler<GeneralException>
 {
     public ProblemDetails Handle(GeneralException exception)
     {
-        ProblemDetails ProblemDetails = new ProblemDetails
+        ProblemDetails problemDetails = new ProblemDetails
         {
             Status = StatusCodes.Status500InternalServerError,
             Type = StatusCodes.Status500InternalServerErrorType,
@@ -11,6 +11,6 @@ internal class GeneralExceptionHandler : IHttpExceptionHandler<GeneralException>
             Detail = exception.Detail
         };
 
-        return ProblemDetails;
+        return problemDetails;
     }
 }

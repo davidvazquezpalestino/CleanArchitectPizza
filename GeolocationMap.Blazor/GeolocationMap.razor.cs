@@ -29,15 +29,15 @@ public partial class GeolocationMap
 
     async Task ShowLocation()
     {
-        var Position = await Service.GetPositionAsync();
+        GeolocationLatLong position = await Service.GetPositionAsync();
 
-        if (!Position.Equals(default(GeolocationLatLong)))
+        if (!position.Equals(default(GeolocationLatLong)))
         {
-            var MapPosition = new LeafletLatLong(Position.Latitude, Position.Longitude);
-            await Map.SetViewMapAsync(MapPosition);
-            MarkerId = await Map.AddDraggableMarkerAsync(MapPosition, "Mi ubicación",
+            LeafletLatLong mapPosition = new LeafletLatLong(position.Latitude, position.Longitude);
+            await Map.SetViewMapAsync(mapPosition);
+            MarkerId = await Map.AddDraggableMarkerAsync(mapPosition, "Mi ubicación",
                 "");
-            await UpdateAddress(Position.Latitude, Position.Longitude);
+            await UpdateAddress(position.Latitude, position.Longitude);
         }
         else
         {
@@ -52,12 +52,12 @@ public partial class GeolocationMap
 
     async Task UpdateAddress(double latitude, double longitude)
     {
-        var Address = await Geocoder.GetGeocodingAddressAsync(latitude, longitude);
+        GeocodingAddress address = await Geocoder.GetGeocodingAddressAsync(latitude, longitude);
 
-        string Message =
-          $"{Address.DisplayAddress}<br/>Latitud: {latitude}<br/>Longitud: {longitude}";
-        await Map.SetPopupMarkerContentAsync(MarkerId, Message);
-        await OnSetPosition.InvokeAsync(Address);
+        string message =
+          $"{address.DisplayAddress}<br/>Latitud: {latitude}<br/>Longitud: {longitude}";
+        await Map.SetPopupMarkerContentAsync(MarkerId, message);
+        await OnSetPosition.InvokeAsync(address);
 
     }
 

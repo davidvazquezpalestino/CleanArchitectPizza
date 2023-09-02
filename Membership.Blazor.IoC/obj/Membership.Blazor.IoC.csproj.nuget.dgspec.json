@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.IoC\\Membership.Blazor.IoC.csproj": {}
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.IoC\\Membership.Blazor.IoC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj",
         "projectName": "CustomExceptions",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\CustomExceptions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Dialog.Blazor\\Dialog.Blazor.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Dialog.Blazor\\Dialog.Blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Dialog.Blazor\\Dialog.Blazor.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Dialog.Blazor\\Dialog.Blazor.csproj",
         "projectName": "Dialog.Blazor",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Dialog.Blazor\\Dialog.Blazor.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Dialog.Blazor\\Dialog.Blazor.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Dialog.Blazor\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Dialog.Blazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -146,14 +146,14 @@
         }
       }
     },
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\ExceptionHandler.Blazor\\ExceptionHandler.Blazor.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\ExceptionHandler.Blazor\\ExceptionHandler.Blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\ExceptionHandler.Blazor\\ExceptionHandler.Blazor.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\ExceptionHandler.Blazor\\ExceptionHandler.Blazor.csproj",
         "projectName": "ExceptionHandler.Blazor",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\ExceptionHandler.Blazor\\ExceptionHandler.Blazor.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\ExceptionHandler.Blazor\\ExceptionHandler.Blazor.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\ExceptionHandler.Blazor\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\ExceptionHandler.Blazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -183,11 +183,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj"
               },
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Dialog.Blazor\\Dialog.Blazor.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Dialog.Blazor\\Dialog.Blazor.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Dialog.Blazor\\Dialog.Blazor.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Dialog.Blazor\\Dialog.Blazor.csproj"
               }
             }
           }
@@ -227,14 +227,14 @@
         }
       }
     },
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj",
         "projectName": "HttpMessageHandlers",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\HttpMessageHandlers\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\HttpMessageHandlers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -264,8 +264,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj"
               }
             }
           }
@@ -299,14 +299,14 @@
         }
       }
     },
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj",
         "projectName": "Membership.Blazor.Entities",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.Entities\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -336,8 +336,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj"
               }
             }
           }
@@ -377,14 +377,14 @@
         }
       }
     },
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.IoC\\Membership.Blazor.IoC.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.IoC\\Membership.Blazor.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.IoC\\Membership.Blazor.IoC.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.IoC\\Membership.Blazor.IoC.csproj",
         "projectName": "Membership.Blazor.IoC",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.IoC\\Membership.Blazor.IoC.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.IoC\\Membership.Blazor.IoC.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.IoC\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -414,11 +414,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.UI\\Membership.Blazor.UI.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.UI\\Membership.Blazor.UI.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.UI\\Membership.Blazor.UI.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.UI\\Membership.Blazor.UI.csproj"
               },
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.WebApiGateway\\Membership.Blazor.WebApiGateway.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.WebApiGateway\\Membership.Blazor.WebApiGateway.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.WebApiGateway\\Membership.Blazor.WebApiGateway.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.WebApiGateway\\Membership.Blazor.WebApiGateway.csproj"
               }
             }
           }
@@ -452,14 +452,14 @@
         }
       }
     },
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.UI\\Membership.Blazor.UI.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.UI\\Membership.Blazor.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.UI\\Membership.Blazor.UI.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.UI\\Membership.Blazor.UI.csproj",
         "projectName": "Membership.Blazor.UI",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.UI\\Membership.Blazor.UI.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.UI\\Membership.Blazor.UI.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.UI\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -489,11 +489,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\ExceptionHandler.Blazor\\ExceptionHandler.Blazor.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\ExceptionHandler.Blazor\\ExceptionHandler.Blazor.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\ExceptionHandler.Blazor\\ExceptionHandler.Blazor.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\ExceptionHandler.Blazor\\ExceptionHandler.Blazor.csproj"
               },
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj"
               }
             }
           }
@@ -537,14 +537,14 @@
         }
       }
     },
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.WebApiGateway\\Membership.Blazor.WebApiGateway.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.WebApiGateway\\Membership.Blazor.WebApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.WebApiGateway\\Membership.Blazor.WebApiGateway.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.WebApiGateway\\Membership.Blazor.WebApiGateway.csproj",
         "projectName": "Membership.Blazor.WebApiGateway",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.WebApiGateway\\Membership.Blazor.WebApiGateway.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.WebApiGateway\\Membership.Blazor.WebApiGateway.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.WebApiGateway\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.WebApiGateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -574,11 +574,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj"
               },
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj"
               }
             }
           }
@@ -618,14 +618,14 @@
         }
       }
     },
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj",
         "projectName": "Membership.Shared.Entities",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Shared.Entities\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Shared.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T7RaEDUrffhqmwuduCuD9qurTGSrpvO2dyONWuFwd/Af243mcynk5nUab7JKJmZZ+Ipwi3Wl4846V5WJzh7E2A==",
+  "dgSpecHash": "7FDPsoWJlWFKrLJ7EHAUwVbfXUNy3a+8JIkbTYrJx7uXw6auLU43kyiwXCPCQCJG2FTAEN+le8njOG2U6D7SaQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Presenters\\Membership.Presenters.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Presenters\\Membership.Presenters.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

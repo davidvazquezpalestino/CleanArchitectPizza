@@ -10,11 +10,11 @@ internal sealed class BlazingPizzaCommandsRepository : IBlazingPizzaCommandsRepo
         Context = context;
     }
 
-    public async Task<int> PlaceOrderAsync(PlaceOrderOrderDto order)
+    public async Task<int> PlaceOrderAsync(PlaceOrderOrderDto placeOrder)
     {
-        EFEntities.Order Order = order.ToEFOrder();
+        EFEntities.Order order = placeOrder.ToEfOrder();
               
-        Context.Orders.Add(Order);
+        Context.Orders.Add(order);
         try
         {
             await Context.SaveChangesAsync();
@@ -23,6 +23,6 @@ internal sealed class BlazingPizzaCommandsRepository : IBlazingPizzaCommandsRepo
         {
             throw new PersistenceException(ex.Message, ex.InnerException ?? ex);
         }
-        return Order.Id;
+        return order.Id;
     }
 }

@@ -9,17 +9,17 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = GeolocationMap.Blazor
 build_property.RootNamespace = GeolocationMap.Blazor
-build_property.ProjectDir = C:\Users\DAVID VAZQUEZ\Downloads\BlazingPizza\GeolocationMap.Blazor\
+build_property.ProjectDir = C:\Github\Soluciones\CleanArchitectPizza\GeolocationMap.Blazor\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\DAVID VAZQUEZ\Downloads\BlazingPizza\GeolocationMap.Blazor
+build_property.MSBuildProjectDirectory = C:\Github\Soluciones\CleanArchitectPizza\GeolocationMap.Blazor
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/DAVID VAZQUEZ/Downloads/BlazingPizza/GeolocationMap.Blazor/GeolocationMap.razor]
+[C:/Github/Soluciones/CleanArchitectPizza/GeolocationMap.Blazor/GeolocationMap.razor]
 build_metadata.AdditionalFiles.TargetPath = R2VvbG9jYXRpb25NYXAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DAVID VAZQUEZ/Downloads/BlazingPizza/GeolocationMap.Blazor/_Imports.razor]
+[C:/Github/Soluciones/CleanArchitectPizza/GeolocationMap.Blazor/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

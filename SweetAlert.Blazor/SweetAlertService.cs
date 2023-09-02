@@ -1,15 +1,15 @@
 ﻿namespace SweetAlert.Blazor;
 public sealed class SweetAlertService : IAsyncDisposable
 {
-    readonly Lazy<Task<IJSObjectReference>> GetJSObjectReferenceTask;
+    readonly Lazy<Task<IJSObjectReference>> GetJsObjectReferenceTask;
 
     public SweetAlertService(IJSRuntime jsRuntime)
     {
-        GetJSObjectReferenceTask = new Lazy<Task<IJSObjectReference>>(() =>
-        GetJSObjectReference(jsRuntime));
+        GetJsObjectReferenceTask = new Lazy<Task<IJSObjectReference>>(() =>
+        GetJsObjectReference(jsRuntime));
     }
 
-    Task<IJSObjectReference> GetJSObjectReference(IJSRuntime jSRuntime)
+    Task<IJSObjectReference> GetJsObjectReference(IJSRuntime jSRuntime)
     {
         return jSRuntime.InvokeAsync<IJSObjectReference>(
             "import",
@@ -28,12 +28,12 @@ public sealed class SweetAlertService : IAsyncDisposable
 
     async ValueTask<T> InvokeAsync<T>(object parameters)
     {
-        T Result = default;
+        T result = default;
         try
         {
-            IJSObjectReference JSObjectReference =
-                await GetJSObjectReferenceTask.Value;
-            Result = await JSObjectReference.InvokeAsync<T>("sweetAlert",
+            IJSObjectReference jsObjectReference =
+                await GetJsObjectReferenceTask.Value;
+            result = await jsObjectReference.InvokeAsync<T>("sweetAlert",
                 parameters);
 
         }
@@ -41,16 +41,16 @@ public sealed class SweetAlertService : IAsyncDisposable
         {
             Console.WriteLine($"SweetAlertService: {ex.Message}");
         }
-        return Result;
+        return result;
     }
 
     async ValueTask InvokeVoidAsync(object parameters)
     {
         try
         {
-            IJSObjectReference JSObjectReference =
-                await GetJSObjectReferenceTask.Value;
-            await JSObjectReference.InvokeVoidAsync("sweetAlert",
+            IJSObjectReference jsObjectReference =
+                await GetJsObjectReferenceTask.Value;
+            await jsObjectReference.InvokeVoidAsync("sweetAlert",
                 parameters);
 
         }
@@ -62,10 +62,10 @@ public sealed class SweetAlertService : IAsyncDisposable
 
     public async ValueTask DisposeAsync()
     {
-        if (GetJSObjectReferenceTask.IsValueCreated)
+        if (GetJsObjectReferenceTask.IsValueCreated)
         {
-            IJSObjectReference Module = await GetJSObjectReferenceTask.Value;
-            await Module.DisposeAsync();
+            IJSObjectReference module = await GetJsObjectReferenceTask.Value;
+            await module.DisposeAsync();
         }
     }
 }

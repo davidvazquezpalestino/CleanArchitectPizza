@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6KfcA9ECCNV6E9sD/kZAP/jGRg/76/iK9/VFdSkxBOT8sa0rXg4i3UCizR45vc7dJ1FHrpqw3kek99bvxPLyiw==",
+  "dgSpecHash": "xPg6wrF+KJx9NbmdmbwwHtg0dadtuvaBYI1b/dmCPQTBT3vVFu/5L/UTgHf1B2wiqcCN7z6lMMSV5zwTJguBgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.WebApi\\BlazingPizza.WebApi.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.WebApi\\BlazingPizza.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

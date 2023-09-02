@@ -11,24 +11,24 @@ public class ExceptionMarkupBuilder
 {
     public static string Build(Exception exception)
     {
-        var SB = new StringBuilder();
+        StringBuilder? sb = new StringBuilder();
         if(exception != null)
         {
-            if(exception is ProblemDetailsException Ex)
+            if(exception is ProblemDetailsException ex)
             {
-                SB.Append("<div style='margin-bottom:1rem;word-break:break-all;overflow-y:auto;'>");
-                SB.Append($"{Ex.ProblemDetails.Detail}</div>");
-                if(Ex.ProblemDetails.InvalidParams != null)
+                sb.Append("<div style='margin-bottom:1rem;word-break:break-all;overflow-y:auto;'>");
+                sb.Append($"{ex.ProblemDetails.Detail}</div>");
+                if(ex.ProblemDetails.InvalidParams != null)
                 {
-                    foreach(var Error in Ex.ProblemDetails.InvalidParams)
+                    foreach(var error in ex.ProblemDetails.InvalidParams)
                     {
-                        SB.Append($"<div>{Error.Key}</div>");
-                        SB.Append("<ul>");
-                        foreach(var Message in Error.Value)
+                        sb.Append($"<div>{error.Key}</div>");
+                        sb.Append("<ul>");
+                        foreach(var message in error.Value)
                         {
-                            SB.Append($"<li>{Message}</li>");
+                            sb.Append($"<li>{message}</li>");
                         }
-                        SB.Append("</ul>");
+                        sb.Append("</ul>");
                     }
                 }
             }
@@ -36,15 +36,15 @@ public class ExceptionMarkupBuilder
             {
                 if(exception.Data.Count > 0)
                 {
-                    SB.Append("<ul>");
-                    foreach(DictionaryEntry Item in exception.Data)
+                    sb.Append("<ul>");
+                    foreach(DictionaryEntry item in exception.Data)
                     {
-                        SB.Append($"<li>{Item.Key}: {Item.Value}</li>");
+                        sb.Append($"<li>{item.Key}: {item.Value}</li>");
                     }
-                    SB.Append("</ul>");
+                    sb.Append("</ul>");
                 }
             }
         }
-        return SB.ToString();
+        return sb.ToString();
     }
 }

@@ -20,24 +20,24 @@ public class GeolocationService : IAsyncDisposable
 
     public async ValueTask<GeolocationLatLong> GetPositionAsync()
     {
-        var Module = await ModuleTask.Value;
-        GeolocationLatLong Position = default;
+        IJSObjectReference module = await ModuleTask.Value;
+        GeolocationLatLong position = default;
         try
         {
-            Position = await Module.InvokeAsync<GeolocationLatLong>("getPositionAsync");
+            position = await module.InvokeAsync<GeolocationLatLong>("getPositionAsync");
         }
         catch (Exception ex)
         {
             Console.WriteLine($"GetPosition: {ex.Message}");
         }
-        return Position;
+        return position;
     }
        
     public async ValueTask DisposeAsync()
     {
         if (ModuleTask.IsValueCreated)
         {
-            var module = await ModuleTask.Value;
+            IJSObjectReference module = await ModuleTask.Value;
             await module.DisposeAsync();
         }
     }

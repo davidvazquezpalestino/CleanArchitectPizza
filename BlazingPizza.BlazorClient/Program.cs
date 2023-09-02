@@ -1,18 +1,18 @@
-var builder = WebAssemblyHostBuilder.CreateDefault(args);
+WebAssemblyHostBuilder builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
-var Endpoints = builder.Configuration.GetSection(
+EndpointsOptions endpoints = builder.Configuration.GetSection(
     EndpointsOptions.SectionKey)
     .Get<EndpointsOptions>();
 
 builder.Services.Configure<EndpointsOptions>(options =>
-    options = Endpoints);
+    options = endpoints);
 
 builder.Services.AddBlazingPizzaFrontendServices(
-    Options.Create(Endpoints),
+    Options.Create(endpoints),
     builder.Configuration["geoapifyApiKey"]);
 
 builder.Services.AddMembershipBlazorServices(

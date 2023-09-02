@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H5uQ2w6nKyudNjftR6HPAIOf18BZaGn0kY1rie7pwp/g84WZLf8U7EbNOmgArO0gmKVatfqkGmAWkOoAozT37w==",
+  "dgSpecHash": "jzVyudxIXXmxmAUj6Y6kAtmCXlq4v8CV34whbclof3TjSAOVhmD6yJ1fP5IHR7Y2CLJULMCzJfDJMCgDF0IqGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Geolocation.Blazor\\Geolocation.Blazor.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Geolocation.Blazor\\Geolocation.Blazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.7\\microsoft.aspnetcore.authorization.7.0.7.nupkg.sha512",
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.7\\microsoft.aspnetcore.components.7.0.7.nupkg.sha512",

@@ -12,7 +12,7 @@ internal class BlazingPizzaContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseSqlServer(
-            ConnectionStringOptions.BlazingPizzaDB);
+            ConnectionStringOptions.BlazingPizzaDb);
     }
 
     public DbSet<EFEntities.PizzaSpecial> Specials { get; set; }

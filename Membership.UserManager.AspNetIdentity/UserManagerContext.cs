@@ -1,8 +1,8 @@
 ﻿namespace Membership.UserManager.AspNetIdentity;
 internal class UserManagerContext : IdentityDbContext<User>
 {
-    readonly ASPNETIdentityOptions Options;
-    public UserManagerContext(IOptions<ASPNETIdentityOptions> options)
+    readonly AspnetIdentityOptions Options;
+    public UserManagerContext(IOptions<AspnetIdentityOptions> options)
     {
         Options = options.Value;
     }

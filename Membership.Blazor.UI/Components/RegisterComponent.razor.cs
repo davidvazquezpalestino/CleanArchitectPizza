@@ -10,9 +10,9 @@ public partial class RegisterComponent
     UserToRegister User = new();
     async Task Register()
     {
-        UserForRegistrationDto NewUser = new UserForRegistrationDto(
+        UserForRegistrationDto newUser = new UserForRegistrationDto(
             User.UserName, User.Password, User.FirstName, User.LastName);
-        await Gateway.RegisterUserAsync(NewUser);
-        await OnRegister.InvokeAsync(NewUser);
+        await Gateway.RegisterUserAsync(newUser);
+        await OnRegister.InvokeAsync(newUser);
     }
 }

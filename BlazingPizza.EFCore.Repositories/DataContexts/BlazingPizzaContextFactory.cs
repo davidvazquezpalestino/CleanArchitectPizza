@@ -4,13 +4,13 @@ class BlazingPizzaContextFactory :
 {
     public BlazingPizzaContext CreateDbContext(string[] args)
     {
-        var ConnectionStringsOptions = new ConnectionStringsOptions
+        ConnectionStringsOptions connectionStringsOptions = new ConnectionStringsOptions
         {
-            BlazingPizzaDB = 
+            BlazingPizzaDb = 
             "Server=(localdb)\\mssqllocaldb;database=BlazingPizzaDBCA"
         };
 
         return new BlazingPizzaContext(
-            Options.Create(ConnectionStringsOptions));
+            Options.Create(connectionStringsOptions));
     }
 }

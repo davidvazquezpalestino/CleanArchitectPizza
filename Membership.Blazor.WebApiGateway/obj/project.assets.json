@@ -615,11 +615,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.WebApiGateway\\Membership.Blazor.WebApiGateway.csproj",
+      "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.WebApiGateway\\Membership.Blazor.WebApiGateway.csproj",
       "projectName": "Membership.Blazor.WebApiGateway",
-      "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.WebApiGateway\\Membership.Blazor.WebApiGateway.csproj",
+      "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.WebApiGateway\\Membership.Blazor.WebApiGateway.csproj",
       "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.WebApiGateway\\obj\\",
+      "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.WebApiGateway\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -649,11 +649,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj": {
-              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj"
+            "C:\\Github\\Soluciones\\CleanArchitectPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj": {
+              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\HttpMessageHandlers\\HttpMessageHandlers.csproj"
             },
-            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj": {
-              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj"
+            "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj": {
+              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Blazor.Entities\\Membership.Blazor.Entities.csproj"
             }
           }
         }

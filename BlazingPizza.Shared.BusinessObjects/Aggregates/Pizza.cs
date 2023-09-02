@@ -67,9 +67,9 @@ public class Pizza
 
     public static implicit operator Pizza(PizzaDto pizza)
     {
-        Pizza NewPizza = new Pizza(pizza.Special);
-        NewPizza.SetSize(pizza.Size);
-        NewPizza.AddToppings(pizza.Toppings);
-        return NewPizza;
+        Pizza newPizza = new Pizza(pizza.Special);
+        newPizza.SetSize(pizza.Size);
+        newPizza.AddToppings(pizza.Toppings);
+        return newPizza;
     }
 }

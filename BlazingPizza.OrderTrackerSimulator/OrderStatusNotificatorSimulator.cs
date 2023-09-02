@@ -15,7 +15,7 @@ internal class OrderStatusNotificatorSimulator : IOrderStatusNotificator, IDispo
         Action<OrderStatusNotification> callback)
     {
         TrackedOrders.TryAdd(order.Id, callback);
-        RouteInfo RouteInfo = new RouteInfo(
+        RouteInfo routeInfo = new RouteInfo(
             order.Id,
             new PositionTrackerLatLong(order.DeliveryLocation.Latitude,
             order.DeliveryLocation.Longitude),
@@ -23,8 +23,8 @@ internal class OrderStatusNotificatorSimulator : IOrderStatusNotificator, IDispo
             SpeedKmXHr, DistanceKm, NotificationIntervalInSeconds,
             OnChangePosition);
 
-        var Origin = await Simulator.SubscribeAsync(RouteInfo);
-        return new LatLong(Origin.Latitude, Origin.Longitude);
+        PositionTrackerLatLong origin = await Simulator.SubscribeAsync(routeInfo);
+        return new LatLong(origin.Latitude, origin.Longitude);
     }
 
     void OnChangePosition(PositionNotification notification)
@@ -50,9 +50,9 @@ internal class OrderStatusNotificatorSimulator : IOrderStatusNotificator, IDispo
 
     public void Dispose()
     {
-        foreach(var Order in TrackedOrders)
+        foreach(var order in TrackedOrders)
         {
-            UnSubscribe(Order.Key);
+            UnSubscribe(order.Key);
         }
         TrackedOrders.Clear();
     }

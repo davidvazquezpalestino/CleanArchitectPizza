@@ -4,29 +4,29 @@ public class ExceptionDelegatingHandler : DelegatingHandler
     protected async override Task<HttpResponseMessage> SendAsync(
         HttpRequestMessage request, CancellationToken cancellationToken)
     {
-        var Response = await base.SendAsync(request, cancellationToken);
+        HttpResponseMessage? response = await base.SendAsync(request, cancellationToken);
 
-        if (!Response.IsSuccessStatusCode)
+        if (!response.IsSuccessStatusCode)
         {
-            Exception Ex;
+            Exception ex;
             try
             {
-                JsonElement JsonResponse =
-                    await Response.Content.ReadFromJsonAsync<JsonElement>();
-                Ex = new ProblemDetailsException(JsonResponse);
+                JsonElement jsonResponse =
+                    await response.Content.ReadFromJsonAsync<JsonElement>();
+                ex = new ProblemDetailsException(jsonResponse);
             }
             catch
             {
-                string Message = Response.StatusCode switch
+                string message = response.StatusCode switch
                 {
                     HttpStatusCode.NotFound =>
                     "El recurso solicitado no fue encontrado.",
-                    _ => $"{(int)Response.StatusCode} {Response.ReasonPhrase}"
+                    _ => $"{(int)response.StatusCode} {response.ReasonPhrase}"
                 };
-                Ex = new Exception(Message);
+                ex = new Exception(message);
             }
-            throw Ex;
+            throw ex;
         }
-        return Response;
+        return response;
     }
 }

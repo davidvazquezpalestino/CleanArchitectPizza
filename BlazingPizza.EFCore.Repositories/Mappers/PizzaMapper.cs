@@ -1,7 +1,7 @@
 ﻿namespace BlazingPizza.EFCore.Repositories.Mappers;
 internal static class PizzaMapper
 {
-    internal static EFEntities.Pizza ToEFPizza(
+    internal static EFEntities.Pizza ToEfPizza(
         this PlaceOrderPizzaDto pizza) =>
         new EFEntities.Pizza
         {
@@ -17,18 +17,12 @@ internal static class PizzaMapper
     internal static SharedAggregates.Pizza ToPizza(
         this EFEntities.Pizza pizza)
     {
-        var Pizza = new SharedAggregates.Pizza(
+        Pizza toPizza = new SharedAggregates.Pizza(
             pizza.PizzaSpecial.ToPizzaSpecial());
-        Pizza.SetSize(pizza.Size);
-        //if (pizza.Toppings != null)
-        //{
-        //    foreach (var PizzaTopping in pizza.Toppings)
-        //    {
-        //        Pizza.AddTopping(PizzaTopping.Topping.ToTopping());
-        //    }
-        //}
+        toPizza.SetSize(pizza.Size);
+
         pizza.Toppings?
-            .ForEach(p => Pizza.AddTopping(p.Topping.ToTopping()));
-        return Pizza;   
+            .ForEach(p => toPizza.AddTopping(p.Topping.ToTopping()));
+        return toPizza;   
     }
 }

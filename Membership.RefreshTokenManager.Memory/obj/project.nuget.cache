@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nfv7OWqrdtGjckA02wx53YXrSTz0b8/yMHNDbsN59e9b2QT6C0r1Ur1sbl41XmplqXLS50MXZAICN6BCs5NDoQ==",
+  "dgSpecHash": "Cwjtz5UCeHG3shCSNVWfjKb0ofI6tBUmRDNhPFr4hXJ2E6kgIOKpsGr2UE5twoEVjOtPO9gWH8FBukwtCPqfQg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",

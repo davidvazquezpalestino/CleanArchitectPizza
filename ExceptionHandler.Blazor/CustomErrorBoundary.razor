@@ -13,9 +13,9 @@ else
     <Dialog IsVisible=true>
         <div class="errorBoundaryContainer">
             <div class="messages">
-                @foreach (var Exception in ReceivedExceptions)
+                @foreach (Exception? exception in ReceivedExceptions)
                 {
-                    <ExceptionView Exception="Exception" />
+                    <ExceptionView Exception="exception" />
                 }
             </div>
             <div>

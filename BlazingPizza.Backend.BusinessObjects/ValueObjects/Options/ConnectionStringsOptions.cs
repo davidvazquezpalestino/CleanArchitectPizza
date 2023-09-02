@@ -2,5 +2,5 @@
 public class ConnectionStringsOptions
 {
     public const string SectionKey = "ConnectionStrings";
-    public string BlazingPizzaDB { get; set; }
+    public string BlazingPizzaDb { get; set; }
 }

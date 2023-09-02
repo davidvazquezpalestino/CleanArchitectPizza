@@ -5,19 +5,19 @@ internal class HttpExceptionHandlerMiddleware
         bool includeDetails,
         IHttpExceptionHandlerHub hub)
     {
-        IExceptionHandlerFeature ExceptionDetail =
+        IExceptionHandlerFeature exceptionDetail =
             context.Features.Get<IExceptionHandlerFeature>();
 
-        Exception Exception = ExceptionDetail.Error;
+        Exception exception = exceptionDetail.Error;
 
-        if (Exception != null)
+        if (exception != null)
         {
-            var ProblemDetails = hub.Handle(Exception, includeDetails);
+            ProblemDetails problemDetails = hub.Handle(exception, includeDetails);
 
             context.Response.ContentType = "application/problem+json";
-            context.Response.StatusCode = ProblemDetails.Status;
-            var Stream = context.Response.Body;
-            await JsonSerializer.SerializeAsync(Stream, ProblemDetails);
+            context.Response.StatusCode = problemDetails.Status;
+            Stream stream = context.Response.Body;
+            await JsonSerializer.SerializeAsync(stream, problemDetails);
         }
     }
 }

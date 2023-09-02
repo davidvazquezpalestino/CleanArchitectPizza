@@ -9,8 +9,8 @@ internal static class Orders
             async (IPlaceOrderController controller,
                 PlaceOrderOrderDto order) =>
             {
-                var OrderId = await controller.PlaceOrderAsync(order);
-                return Results.Ok(OrderId);
+                var orderId = await controller.PlaceOrderAsync(order);
+                return Results.Ok(orderId);
             })
             .RequireAuthorization();
 

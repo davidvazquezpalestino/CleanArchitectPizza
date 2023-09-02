@@ -14,7 +14,7 @@ internal class RefreshTokenInteractor : IRefreshTokenInputPort
     public async Task RefreshTokenAsync(UserTokensDto userTokens)
     {
         await Manager.ThrowIfNotCanGetNewTokenAsync(
-            userTokens.Refresh_Token, userTokens.Access_Token);
-        await Presenter.GenerateTokenAsync(userTokens.Access_Token);
+            userTokens.RefreshToken, userTokens.AccessToken);
+        await Presenter.GenerateTokenAsync(userTokens.AccessToken);
     }
 }

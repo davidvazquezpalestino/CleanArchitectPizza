@@ -10,8 +10,8 @@ internal class JsonResponseItem
     public string PostCode { get; set; }
     public string Street { get; set; }
     public string HouseNumber { get; set; }
-    public string Address_Line1 { get; set; }
-    public string Address_Line2 { get; set; }
+    public string AddressLine1 { get; set; }
+    public string AddressLine2 { get; set; }
 
 
 }

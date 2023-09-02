@@ -10,28 +10,27 @@ public partial class Form1 : Form
 
     void RegisterServices()
     {
-        IServiceCollection Services = new ServiceCollection();
-        Services.AddWindowsFormsBlazorWebView();
+        IServiceCollection services = new ServiceCollection();
+        services.AddWindowsFormsBlazorWebView();
 
-        IConfiguration Configuration = new ConfigurationBuilder()
+        IConfiguration configuration = new ConfigurationBuilder()
             .AddJsonFile("appsettings.json")
             .Build();
 
 
-        var Endpoints = Configuration.GetSection(
+        EndpointsOptions endpoints = configuration.GetSection(
             EndpointsOptions.SectionKey)
             .Get<EndpointsOptions>();
 
-        Services.Configure<EndpointsOptions>(options =>
-        options = Endpoints);
+        services.Configure<EndpointsOptions>(options => options = endpoints);
 
 
-        Services.AddBlazingPizzaFrontendServices(
-            Options.Create(Endpoints),
-            Configuration["geoapifyApiKey"]);
+        services.AddBlazingPizzaFrontendServices(
+            Options.Create(endpoints),
+            configuration["geoapifyApiKey"]);
 
         blazorWebView1.HostPage = "wwwroot\\index.html";
-        blazorWebView1.Services = Services.BuildServiceProvider();
+        blazorWebView1.Services = services.BuildServiceProvider();
         blazorWebView1.RootComponents.Add<App>(
             "#app");
     }

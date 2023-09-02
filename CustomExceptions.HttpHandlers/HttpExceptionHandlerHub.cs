@@ -1,67 +1,57 @@
 ﻿namespace CustomExceptions.HttpHandlers;
 internal class HttpExceptionHandlerHub : IHttpExceptionHandlerHub
 {
-    //
-    // {ValidationException, ValidationExceptionHandler}
-    // {PersistenceException, PersistenceExceptionHandler}
-
     readonly Dictionary<Type, Type> ExceptionHandlers = new();
 
     public HttpExceptionHandlerHub(Assembly assembly)
     {
-        Type[] Types = assembly.GetTypes();
-        foreach (Type T in Types)
+        Type[] types = assembly.GetTypes();
+        foreach (Type T in types)
         {
-            var Handlers = T.GetInterfaces()
-                .Where(i =>
-                i.IsGenericType &&
-                i.GetGenericTypeDefinition() == typeof(IHttpExceptionHandler<>));
-            foreach (Type Handler in Handlers)
+            var handlers = T.GetInterfaces()
+                .Where(type =>
+                type.IsGenericType &&
+                type.GetGenericTypeDefinition() == typeof(IHttpExceptionHandler<>));
+            foreach (Type handler in handlers)
             {
-                // IHttpExceptionHandler<ValidationException>
-                var ExceptionType = Handler.GetGenericArguments()[0];
-                ExceptionHandlers.TryAdd(ExceptionType, T);
+                Type exceptionType = handler.GetGenericArguments()[0];
+                ExceptionHandlers.TryAdd(exceptionType, T);
             }
         }
     }
     public ProblemDetails Handle(Exception ex, bool includeDetails)
     {
-        ProblemDetails Problem;
+        ProblemDetails problem;
 
-        if (ExceptionHandlers.TryGetValue(ex.GetType(), out Type HandlerType))
+        if (ExceptionHandlers.TryGetValue(ex.GetType(), out Type handlerType))
         {
-            var HandlerInstace = Activator.CreateInstance(HandlerType);
+            var handlerInstace = Activator.CreateInstance(handlerType);
 
-            Problem = (ProblemDetails)
-                (HandlerType
-                .GetMethod(nameof(IHttpExceptionHandler<Exception>.Handle))
-                .Invoke(HandlerInstace, new object[] { ex }));
+            problem = (ProblemDetails)
+                (handlerType.GetMethod(nameof(IHttpExceptionHandler<Exception>.Handle))
+                            .Invoke(handlerInstace, new object[] { ex }));
         }
         else
         {
-            string Title = "Ha ocurrido un error al procesar la respuesta";
-            string Detail;
+            string title = "Ha ocurrido un error al procesar la respuesta";
+            string detail;
             if (includeDetails)
             {
-                Detail = ex.Message + ex.ToString();
+                detail = ex.Message + ex;
             }
             else
             {
-                Detail = "Conulte al administrador.";
+                detail = "Conulte al administrador.";
             }
-            Problem = new ProblemDetails
+            problem = new ProblemDetails
             {
                 Status = StatusCodes.Status500InternalServerError,
                 Type = StatusCodes.Status500InternalServerErrorType,
-                Title = Title,
-                Detail = Detail
+                Title = title,
+                Detail = detail
             };
-
-
         }
 
-        // Log
-
-        return Problem;
+        return problem;
     }
 }

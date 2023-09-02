@@ -37,7 +37,7 @@ internal sealed class BlazingPizzaQueriesRepository : IBlazingPizzaQueriesReposi
 
     public async Task<GetOrderDto> GetOrderAsync(int id, string userId)
     {
-        var Order = await Context.Orders
+        EFEntities.Order order = await Context.Orders
             .Where(o => o.UserId == userId)
             .Where(o => o.Id == id)
             .Include(o => o.Pizzas).ThenInclude(p => p.PizzaSpecial)
@@ -45,8 +45,8 @@ internal sealed class BlazingPizzaQueriesRepository : IBlazingPizzaQueriesReposi
                 .ThenInclude(t => t.Topping)
             .FirstOrDefaultAsync();
 
-        return Order == null ? new GetOrderDto() :
-            GetOrderDtoFake(Order.ToOrder());
+        return order == null ? new GetOrderDto() :
+            GetOrderDtoFake(order.ToOrder());
     }
 
 
@@ -54,20 +54,20 @@ internal sealed class BlazingPizzaQueriesRepository : IBlazingPizzaQueriesReposi
     void GetStatus(SharedAggregates.Order order, 
         out OrderStatus status, out bool isDelivered)
     {
-        TimeSpan PreparationDurationTime = 
+        TimeSpan preparationDurationTime = 
             TimeSpan.FromSeconds(10);
 
-        TimeSpan DeliveryDurationTime =
+        TimeSpan deliveryDurationTime =
             TimeSpan.FromMinutes(1.5);
 
-        DateTime DispatchTime = 
-            order.CreatedTime.Add(PreparationDurationTime);
+        DateTime dispatchTime = 
+            order.CreatedTime.Add(preparationDurationTime);
 
-        if (DateTime.Now < DispatchTime)
+        if (DateTime.Now < dispatchTime)
         {
             status = OrderStatus.Preparing;
         }
-        else if (DateTime.Now < DispatchTime + DeliveryDurationTime)
+        else if (DateTime.Now < dispatchTime + deliveryDurationTime)
         {
             status = OrderStatus.OutForDelivery;
         }
@@ -82,27 +82,27 @@ internal sealed class BlazingPizzaQueriesRepository : IBlazingPizzaQueriesReposi
 
     GetOrdersDto GetOrdersDtoFake(SharedAggregates.Order order)
     {
-        OrderStatus Status;
-        bool IsDelivered;
-        GetStatus(order, out Status, out IsDelivered);
+        OrderStatus status;
+        bool isDelivered;
+        GetStatus(order, out status, out isDelivered);
         return new GetOrdersDto(
             order.Id, order.CreatedTime, order.UserId,
             order.Pizzas.Count, order.GetTotalPrice(), 
-            Status, IsDelivered);
+            status, isDelivered);
     }
 
     GetOrderDto GetOrderDtoFake(SharedAggregates.Order order)
     {
-        OrderStatus Status;
-        bool IsDelivered;
-        GetStatus(order, out Status, out IsDelivered);        
+        OrderStatus status;
+        bool isDelivered;
+        GetStatus(order, out status, out isDelivered);        
         return new GetOrderDto
         {
             Id = order.Id,
             CreatedTime = order.CreatedTime,
             Pizzas = order.Pizzas.Select(p => (PizzaDto)p).ToList(),
-            Status = Status,
-            IsDelivered = IsDelivered,
+            Status = status,
+            IsDelivered = isDelivered,
             DeliveryLocation = order.DeliveryLocation
         };
     }

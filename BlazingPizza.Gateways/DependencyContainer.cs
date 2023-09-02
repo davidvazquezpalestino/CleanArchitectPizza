@@ -8,7 +8,7 @@ public static class DependencyContainer
         IOptions<EndpointsOptions> endpointsOptions,
         Action<IHttpClientBuilder> httpClientConfigurator = null)
     {
-        IHttpClientBuilder Builder =
+        IHttpClientBuilder builder =
             services.AddHttpClient<IBlazingPizzaWebApiGateway,
             BlazingPizzaWebApiGateway>(httpClient =>
             {
@@ -18,7 +18,7 @@ public static class DependencyContainer
             })
             .AddHttpMessageHandler(() => new ExceptionDelegatingHandler());
 
-        httpClientConfigurator?.Invoke(Builder);
+        httpClientConfigurator?.Invoke(builder);
 
         return services;
     }

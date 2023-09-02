@@ -10,7 +10,7 @@ internal class UserManagerService : IUserManagerService
 
     public async Task<List<string>> RegisterAsync(UserForRegistrationDto userData)
     {
-        var User = new User
+        User user = new User
         {
             UserName = userData.UserName,
             Email = userData.UserName,
@@ -18,33 +18,33 @@ internal class UserManagerService : IUserManagerService
             LastName = userData.LastName,
         };
 
-        var Result = await UserManager.CreateAsync(User, userData.Password);
-        List<string> Errors = null;
-        if (!Result.Succeeded)
+        IdentityResult result = await UserManager.CreateAsync(user, userData.Password);
+        List<string> errors = null;
+        if (!result.Succeeded)
         {
-            Errors = Result.Errors
+            errors = result.Errors
                 .Select(e => e.Description)
                 .ToList();
         }
-        return Errors;
+        return errors;
     }
 
     public async Task<UserDto> GetUserByCredentialsAsync(
         UserCredentialsDto userCredentials)
     {
-        UserDto FoundUser = default;
+        UserDto foundUser = default;
 
-        var User = await UserManager.FindByNameAsync(
+        User user = await UserManager.FindByNameAsync(
             userCredentials.Email);
         
-        if (User != null &&
-            await UserManager.CheckPasswordAsync(User,
+        if (user != null &&
+            await UserManager.CheckPasswordAsync(user,
             userCredentials.Password))
         {
-            FoundUser = new UserDto(User.UserName,
-                User.FirstName, User.LastName);
+            foundUser = new UserDto(user.UserName,
+                user.FirstName, user.LastName);
         }
 
-        return FoundUser;
+        return foundUser;
     }
 }

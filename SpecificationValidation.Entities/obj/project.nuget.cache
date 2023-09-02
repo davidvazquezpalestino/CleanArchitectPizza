@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7l2DvT4Tp7W53xB6LfGUTnsb9Yu4ttzQvvUe/fxWd2B93uu6pl9iNhlmJKbAXjoTdXPblChsvBWWiphdU8yHnQ==",
+  "dgSpecHash": "x0hUPI/8BJ2OsUYJkQf1ka7aWIoAYqMPc8+wKb3md3dQD9L2zp8PujWN+M3nvCIMptO+Bt0HrwYAAmoUrw7krA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\SpecificationValidation.Entities\\SpecificationValidation.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

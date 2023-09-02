@@ -46,15 +46,15 @@ internal static class ServicesConfiguration
             builder.Configuration.GetSection(
                 ConnectionStringsOptions.SectionKey));
 
-        builder.Services.Configure<ASPNETIdentityOptions>(
+        builder.Services.Configure<AspnetIdentityOptions>(
             builder.Configuration.GetSection(
-                ASPNETIdentityOptions.SectionKey));
+                AspnetIdentityOptions.SectionKey));
 
-        var JwtConfigurationOptionsSection =
+        IConfigurationSection jwtConfigurationOptionsSection =
             builder.Configuration.GetSection(
                 JwtConfigurationOptions.SectionKey);
         builder.Services.Configure<JwtConfigurationOptions>(
-            JwtConfigurationOptionsSection);
+            jwtConfigurationOptionsSection);
 
         builder.Services.AddBlazingPizzaBackendServices();
 
@@ -72,20 +72,20 @@ internal static class ServicesConfiguration
             JwtBearerDefaults.AuthenticationScheme)
             .AddJwtBearer(options =>
             {
-                JwtConfigurationOptionsSection.Bind(
+                jwtConfigurationOptionsSection.Bind(
                     options.TokenValidationParameters);
 
                 options.TokenValidationParameters
                 .IssuerSigningKey = new SymmetricSecurityKey(
                     Encoding.UTF8.GetBytes(
-                        JwtConfigurationOptionsSection["securitykey"]));
+                        jwtConfigurationOptionsSection["securitykey"]));
 
                 if (int.TryParse(
-                    JwtConfigurationOptionsSection["ClockSkewInMinutes"],
-                    out int Value))
+                    jwtConfigurationOptionsSection["ClockSkewInMinutes"],
+                    out int value))
                 {
                     options.TokenValidationParameters
-                    .ClockSkew = TimeSpan.FromMinutes(Value);
+                    .ClockSkew = TimeSpan.FromMinutes(value);
                 }
             });
 

@@ -5,17 +5,17 @@ internal static class ExpressionHelper
     internal static string GetPropertyName<T>(
         Expression<Func<T, object>> propertyExpression)
     {
-        var MemberExpression = propertyExpression.Body as MemberExpression;
-        if (MemberExpression == null)
+        MemberExpression memberExpression = propertyExpression.Body as MemberExpression;
+        if (memberExpression == null)
         {
             throw new ArgumentException("Invalid body expression.");
         }
-        var Property = MemberExpression.Member as PropertyInfo;
-        if (Property == null)
+        PropertyInfo property = memberExpression.Member as PropertyInfo;
+        if (property == null)
         {
             throw new ArgumentException(
                 "The expression must contain the property name.");
         }
-        return Property.Name;
+        return property.Name;
     }
 }

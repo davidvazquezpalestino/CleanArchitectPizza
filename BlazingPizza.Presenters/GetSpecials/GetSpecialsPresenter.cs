@@ -11,9 +11,9 @@ internal sealed class GetSpecialsPresenter : IGetSpecialsPresenter
     public Task<IReadOnlyCollection<PizzaSpecial>>
         GetSpecialsAsync(IReadOnlyCollection<PizzaSpecial> specials)
     {
-        foreach (var Special in specials)
+        foreach (PizzaSpecial? special in specials)
         {
-            Special.ImageUrl = $"{ImagesBaseUrl}/{Special.ImageUrl}";
+            special.ImageUrl = $"{ImagesBaseUrl}/{special.ImageUrl}";
         }
         return Task.FromResult(specials);
     }

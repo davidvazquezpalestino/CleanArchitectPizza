@@ -4,7 +4,7 @@ internal class UserManagerContextFactory :
 {
     public UserManagerContext CreateDbContext(string[] args) =>
         new UserManagerContext(
-            Options.Create(new ASPNETIdentityOptions
+            Options.Create(new AspnetIdentityOptions
             {
                 ConnectionString =
                 "Server=(localdb)\\mssqllocaldb;database=MembershipDBUsersCA"

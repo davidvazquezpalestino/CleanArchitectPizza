@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hb7YfJ6hCnG/AmnWJznOcudgOdcQP+X4Z0SGbNk3iLyKVFhFSqqluQnJjkWk85k/+pwkFtUsne0bXZt/1heOyw==",
+  "dgSpecHash": "xgoA0NqnLQ43L/kUxUiXV/Y2TBf8LMbQfEmaecrjSX6bQE0bEX+BaGm0mAl/yyAlnJVTZfYml6SngLPcizvoew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\CustomExceptions\\CustomExceptions.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\CustomExceptions\\CustomExceptions.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

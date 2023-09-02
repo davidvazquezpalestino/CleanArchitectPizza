@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J028LjRz4OLS9heRmFUc+G2W7oBjTnnpSkF5nRyCXMkYwGcrtQ51LGk6PdPDz791D3R/w+IKKrjz8Muj7iEojg==",
+  "dgSpecHash": "RqcVZXYy+Ab9dqEfXm1oiqeHfcrKLQEwxkGK8eIkIod6OZB06ItrZhdnlzpUHIpqv8DLNRFi0C44N+Fle811sg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Backend.IoC\\BlazingPizza.Backend.IoC.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Backend.IoC\\BlazingPizza.Backend.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -16,41 +16,41 @@ public sealed class LeafletService : IAsyncDisposable
     internal async Task<T> InvokeAsync<T>(string methodName,
         params object[] parameters)
     {
-        var Module = await ModuleTask.Value;
-        T Result = default;
+        IJSObjectReference module = await ModuleTask.Value;
+        T result = default;
 
         try
         {
             if (parameters != null)
             {
-                Result = await Module.InvokeAsync<T>(methodName, parameters);
+                result = await module.InvokeAsync<T>(methodName, parameters);
             }
             else
             {
-                Result = await Module.InvokeAsync<T>(methodName);
+                result = await module.InvokeAsync<T>(methodName);
             }
         }
         catch (Exception ex)
         {
             Console.WriteLine($"LeafletService: {ex}");
         }
-        return Result;
+        return result;
     }
 
     internal async Task InvokeVoidAsync(string methodName,
         params object[] parameters)
     {
-        var Module = await ModuleTask.Value;
+        IJSObjectReference module = await ModuleTask.Value;
 
         try
         {
             if (parameters != null)
             {
-                await Module.InvokeVoidAsync(methodName, parameters);
+                await module.InvokeVoidAsync(methodName, parameters);
             }
             else
             {
-                await Module.InvokeVoidAsync(methodName);
+                await module.InvokeVoidAsync(methodName);
             }
         }
         catch (Exception ex)
@@ -63,8 +63,8 @@ public sealed class LeafletService : IAsyncDisposable
     {
         if (ModuleTask.IsValueCreated)
         {
-            var Module = await ModuleTask.Value;
-            await Module.DisposeAsync();
+            IJSObjectReference module = await ModuleTask.Value;
+            await module.DisposeAsync();
         }
     }
 }

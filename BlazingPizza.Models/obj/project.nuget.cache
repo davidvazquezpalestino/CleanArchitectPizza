@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aO9g2DpX8DI2dav3l8z3CTHVWuYnmGpqvDtivrELFWSVzemzoDBHXflpk8gD03QWOm1dZV0hWEr0MinsYd+E6Q==",
+  "dgSpecHash": "DIC3Y36rbyNE6nNRjNB8PcAdOM0dlyfbEZ86n0Il7vrv1ZLhZdiEucP21ox1NuQPJQdLOrQsWiT7e1UPk4CeYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Models\\BlazingPizza.Models.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Models\\BlazingPizza.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],

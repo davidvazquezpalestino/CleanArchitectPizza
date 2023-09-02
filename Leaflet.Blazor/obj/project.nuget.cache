@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gyV+AHbThymh0xKyXlk6tec3BEkKrWtIHc1ozTwiETQ9Af/Dj7HRWIGfDnMBZ33fbGI2RTKq/pJ4YqqTroEJww==",
+  "dgSpecHash": "e2sTQMA4ZEUAScC+PPu2NdsHPjss8SSj518YzQb4aLl4mhknYVmq6Y3QLEmmAt99P09YnehmKfSRGb/XWhm2xw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Leaflet.Blazor\\Leaflet.Blazor.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Leaflet.Blazor\\Leaflet.Blazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.7\\microsoft.aspnetcore.authorization.7.0.7.nupkg.sha512",
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.7\\microsoft.aspnetcore.components.7.0.7.nupkg.sha512",

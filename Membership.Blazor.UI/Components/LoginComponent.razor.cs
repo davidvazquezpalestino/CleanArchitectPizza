@@ -13,13 +13,13 @@ public partial class LoginComponent
     UserCredentials User = new();
     async Task Login()
     {
-        UserCredentialsDto Credentials = new(
+        UserCredentialsDto credentials = new(
             User.UserName, User.Password);
-        var Tokens = await Gateway.LoginAsync(Credentials);
+        UserTokensDto tokens = await Gateway.LoginAsync(credentials);
 
-        await AuthenticationStateProvider.LoginAsync(Tokens);
+        await AuthenticationStateProvider.LoginAsync(tokens);
 
-        await OnLogin.InvokeAsync(Tokens);
+        await OnLogin.InvokeAsync(tokens);
 
     }
 }

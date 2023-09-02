@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ChH3UgElo2Qa7OiI1ThmeVPXgSj472x2OyA5+QyC4UCslLTlihRJIuGz1H4OOKHj5tu6N/bK4jN+dkmy5oW+Tw==",
+  "dgSpecHash": "FkDxMNNPi50v5S9XKDdL51ev5IYe9bLLz1e+7Yeuf7QBmabfWxudnKOhx4KZQ+RpZCVXwgjrxXiDxPi1//7vMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\PositionTrackerSimulator\\PositionTrackerSimulator.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\PositionTrackerSimulator\\PositionTrackerSimulator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

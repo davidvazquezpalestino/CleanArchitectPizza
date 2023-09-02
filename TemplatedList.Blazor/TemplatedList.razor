@@ -10,9 +10,9 @@ else if(Items.Count == 0)
 else
 {
     <div class="list-group @ListGroupClass">
-        @foreach(var ItemData in Items)
+        @foreach(TItem itemData in Items)
         {
-            @Item(ItemData)
+            @Item(itemData)
         }
     </div>
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NQlVmIPnb3//idNaPqnNNExOKSRbtkbycM8g8A7eyF0XN7e3h67cYMleFA0wAI7D4Awab/FbeP4S2KICiH0JiA==",
+  "dgSpecHash": "ofNqA2j+1yZMwL1Q+U+qrKwPbb3qVOZ7CnI3iFPPP2Lf5OPX+wqta7NW/1JtdqN7zE7hzeKDh6J7VXqFGEQEYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -16,7 +16,7 @@ public static class ServiceCollectionExtensions
         this IServiceCollection services,
         Assembly assembly, Type genericBaseType, Type genericInterfaceType)
     {
-        var ServicesAndImplementations = assembly.GetTypes()
+        var servicesAndImplementations = assembly.GetTypes()
             .Where(t => t.BaseType != null &&
                 t.BaseType.IsGenericType &&
                 t.BaseType.GetGenericTypeDefinition() == genericBaseType)
@@ -31,7 +31,7 @@ public static class ServiceCollectionExtensions
             })
             .ToList();
 
-        ServicesAndImplementations.ForEach(s =>
+        servicesAndImplementations.ForEach(s =>
             services.AddScoped(s.Service, s.Implementation));
 
         return services;

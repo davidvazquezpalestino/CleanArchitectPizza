@@ -21,11 +21,11 @@ public partial class Checkout
 
     async Task PlaceOrder()
     {
-        int OrderId = await ViewModel.PlaceOrderAsync();
+        int orderId = await ViewModel.PlaceOrderAsync();
         if (ViewModel.PlaceOrderSuccess)
         {
             ToastService.ShowSuccess("Gracias", "Tu pedido ha sido registrado.");
-            NavigationManager.NavigateTo($"orderdetails/{OrderId}");
+            NavigationManager.NavigateTo($"orderdetails/{orderId}");
         }
         else
         {

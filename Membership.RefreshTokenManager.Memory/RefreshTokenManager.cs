@@ -11,19 +11,19 @@ internal class RefreshTokenManager : IRefreshTokenManager
 
     public Task DeleteTokenAsync(string refreshToken)
     {
-        Tokens.TryRemove(refreshToken, out Token _);
+        Tokens.TryRemove(refreshToken, out Token token);
         return Task.CompletedTask;
     }
 
     public Task ThrowIfNotCanGetNewTokenAsync(
         string refreshToken, string accessToken)
     {
-        if (Tokens.TryGetValue(refreshToken, out Token Token))
+        if (Tokens.TryGetValue(refreshToken, out Token token))
         { 
-            Tokens.TryRemove(refreshToken, out Token);
-            if (Token.AccessToken != accessToken)
+            Tokens.TryRemove(refreshToken, out token);
+            if (token != null && token.AccessToken != accessToken)
                 throw new RefreshTokenCompromisedException(refreshToken);
-            if (Token.ExpiresAt < DateTime.UtcNow)
+            if (token != null && token.ExpiresAt < DateTime.UtcNow)
                 throw new RefreshTokenExpiredException(refreshToken);           
         }
         else
@@ -35,20 +35,19 @@ internal class RefreshTokenManager : IRefreshTokenManager
 
     public Task<string> GetNewTokenAsync(string accesToken)
     {
-        string RefreshToken = GenerateToken();
-        Token Token = new Token
+        string refreshToken = GenerateToken();
+        Token token = new Token
         {
             AccessToken = accesToken,
-            ExpiresAt = DateTime.UtcNow.AddMinutes(
-                Options.RefreshTokenExpireInMinutes)
+            ExpiresAt = DateTime.UtcNow.AddMinutes(Options.RefreshTokenExpireInMinutes)
         };
 
-        if (!Tokens.TryAdd(RefreshToken, Token))
+        if (!Tokens.TryAdd(refreshToken, token))
         {
-            RefreshToken = null;
+            refreshToken = null;
         }
 
-        return Task.FromResult(RefreshToken);
+        return Task.FromResult(refreshToken);
     }
 
     private string GenerateToken()
@@ -56,9 +55,9 @@ internal class RefreshTokenManager : IRefreshTokenManager
         // 6 bits => 1 caracter de una cadena base64
         // N Bytes => 100 caracteres base64
         
-        var Buffer = new byte[75];
-        using var Rng = RandomNumberGenerator.Create();
-        Rng.GetBytes(Buffer);
-        return Convert.ToBase64String(Buffer);
+        var buffer = new byte[75];
+        using RandomNumberGenerator rng = RandomNumberGenerator.Create();
+        rng.GetBytes(buffer);
+        return Convert.ToBase64String(buffer);
     }
 }

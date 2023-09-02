@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mfdeq3ReT/StyDKNpLdEfiUipZXYdGUUzSaniEK2CDG2U0BUG75rKEtf+SPrT9eEOAv4AjcSpEvxJcNqbgLEng==",
+  "dgSpecHash": "n1NyhVZSBaTxiKvNdRoTA55C5aU4qSpmv/d0gMkyar6vYpolKlEUCjAwjjJRt4yDgEhMfV2ytYNzvJCFb71Ihg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.WinFormsClient\\BlazingPizza.WinFormsClient.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.WinFormsClient\\BlazingPizza.WinFormsClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.7\\microsoft.aspnetcore.authorization.7.0.7.nupkg.sha512",
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.7\\microsoft.aspnetcore.components.7.0.7.nupkg.sha512",

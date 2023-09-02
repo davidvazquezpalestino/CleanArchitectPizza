@@ -7,24 +7,24 @@
             <h2>No se ha realizado alguna orden</h2>
             <a class="btn btn-success" href="">Ordena alguna pizza</a>
         </Empty>
-        <Item Context="Item">
+        <Item Context="item">
             <div class="list-group-item">
                 <div class="col">
-                    <h5>@Item.CreatedTime.ToLongDateString()</h5>
+                    <h5>@item.CreatedTime.ToLongDateString()</h5>
                     Pizzas:
-                    <strong>@Item.PizzasCount</strong>
+                    <strong>@item.PizzasCount</strong>
                     Precio total:
-                    <strong>@Item.GetFormattedTotalPrice()</strong>
+                    <strong>@item.GetFormattedTotalPrice()</strong>
                 </div>
 
                 <div class="col">
                     Estado:
-                    <strong>@Item.Status.GetText()</strong>
+                    <strong>@item.Status.GetText()</strong>
                 </div>
                 <div class="col text-right">
-                    @if (!Item.IsDelivered)
+                    @if (!item.IsDelivered)
                     {
-                        <a href="orderdetails/@Item.Id" class="btn btn-success">
+                        <a href="orderdetails/@item.Id" class="btn btn-success">
                             Rastrear &gt;
                         </a>
                     }

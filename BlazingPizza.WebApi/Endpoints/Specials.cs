@@ -6,8 +6,8 @@ internal static class Specials
         app.MapGet("/specials",
             async (IGetSpecialsController controller) =>
             {
-                var Result = await controller.GetSpecialsAsync();
-                return Results.Ok(Result);
+                var result = await controller.GetSpecialsAsync();
+                return Results.Ok(result);
             });
 
        // app.MapGet("/hello", () => Results.Ok

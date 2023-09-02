@@ -6,19 +6,19 @@ internal class RegisterUserExceptionHandler :
 {
     public ProblemDetails Handle(RegisterUserException exception)
     {
-        var Errors = new Dictionary<string, List<string>>()
+        var errors = new Dictionary<string, List<string>>()
        {
            { "Errors" , exception.Errors}
         };
 
-        ProblemDetails ProblemDetails = new ProblemDetails
+        ProblemDetails problemDetails = new ProblemDetails
         {
             Status = StatusCodes.Status400BadRequest,
             Type = StatusCodes.Status400BadRequestType,
             Title = exception.Message,
             Detail = "Corrige los siguientes problemas:",
-            InvalidParams = Errors
+            InvalidParams = errors
         };
-        return ProblemDetails;
+        return problemDetails;
     }
 }

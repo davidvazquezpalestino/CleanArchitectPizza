@@ -12,19 +12,19 @@ public struct PositionTrackerLatLong
 
     public PositionTrackerLatLong AddMeters(double theta, double distance)
     {
-        var X = Math.Cos(theta) * distance;
-        var Y = Math.Sin(theta) * distance;
+        var x = Math.Cos(theta) * distance;
+        var y = Math.Sin(theta) * distance;
 
-        double EarthEquatorialRadiusInMeters = 6378137;
-        var DegreesPerMeterOfLatitude =
-            360 / (2 * Math.PI * EarthEquatorialRadiusInMeters); // 1 metro en grados
-        var NewLatitude = Latitude + Y * DegreesPerMeterOfLatitude;
+        double earthEquatorialRadiusInMeters = 6378137;
+        var degreesPerMeterOfLatitude =
+            360 / (2 * Math.PI * earthEquatorialRadiusInMeters); // 1 metro en grados
+        var newLatitude = Latitude + y * degreesPerMeterOfLatitude;
 
-        var LongitudeGradesToAdd = X * DegreesPerMeterOfLatitude;
+        var longitudeGradesToAdd = x * degreesPerMeterOfLatitude;
 
-        LongitudeGradesToAdd /= Math.Cos(Latitude * (Math.PI / 180));
+        longitudeGradesToAdd /= Math.Cos(Latitude * (Math.PI / 180));
 
-        var NewLongitude = Longitude + LongitudeGradesToAdd;
-        return new PositionTrackerLatLong(NewLatitude, NewLongitude);
+        var newLongitude = Longitude + longitudeGradesToAdd;
+        return new PositionTrackerLatLong(newLatitude, newLongitude);
     }
 }

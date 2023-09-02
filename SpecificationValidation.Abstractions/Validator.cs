@@ -11,24 +11,24 @@ public abstract class Validator<T> : IValidator<T>
     readonly IEnumerable<ISpecification<T>> Specifications;
     ValidationResult ValidateEntityOrProperty(T entity, string propertyName = null)
     {
-        ValidationResult ValidationResult = new();
-        foreach (var Specification in Specifications)
+        ValidationResult validationResult = new();
+        foreach (var specification in Specifications)
         {
-            bool IsSatisfied = propertyName == null ?
-                Specification.IsSatisfiedBy(entity) :
-                Specification.IsSatisfiedBy(entity, propertyName);
-            if (!IsSatisfied)
+            bool isSatisfied = propertyName == null ?
+                specification.IsSatisfiedBy(entity) :
+                specification.IsSatisfiedBy(entity, propertyName);
+            if (!isSatisfied)
             {
-                ValidationResult.AddRange(Specification.Errors);
+                validationResult.AddRange(specification.Errors);
             }
         }
-        return ValidationResult;
+        return validationResult;
     }
 
     public void Guard(T entity)
     {
-        var Result = Validate(entity);
-        if (!Result.IsValid)
-            throw new ValidationException(Result);
+        IValidationResult result = Validate(entity);
+        if (!result.IsValid)
+            throw new ValidationException(result);
     }
 }

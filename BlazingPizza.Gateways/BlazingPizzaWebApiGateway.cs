@@ -26,11 +26,11 @@ internal sealed class BlazingPizzaWebApiGateway : IBlazingPizzaWebApiGateway
     }
     public async Task<int> PlaceOrderAsync(Order order)
     {
-        var Response = await Client
+        HttpResponseMessage response = await Client
             .PostAsJsonAsync(EndpointsOptions.PlaceOrder,
                 (PlaceOrderOrderDto)order);
 
-        return await Response.Content.ReadFromJsonAsync<int>();
+        return await response.Content.ReadFromJsonAsync<int>();
     }
     public async Task<IReadOnlyCollection<GetOrdersDto>> GetOrdersAsync()
     {

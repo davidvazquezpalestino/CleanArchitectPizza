@@ -4,7 +4,7 @@ internal class PersistenceExceptionHandler :
 {
     public ProblemDetails Handle(PersistenceException exception)
     {
-        ProblemDetails ProblemDetails = new ProblemDetails
+        ProblemDetails problemDetails = new ProblemDetails
         {
             Status = StatusCodes.Status400BadRequest,
             Type = StatusCodes.Status400BadRequestType,
@@ -13,6 +13,6 @@ internal class PersistenceExceptionHandler :
                 exception.Message : exception.InnerException.Message
         };
 
-        return ProblemDetails;
+        return problemDetails;
     }
 }

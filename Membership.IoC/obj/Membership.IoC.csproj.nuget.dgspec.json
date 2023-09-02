@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.IoC\\Membership.IoC.csproj": {}
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.IoC\\Membership.IoC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Controllers\\Membership.Controllers.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Controllers\\Membership.Controllers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Controllers\\Membership.Controllers.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Controllers\\Membership.Controllers.csproj",
         "projectName": "Membership.Controllers",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Controllers\\Membership.Controllers.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Controllers\\Membership.Controllers.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Controllers\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Controllers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -41,8 +41,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Entities\\Membership.Entities.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Entities\\Membership.Entities.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Entities\\Membership.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Entities\\Membership.Entities.csproj",
         "projectName": "Membership.Entities",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Entities\\Membership.Entities.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -119,8 +119,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj"
               }
             }
           }
@@ -154,14 +154,14 @@
         }
       }
     },
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.IoC\\Membership.IoC.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.IoC\\Membership.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.IoC\\Membership.IoC.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.IoC\\Membership.IoC.csproj",
         "projectName": "Membership.IoC",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.IoC\\Membership.IoC.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.IoC\\Membership.IoC.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.IoC\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -191,23 +191,23 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Controllers\\Membership.Controllers.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Controllers\\Membership.Controllers.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Controllers\\Membership.Controllers.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Controllers\\Membership.Controllers.csproj"
               },
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Presenters\\Membership.Presenters.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Presenters\\Membership.Presenters.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Presenters\\Membership.Presenters.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Presenters\\Membership.Presenters.csproj"
               },
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj"
               },
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserManager.AspNetIdentity\\Membership.UserManager.AspNetIdentity.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserManager.AspNetIdentity\\Membership.UserManager.AspNetIdentity.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserManager.AspNetIdentity\\Membership.UserManager.AspNetIdentity.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserManager.AspNetIdentity\\Membership.UserManager.AspNetIdentity.csproj"
               },
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserManager\\Membership.UserManager.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserManager\\Membership.UserManager.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserManager\\Membership.UserManager.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserManager\\Membership.UserManager.csproj"
               },
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserService\\Membership.UserService.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserService\\Membership.UserService.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserService\\Membership.UserService.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserService\\Membership.UserService.csproj"
               }
             }
           }
@@ -241,14 +241,14 @@
         }
       }
     },
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Presenters\\Membership.Presenters.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Presenters\\Membership.Presenters.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Presenters\\Membership.Presenters.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Presenters\\Membership.Presenters.csproj",
         "projectName": "Membership.Presenters",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Presenters\\Membership.Presenters.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Presenters\\Membership.Presenters.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Presenters\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Presenters\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -278,8 +278,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Entities\\Membership.Entities.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Entities\\Membership.Entities.csproj"
               }
             }
           }
@@ -327,14 +327,14 @@
         }
       }
     },
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj",
         "projectName": "Membership.RefreshTokenManager.Memory",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.RefreshTokenManager.Memory\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.RefreshTokenManager.Memory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -364,8 +364,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Entities\\Membership.Entities.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Entities\\Membership.Entities.csproj"
               }
             }
           }
@@ -405,14 +405,14 @@
         }
       }
     },
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj",
         "projectName": "Membership.Shared.Entities",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Shared.Entities\\Membership.Shared.Entities.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Shared.Entities\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Shared.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -473,14 +473,14 @@
         }
       }
     },
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserManager.AspNetIdentity\\Membership.UserManager.AspNetIdentity.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserManager.AspNetIdentity\\Membership.UserManager.AspNetIdentity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserManager.AspNetIdentity\\Membership.UserManager.AspNetIdentity.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserManager.AspNetIdentity\\Membership.UserManager.AspNetIdentity.csproj",
         "projectName": "Membership.UserManager.AspNetIdentity",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserManager.AspNetIdentity\\Membership.UserManager.AspNetIdentity.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserManager.AspNetIdentity\\Membership.UserManager.AspNetIdentity.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserManager.AspNetIdentity\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserManager.AspNetIdentity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -510,8 +510,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Entities\\Membership.Entities.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Entities\\Membership.Entities.csproj"
               }
             }
           }
@@ -561,14 +561,14 @@
         }
       }
     },
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserManager\\Membership.UserManager.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserManager\\Membership.UserManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserManager\\Membership.UserManager.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserManager\\Membership.UserManager.csproj",
         "projectName": "Membership.UserManager",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserManager\\Membership.UserManager.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserManager\\Membership.UserManager.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserManager\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -598,8 +598,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Entities\\Membership.Entities.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Entities\\Membership.Entities.csproj"
               }
             }
           }
@@ -639,14 +639,14 @@
         }
       }
     },
-    "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserService\\Membership.UserService.csproj": {
+    "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserService\\Membership.UserService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserService\\Membership.UserService.csproj",
+        "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserService\\Membership.UserService.csproj",
         "projectName": "Membership.UserService",
-        "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserService\\Membership.UserService.csproj",
+        "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserService\\Membership.UserService.csproj",
         "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserService\\obj\\",
+        "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -676,8 +676,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj": {
-                "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Entities\\Membership.Entities.csproj"
+              "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Entities\\Membership.Entities.csproj": {
+                "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Entities\\Membership.Entities.csproj"
               }
             }
           }

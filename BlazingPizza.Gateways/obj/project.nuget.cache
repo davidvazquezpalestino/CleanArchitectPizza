@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "brK4imXm5+fjmTAwcLnuYrFp+Gzyo0LjbJbwqGLjPQZMrp30qRyM3r/SdKrGa/eFWQPmxD9yAbUnpb7TI+1wsw==",
+  "dgSpecHash": "ix0kiSiUnZ8Gfg0iTcS54CV7Qnn4CTbiPgTJU/6+LEa3Q2RgdKn2E7FmV/tlVA5hLQVt6E3So3rrXdqwaFssDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\BlazingPizza.Gateways\\BlazingPizza.Gateways.csproj",
+  "projectFilePath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\BlazingPizza.Gateways\\BlazingPizza.Gateways.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",

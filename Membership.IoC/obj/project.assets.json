@@ -3706,11 +3706,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.IoC\\Membership.IoC.csproj",
+      "projectUniqueName": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.IoC\\Membership.IoC.csproj",
       "projectName": "Membership.IoC",
-      "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.IoC\\Membership.IoC.csproj",
+      "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.IoC\\Membership.IoC.csproj",
       "packagesPath": "C:\\Users\\DAVID VAZQUEZ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.IoC\\obj\\",
+      "outputPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -3740,23 +3740,23 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Controllers\\Membership.Controllers.csproj": {
-              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Controllers\\Membership.Controllers.csproj"
+            "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Controllers\\Membership.Controllers.csproj": {
+              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Controllers\\Membership.Controllers.csproj"
             },
-            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Presenters\\Membership.Presenters.csproj": {
-              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.Presenters\\Membership.Presenters.csproj"
+            "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Presenters\\Membership.Presenters.csproj": {
+              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.Presenters\\Membership.Presenters.csproj"
             },
-            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj": {
-              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj"
+            "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj": {
+              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.RefreshTokenManager.Memory\\Membership.RefreshTokenManager.Memory.csproj"
             },
-            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserManager.AspNetIdentity\\Membership.UserManager.AspNetIdentity.csproj": {
-              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserManager.AspNetIdentity\\Membership.UserManager.AspNetIdentity.csproj"
+            "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserManager.AspNetIdentity\\Membership.UserManager.AspNetIdentity.csproj": {
+              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserManager.AspNetIdentity\\Membership.UserManager.AspNetIdentity.csproj"
             },
-            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserManager\\Membership.UserManager.csproj": {
-              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserManager\\Membership.UserManager.csproj"
+            "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserManager\\Membership.UserManager.csproj": {
+              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserManager\\Membership.UserManager.csproj"
             },
-            "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserService\\Membership.UserService.csproj": {
-              "projectPath": "C:\\Users\\DAVID VAZQUEZ\\Downloads\\BlazingPizza\\Membership.UserService\\Membership.UserService.csproj"
+            "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserService\\Membership.UserService.csproj": {
+              "projectPath": "C:\\Github\\Soluciones\\CleanArchitectPizza\\Membership.UserService\\Membership.UserService.csproj"
             }
           }
         }

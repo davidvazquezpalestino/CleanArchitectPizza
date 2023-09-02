@@ -15,17 +15,17 @@ internal class RefreshTokenPresenter : IRefreshTokenPresenter
 
     public async Task GenerateTokenAsync(string oldAccessToken)
     {
-        List<Claim> UserClaims = JwtHelper.GetUserClaimsFromToken(oldAccessToken);
+        List<Claim> userClaims = JwtHelper.GetUserClaimsFromToken(oldAccessToken);
 
-        string AccessToken = JwtHelper.GetAccessToken(Options, UserClaims);
+        string accessToken = JwtHelper.GetAccessToken(Options, userClaims);
 
-        string RefreshToken = 
-            await RefreshTokenManager.GetNewTokenAsync(AccessToken);
+        string refreshToken = 
+            await RefreshTokenManager.GetNewTokenAsync(accessToken);
 
         UserTokens = new UserTokensDto()
         {
-            Refresh_Token = RefreshToken,
-            Access_Token = AccessToken
+            RefreshToken = refreshToken,
+            AccessToken = accessToken
         };
     }
 }

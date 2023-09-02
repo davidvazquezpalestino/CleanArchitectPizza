@@ -10,7 +10,7 @@ internal sealed class GetSpecialsInteractor : IGetSpecialsInputPort
 
     public async Task<IReadOnlyCollection<PizzaSpecial>> GetSpecialsAsync()
     {
-        var Result = await Repository.GetSpecialsAsync();
-        return Result.OrderByDescending(s => s.BasePrice).ToList();
+        var result = await Repository.GetSpecialsAsync();
+        return result.OrderByDescending(s => s.BasePrice).ToList();
     }
 }

@@ -11,11 +11,11 @@ public class SpecificationValidator<T> : ComponentBase
 
     public override async Task SetParametersAsync(ParameterView parameters)
     {
-        EditContext PreviousEditContext = EditContext;
+        EditContext previousEditContext = EditContext;
 
         await base.SetParametersAsync(parameters);
 
-        if (EditContext != PreviousEditContext)
+        if (EditContext != previousEditContext)
         {
             ValidationMessageStore =
                 new ValidationMessageStore(EditContext);
@@ -28,30 +28,30 @@ public class SpecificationValidator<T> : ComponentBase
         ValidationRequestedEventArgs e)
     {
         ValidationMessageStore.Clear();
-        var Result = Validator.Validate((T)EditContext.Model);
-        HandleErrors(EditContext.Model, Result);
+        IValidationResult result = Validator.Validate((T)EditContext.Model);
+        HandleErrors(EditContext.Model, result);
     }
 
     private void FieldChanged(object sender, FieldChangedEventArgs e)
     {
-        FieldIdentifier FieldIdentifier = e.FieldIdentifier;
-        ValidationMessageStore.Clear(FieldIdentifier);
+        FieldIdentifier fieldIdentifier = e.FieldIdentifier;
+        ValidationMessageStore.Clear(fieldIdentifier);
 
-        IValidationResult Result =
-            Validator.ValidateProperty((T)FieldIdentifier.Model,
-            FieldIdentifier.FieldName);
+        IValidationResult result =
+            Validator.ValidateProperty((T)fieldIdentifier.Model,
+            fieldIdentifier.FieldName);
 
-        HandleErrors(FieldIdentifier.Model, Result);
+        HandleErrors(fieldIdentifier.Model, result);
     }
     private void HandleErrors(object model, IValidationResult result)
     {
         if (!result.IsValid)
         {
-            foreach (var Error in result.Errors)
+            foreach (IValidationError error in result.Errors)
             {
                 ValidationMessageStore.Add(
-                    new FieldIdentifier(model, Error.PropertyName),
-                    Error.Message);
+                    new FieldIdentifier(model, error.PropertyName),
+                    error.Message);
             }
         }
     }
